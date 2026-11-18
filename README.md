@@ -227,12 +227,32 @@ diagnostics), and the design system in [design/DESIGN.md](design/DESIGN.md).
 
 ## Benchmarks
 
-Marquee is tuned for quick browsing on modest Android TV hardware. Home opens from a saved library snapshot while fresh data loads, and native rows reuse views as you scroll with the remote. For compatible files, direct play lets Jellyfin send the original media without a server transcode. On one Sony BRAVIA, a development build drew Home in a median of 752 milliseconds across three cold launches with a warm disk cache and a saved login. We haven't benchmarked other Jellyfin clients side by side.
+Marquee opens Home from a saved library snapshot while fresh data loads.
+Native rows reuse views as you scroll with the remote.
 
-Development measurements, raw data, method and caveats are in
-[docs/benchmarks/README.md](docs/benchmarks/README.md). They come from private
-development builds on the single reference TV. **The code in this repository
-has not been benchmarked.**
+### Compared with Jellyfin for Android TV
+
+On a Sony BRAVIA VU1 running Android 11, the installed Marquee build reached
+its first Home frame in about half the time of the official Jellyfin app.
+
+| Metric | Jellyfin 0.19.10 | Marquee 0.1.0 |
+|---|---:|---:|
+| Cold launch to first Home frame, median | 1.34 s | 0.66 s |
+| Continue Watching frame time, median | 55.8 ms | 9.4 ms |
+| Continue Watching frame time, 95th percentile | 141.1 ms | 13.9 ms |
+| Frames taking more than 16.7 ms | 714/718 (99.4%) | 10/522 (1.9%) |
+| Median app memory on Home (PSS) | 127 MiB | 92 MiB |
+
+Measured on 2026-11-18. Seven cold launches per app kept saved logins and disk
+caches. Launch timing ends at the first Home or browse activity frame. Memory
+was sampled about five seconds later. Both apps ran the same held-D-pad
+sequence on Continue Watching three times. Frame times measure Android's
+rendering work before display presentation. Jellyfin used its existing
+`speed-profile` ART compilation and Marquee used `speed`. These results
+describe the installed builds on this TV. The current source tree still
+awaits an on-device benchmark.
+
+[Earlier development measurements, raw data and methods](docs/benchmarks/README.md)
 
 <!-- BENCH-SUMMARY:START -->
 ### Reference-device measurements (private development builds)
