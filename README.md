@@ -227,6 +227,8 @@ diagnostics), and the design system in [design/DESIGN.md](design/DESIGN.md).
 
 ## Benchmarks
 
+Marquee is tuned for quick browsing on modest Android TV hardware. Home opens from a saved library snapshot while fresh data loads, and native rows reuse views as you scroll with the remote. For compatible files, direct play lets Jellyfin send the original media without a server transcode. On one Sony BRAVIA, a development build drew Home in a median of 752 milliseconds across three cold launches with a warm disk cache and a saved login. We haven't benchmarked other Jellyfin clients side by side.
+
 Development measurements, raw data, method and caveats are in
 [docs/benchmarks/README.md](docs/benchmarks/README.md). They come from private
 development builds on the single reference TV. **The code in this repository

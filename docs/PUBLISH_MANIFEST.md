@@ -23,8 +23,8 @@ uv run --no-project python tools/publish_manifest.py --write
 ```
 
 - Files: **385** (including this manifest)
-- Total size: **18,671,857 bytes** (excluding this manifest)
-- SHA-256 of the sorted listing: `3a652b190ed7b6954df3499f287d115a979f8e28eaa1f194b90406832b0ccb9b`
+- Total size: **18,672,360 bytes** (excluding this manifest)
+- SHA-256 of the sorted listing: `7fdfd20465df786269829e6d0aad2245eb313c4faed03338266b8ef8e4d9e114`
 
 The listing is the `sha256sum` output for every file except this manifest, one
 `<sha256><two spaces><path><newline>` line per file in the order below, hashed as UTF-8.
@@ -48,7 +48,7 @@ This manifest cannot contain its own hash, so it is listed without one.
 | `LICENSE` | 35,149 | `3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986` |
 | `NOTICE` | 3,411 | `56b53373636178927fad80e2cc8b8d35305b943aab877a79f446cc7599bd465a` |
 | `PRIVACY.md` | 8,466 | `9fd754e2ea2adedc953068224ca5689b5ac273ad085694a24392dbf9a9205aeb` |
-| `README.md` | 17,248 | `5289dfee14b436b059cd784528d73a44ad37dea445441feeea53f3f8281d735b` |
+| `README.md` | 17,751 | `a1070fb7a96170477f250d0b50f48d129dc53dd82936e5ca2836b4b0e706c0ae` |
 | `SECURITY.md` | 4,122 | `bf5c0e7d2537d5c33702722c104400b55aa320459e827410070bb7645cc143da` |
 | `THIRD_PARTY_NOTICES.md` | 34,722 | `ac63ff716c644ac73ae459148e5fcf74df8426fa6c0dc3a9267e6ba473dbd393` |
 | `app/build.gradle.kts` | 10,817 | `33c29af78153c965e745e442a4ae9c78f607d25afc6fa2397016a1abed53e7a4` |
