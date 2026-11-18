@@ -1,0 +1,204 @@
+{
+ "schema": 1,
+ "kind": "synthetic renderer spike (not the Marquee app): same focus-grid scene implemented in Compose, Views and GLES3, release R8 + speed AOT, on the reference TV, 2026-10-12",
+ "approaches": {
+  "Compose": {
+   "runs": 3,
+   "timing_endpoint": "HWUI FrameCompleted minus IntendedVsync",
+   "frames": 2488,
+   "p50_ms": 8.5774,
+   "p90_ms": 13.6645,
+   "p99_ms": 26.5016,
+   "over_16_7_pct": 6.4711,
+   "focus_intervals": 1533,
+   "focus_periods": 1584,
+   "focus_missed_periods": 51,
+   "missed_focus_refresh_pct": 3.2197,
+   "focus_effective_fps": 58.068,
+   "app_cpu_mean_pct_of_one_core": 31.52,
+   "pss_median_mib": 80.85,
+   "cold_am_runs_ms": [
+    619,
+    510,
+    695,
+    864,
+    1566,
+    493,
+    678,
+    501,
+    541
+   ],
+   "cold_ready_runs_ms": [
+    1096,
+    817,
+    1157,
+    1179,
+    1455,
+    892,
+    1126,
+    904,
+    847
+   ]
+  },
+  "Views with layers": {
+   "runs": 3,
+   "timing_endpoint": "HWUI FrameCompleted minus IntendedVsync",
+   "frames": 3299,
+   "p50_ms": 8.7563,
+   "p90_ms": 16.7341,
+   "p99_ms": 26.9638,
+   "over_16_7_pct": 10.0333,
+   "focus_intervals": 1794,
+   "focus_periods": 1838,
+   "focus_missed_periods": 44,
+   "missed_focus_refresh_pct": 2.3939,
+   "focus_effective_fps": 58.564,
+   "app_cpu_mean_pct_of_one_core": 37.51,
+   "pss_median_mib": 56.99,
+   "cold_am_runs_ms": [
+    403,
+    389,
+    430,
+    771,
+    452,
+    430,
+    420,
+    419,
+    376
+   ],
+   "cold_ready_runs_ms": [
+    921,
+    815,
+    888,
+    1188,
+    878,
+    883,
+    931,
+    818,
+    782
+   ]
+  },
+  "GLES3": {
+   "runs": 3,
+   "timing_endpoint": "GL vsync to GPU ready",
+   "frames": 3566,
+   "p50_ms": 13.7876,
+   "p90_ms": 15.4126,
+   "p99_ms": 26.2094,
+   "over_16_7_pct": 7.9921,
+   "focus_intervals": 1685,
+   "focus_periods": 1694,
+   "focus_missed_periods": 9,
+   "missed_focus_refresh_pct": 0.5313,
+   "focus_effective_fps": 59.681,
+   "app_cpu_mean_pct_of_one_core": 16.36,
+   "pss_median_mib": 53.1,
+   "cold_am_runs_ms": [
+    550,
+    899,
+    588,
+    757,
+    672,
+    662,
+    596,
+    601,
+    630
+   ],
+   "cold_ready_runs_ms": [
+    836,
+    1092,
+    777,
+    836,
+    762,
+    738,
+    743,
+    778,
+    754
+   ]
+  },
+  "Views without layers": {
+   "runs": 2,
+   "timing_endpoint": "HWUI FrameCompleted minus IntendedVsync",
+   "frames": 2210,
+   "p50_ms": 7.5061,
+   "p90_ms": 10.4119,
+   "p99_ms": 24.546,
+   "over_16_7_pct": 4.6606,
+   "focus_intervals": 1813,
+   "focus_periods": 1852,
+   "focus_missed_periods": 39,
+   "missed_focus_refresh_pct": 2.1058,
+   "focus_effective_fps": 58.737,
+   "app_cpu_mean_pct_of_one_core": 30.39,
+   "pss_median_mib": 57.27,
+   "cold_am_runs_ms": [
+    400,
+    404,
+    400,
+    377,
+    428,
+    405
+   ],
+   "cold_ready_runs_ms": [
+    961,
+    779,
+    801,
+    793,
+    835,
+    817
+   ]
+  },
+  "Compose naive": {
+   "runs": 1,
+   "timing_endpoint": "HWUI FrameCompleted minus IntendedVsync",
+   "frames": 829,
+   "p50_ms": 9.6753,
+   "p90_ms": 13.512,
+   "p99_ms": 24.5063,
+   "over_16_7_pct": 4.1013,
+   "focus_intervals": 765,
+   "focus_periods": 815,
+   "focus_missed_periods": 50,
+   "missed_focus_refresh_pct": 6.135,
+   "focus_effective_fps": 56.319,
+   "app_cpu_mean_pct_of_one_core": 35.78,
+   "pss_median_mib": 64.24,
+   "cold_am_runs_ms": [
+    702,
+    608,
+    488
+   ],
+   "cold_ready_runs_ms": [
+    1023,
+    1066,
+    846
+   ]
+  },
+  "Compose verify": {
+   "runs": 1,
+   "timing_endpoint": "HWUI FrameCompleted minus IntendedVsync",
+   "frames": 835,
+   "p50_ms": 9.6887,
+   "p90_ms": 24.0661,
+   "p99_ms": 45.0195,
+   "over_16_7_pct": 19.6407,
+   "focus_intervals": 768,
+   "focus_periods": 804,
+   "focus_missed_periods": 36,
+   "missed_focus_refresh_pct": 4.4776,
+   "focus_effective_fps": 57.313,
+   "app_cpu_mean_pct_of_one_core": 51.64,
+   "pss_median_mib": 80.3,
+   "cold_am_runs_ms": [
+    760,
+    619,
+    605
+   ],
+   "cold_ready_runs_ms": [
+    1714,
+    1361,
+    1487
+   ]
+  }
+ }
+}

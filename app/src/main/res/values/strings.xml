@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SPDX-License-Identifier: GPL-3.0-or-later -->
+<resources>
+    <!-- Where the corresponding source is published (GPL-3.0 notice in Settings). -->
+    <string name="source_repository_url" translatable="false">https://github.com/aaditagrawal/marquee</string>
+    <string name="licence_notice">Marquee is free software under GPL-3.0-or-later, with NO WARRANTY. Source: %1$s</string>
+</resources>

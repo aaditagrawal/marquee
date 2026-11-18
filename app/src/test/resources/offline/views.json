@@ -1,0 +1,105 @@
+{
+ "Items": [
+  {
+   "Name": "Movies",
+   "Id": "838c3ddb8b6357f3f7140fe597df6d4d",
+   "DateCreated": "2023-01-01T00:00:00.0000000Z",
+   "Taglines": [],
+   "Genres": [],
+   "IsFolder": true,
+   "ParentId": "3ddd06030371a4ce241a5afcb4dfe0c6",
+   "Type": "CollectionFolder",
+   "People": [],
+   "Studios": [],
+   "LocalTrailerCount": 0,
+   "UserData": {
+    "PlaybackPositionTicks": 0,
+    "PlayCount": 0,
+    "IsFavorite": false,
+    "Played": false
+   },
+   "ChildCount": 172,
+   "SpecialFeatureCount": 0,
+   "PrimaryImageAspectRatio": 1.7777777777777777,
+   "CollectionType": "movies",
+   "ImageTags": {
+    "Primary": "a6aabd2bf4c3fa80f510b57d66b0c67e"
+   },
+   "BackdropImageTags": [],
+   "ImageBlurHashes": {
+    "Primary": {
+     "a6aabd2bf4c3fa80f510b57d66b0c67e": "L85jOMt2jFsVSMayrvf8oaS1btnT"
+    }
+   },
+   "MediaType": "Unknown"
+  },
+  {
+   "Name": "Music",
+   "Id": "20cd713396d6f68d5df6469560c2b929",
+   "DateCreated": "2023-01-01T00:00:00.0000000Z",
+   "Taglines": [],
+   "Genres": [],
+   "IsFolder": true,
+   "ParentId": "6dc1617e11c3b96fea21ab27626cf2e9",
+   "Type": "CollectionFolder",
+   "People": [],
+   "Studios": [],
+   "LocalTrailerCount": 0,
+   "UserData": {
+    "PlaybackPositionTicks": 0,
+    "PlayCount": 0,
+    "IsFavorite": false,
+    "Played": false
+   },
+   "ChildCount": 0,
+   "SpecialFeatureCount": 0,
+   "PrimaryImageAspectRatio": 1.7777777777777777,
+   "CollectionType": "music",
+   "ImageTags": {
+    "Primary": "8580b101a8f875fff2cba06aed2920e1"
+   },
+   "BackdropImageTags": [],
+   "ImageBlurHashes": {
+    "Primary": {
+     "8580b101a8f875fff2cba06aed2920e1": "L7GB8nS3SxSvj[oIn+f%n~r^t5fR"
+    }
+   },
+   "MediaType": "Unknown"
+  },
+  {
+   "Name": "Shows",
+   "Id": "d62230c0ce174866d8b7bf7d270c69a4",
+   "DateCreated": "2023-01-01T00:00:00.0000000Z",
+   "Taglines": [],
+   "Genres": [],
+   "IsFolder": true,
+   "ParentId": "b2ac9398ba63e6c2d4d5bf2f15e45e38",
+   "Type": "CollectionFolder",
+   "People": [],
+   "Studios": [],
+   "LocalTrailerCount": 0,
+   "UserData": {
+    "PlaybackPositionTicks": 0,
+    "PlayCount": 0,
+    "IsFavorite": false,
+    "Played": false
+   },
+   "ChildCount": 45,
+   "SpecialFeatureCount": 0,
+   "PrimaryImageAspectRatio": 1.7777777777777777,
+   "CollectionType": "tvshows",
+   "ImageTags": {
+    "Primary": "725f33dea2755217ae0550a78657418d"
+   },
+   "BackdropImageTags": [],
+   "ImageBlurHashes": {
+    "Primary": {
+     "725f33dea2755217ae0550a78657418d": "LEB{jojrbZt5rsowSNoLsnXNa%kA"
+    }
+   },
+   "MediaType": "Unknown"
+  }
+ ],
+ "TotalRecordCount": 3,
+ "StartIndex": 0
+}

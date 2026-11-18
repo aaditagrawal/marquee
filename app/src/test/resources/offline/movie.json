@@ -1,0 +1,690 @@
+{
+ "Name": "The Brass Cartographer",
+ "OriginalTitle": "The Brass Cartographer",
+ "Id": "2413cf40d8b7528ad06570d2e47898e6",
+ "DateCreated": "2023-01-07T03:01:43.0000000Z",
+ "Container": "mkv",
+ "PremiereDate": "2025-08-22T00:00:00.0000000Z",
+ "MediaSources": [
+  {
+   "Id": "2413cf40d8b7528ad06570d2e47898e6",
+   "Type": "Default",
+   "Container": "mkv",
+   "Size": 25299200000,
+   "Name": "The Brass Cartographer",
+   "RunTimeTicks": 79060000000,
+   "MediaStreams": [
+    {
+     "AspectRatio": "791:538",
+     "AudioSpatialFormat": "None",
+     "AverageFrameRate": 23.976025,
+     "BitDepth": 10,
+     "BitRate": 24800000,
+     "BlPresentFlag": 1,
+     "Codec": "hevc",
+     "ColorPrimaries": "bt2020",
+     "ColorSpace": "bt2020nc",
+     "ColorTransfer": "smpte2084",
+     "DvBlSignalCompatibilityId": 1,
+     "DvLevel": 6,
+     "DvProfile": 8,
+     "DvVersionMajor": 1,
+     "DvVersionMinor": 0,
+     "ElPresentFlag": 0,
+     "Hdr10PlusPresentFlag": true,
+     "Height": 2152,
+     "Index": 0,
+     "IsAVC": false,
+     "IsAnamorphic": false,
+     "IsDefault": true,
+     "IsExternal": false,
+     "IsForced": false,
+     "IsHearingImpaired": false,
+     "IsInterlaced": false,
+     "IsTextSubtitleStream": false,
+     "Language": "eng",
+     "Level": 150,
+     "PixelFormat": "yuv420p10le",
+     "Profile": "Main 10",
+     "RealFrameRate": 23.976025,
+     "RefFrames": 1,
+     "ReferenceFrameRate": 23.976025,
+     "RpuPresentFlag": 1,
+     "SupportsExternalStream": false,
+     "TimeBase": "1/1000",
+     "Type": "Video",
+     "VideoDoViTitle": "Dolby Vision Profile 8.1 (HDR10)",
+     "VideoRange": "HDR",
+     "VideoRangeType": "DOVIWithHDR10Plus",
+     "Width": 3164,
+     "DisplayTitle": "1080p HEVC Dolby Vision Profile 8.1 (HDR10+)"
+    },
+    {
+     "AudioSpatialFormat": "DolbyAtmos",
+     "BitRate": 768000,
+     "ChannelLayout": "5.1",
+     "Channels": 6,
+     "Codec": "eac3",
+     "Index": 1,
+     "IsAVC": false,
+     "IsDefault": true,
+     "IsExternal": false,
+     "IsForced": false,
+     "IsHearingImpaired": false,
+     "IsInterlaced": false,
+     "IsTextSubtitleStream": false,
+     "Language": "eng",
+     "Level": 0,
+     "LocalizedDefault": "Default",
+     "LocalizedExternal": "External",
+     "Profile": "Dolby Digital Plus + Dolby Atmos",
+     "SampleRate": 48000,
+     "SupportsExternalStream": false,
+     "TimeBase": "1/1000",
+     "Type": "Audio",
+     "VideoRange": "Unknown",
+     "VideoRangeType": "Unknown",
+     "DisplayTitle": "English - Dolby Digital Plus + Dolby Atmos - 5.1 - Default"
+    },
+    {
+     "AudioSpatialFormat": "None",
+     "Codec": "subrip",
+     "Height": 0,
+     "Index": 2,
+     "IsAVC": false,
+     "IsDefault": true,
+     "IsExternal": false,
+     "IsForced": true,
+     "IsHearingImpaired": false,
+     "IsInterlaced": false,
+     "IsTextSubtitleStream": true,
+     "Language": "eng",
+     "Level": 0,
+     "LocalizedDefault": "Default",
+     "LocalizedExternal": "External",
+     "LocalizedForced": "Forced",
+     "LocalizedHearingImpaired": "Hearing Impaired",
+     "LocalizedUndefined": "Undefined",
+     "SupportsExternalStream": true,
+     "TimeBase": "1/1000",
+     "Type": "Subtitle",
+     "VideoRange": "Unknown",
+     "VideoRangeType": "Unknown",
+     "Width": 0,
+     "DisplayTitle": "Forced - English - Default - SUBRIP"
+    },
+    {
+     "AudioSpatialFormat": "None",
+     "Codec": "subrip",
+     "Height": 0,
+     "Index": 3,
+     "IsAVC": false,
+     "IsDefault": false,
+     "IsExternal": false,
+     "IsForced": false,
+     "IsHearingImpaired": false,
+     "IsInterlaced": false,
+     "IsTextSubtitleStream": true,
+     "Language": "eng",
+     "Level": 0,
+     "LocalizedDefault": "Default",
+     "LocalizedExternal": "External",
+     "LocalizedForced": "Forced",
+     "LocalizedHearingImpaired": "Hearing Impaired",
+     "LocalizedUndefined": "Undefined",
+     "SupportsExternalStream": true,
+     "TimeBase": "1/1000",
+     "Type": "Subtitle",
+     "VideoRange": "Unknown",
+     "VideoRangeType": "Unknown",
+     "Width": 0,
+     "DisplayTitle": "English - SUBRIP"
+    },
+    {
+     "AudioSpatialFormat": "None",
+     "Codec": "subrip",
+     "Height": 0,
+     "Index": 4,
+     "IsAVC": false,
+     "IsDefault": false,
+     "IsExternal": false,
+     "IsForced": false,
+     "IsHearingImpaired": false,
+     "IsInterlaced": false,
+     "IsTextSubtitleStream": true,
+     "Language": "eng",
+     "Level": 0,
+     "LocalizedDefault": "Default",
+     "LocalizedExternal": "External",
+     "LocalizedForced": "Forced",
+     "LocalizedHearingImpaired": "Hearing Impaired",
+     "LocalizedUndefined": "Undefined",
+     "SupportsExternalStream": true,
+     "TimeBase": "1/1000",
+     "Type": "Subtitle",
+     "VideoRange": "Unknown",
+     "VideoRangeType": "Unknown",
+     "Width": 0,
+     "DisplayTitle": "English - SUBRIP"
+    }
+   ],
+   "Bitrate": 25600000
+  }
+ ],
+ "CriticRating": 71,
+ "ProductionLocations": [
+  "United States of America",
+  "Germany"
+ ],
+ "OfficialRating": "PG-13",
+ "Overview": "Two rival mapmakers are hired by the same island council to chart a harbour that keeps moving overnight. With one brass compass between them and a deadline set by the tide, they argue their way along every inlet of Okora Island.",
+ "Taglines": [
+  "Every coastline is an argument."
+ ],
+ "Genres": [
+  "Comedy",
+  "Adventure",
+  "Crime"
+ ],
+ "CommunityRating": 6.4,
+ "RunTimeTicks": 79060000000,
+ "ProductionYear": 2025,
+ "IsFolder": false,
+ "Type": "Movie",
+ "ParentId": "838c3ddb8b6357f3f7140fe597df6d4d",
+ "People": [
+  {
+   "Name": "Ayla Haskewood",
+   "Id": "2db6d3f8c2f98a449a47c70509d90835",
+   "Role": "Inspector Anjali Harrowewood",
+   "Type": "Actor"
+  },
+  {
+   "Name": "Anjali Calvewood",
+   "Id": "577977774159c8bfb807b26348f2cb00",
+   "Role": "Dr. Saoirse Harrowemere",
+   "Type": "Actor"
+  },
+  {
+   "Name": "Haruto Ashforan",
+   "Id": "6a158da1e2aa400a3bd137ca97566248",
+   "Role": "Inspector Ciarán Elmisford",
+   "Type": "Actor",
+   "PrimaryImageTag": "28db6e719630693d0bf9deb0a9a091f0",
+   "ImageBlurHashes": {
+    "Primary": {
+     "28db6e719630693d0bf9deb0a9a091f0": "LAK[@VsBfRj=aMr=jKW.r?RoS0jH"
+    }
+   }
+  },
+  {
+   "Name": "Oskar Dunstard",
+   "Id": "51ecb0fb4561c24a382565a63ea00ff2",
+   "Role": "Oskar Larkoran",
+   "Type": "Actor",
+   "PrimaryImageTag": "d3d8c100581201aee6ffd3b8c8d4a156",
+   "ImageBlurHashes": {
+    "Primary": {
+     "d3d8c100581201aee6ffd3b8c8d4a156": "LCA-;VkRSOS$awjZoca{baoLr@SP"
+    }
+   }
+  },
+  {
+   "Name": "Seo-yeon Vellemere",
+   "Id": "60d7838a0d752a42e8013ed7ee936f67",
+   "Role": "Inspector Ayla Sorringham",
+   "Type": "Actor",
+   "PrimaryImageTag": "7e7eb43ebfdde326b66f86f108613980",
+   "ImageBlurHashes": {
+    "Primary": {
+     "7e7eb43ebfdde326b66f86f108613980": "LAL1hmo0kCn%RnRlX8n,f8V{oHnl"
+    }
+   }
+  },
+  {
+   "Name": "Seo-yeon Osterly",
+   "Id": "dd8cf48c3783ad8e7d3b0623fe1dd7be",
+   "Role": "Emeric Thistlemere",
+   "Type": "Actor"
+  },
+  {
+   "Name": "Oskar Fennecombe",
+   "Id": "70714b9147bad3987bf83bcb965c6391",
+   "Role": "Captain Ottilie Larkrand",
+   "Type": "Actor",
+   "PrimaryImageTag": "001e4acd18d6b619b1fe4fd8980c065a",
+   "ImageBlurHashes": {
+    "Primary": {
+     "001e4acd18d6b619b1fe4fd8980c065a": "LC5i+BagaPb0XRt4S4ovodf}aebI"
+    }
+   }
+  },
+  {
+   "Name": "Oskar Elmow",
+   "Id": "5cb62f826840db01f4f5857f956e645f",
+   "Role": "Ilsa Wendoran",
+   "Type": "Actor",
+   "PrimaryImageTag": "26d89d9204ae442052127094afa7ac1d",
+   "ImageBlurHashes": {
+    "Primary": {
+     "26d89d9204ae442052127094afa7ac1d": "LA6jXrSKowXObba^jbsCjvr]g1n+"
+    }
+   }
+  },
+  {
+   "Name": "Mireille Dunstemere",
+   "Id": "ab11fdcbfa5f1a10c38c6e390dd3eae5",
+   "Role": "Captain Teodor Calvow",
+   "Type": "Actor",
+   "PrimaryImageTag": "53021ee44428699b6cf11922a9514600",
+   "ImageBlurHashes": {
+    "Primary": {
+     "53021ee44428699b6cf11922a9514600": "LDJ9b+j;a%V]j^fTsCnlSyjvSLoz"
+    }
+   }
+  },
+  {
+   "Name": "Lucía Pemberly",
+   "Id": "c3f93f933c7a397708f6b09a68b925f7",
+   "Role": "Oskar Fenningham",
+   "Type": "Actor",
+   "PrimaryImageTag": "eab6ead5d509e7530c29cbc428c13a91",
+   "ImageBlurHashes": {
+    "Primary": {
+     "eab6ead5d509e7530c29cbc428c13a91": "LCEf4nk9aLrwfhS_jXV|bWfznPaw"
+    }
+   }
+  },
+  {
+   "Name": "Mei Morvwell",
+   "Id": "03085572ea13d6a1e017abeee37fb5ea",
+   "Role": "Captain Zara Vellrand",
+   "Type": "Actor",
+   "PrimaryImageTag": "c3ef313a08de20157bb2da2a74ceff50",
+   "ImageBlurHashes": {
+    "Primary": {
+     "c3ef313a08de20157bb2da2a74ceff50": "L9LA%xa%WpkAfSnmoKrxs:n$f+XO"
+    }
+   }
+  },
+  {
+   "Name": "Haruto Corvewood",
+   "Id": "9f9433d29a48881645dfff3278f66537",
+   "Role": "Inspector Matteo Pemboran",
+   "Type": "Actor",
+   "PrimaryImageTag": "9be199962fe58a8d8d867fc1a6706faa",
+   "ImageBlurHashes": {
+    "Primary": {
+     "9be199962fe58a8d8d867fc1a6706faa": "LAKZ.zsCajWYf7j@s8kTaLfQfkWm"
+    }
+   }
+  },
+  {
+   "Name": "Matteo Corvwell",
+   "Id": "e55e590be2561963be09187ace561d22",
+   "Role": "Inspector Haruto Haskoran",
+   "Type": "Actor",
+   "PrimaryImageTag": "b1134418cb368c4c5748728252ad9111",
+   "ImageBlurHashes": {
+    "Primary": {
+     "b1134418cb368c4c5748728252ad9111": "LD3#vJg0SPfgb0nQXPs+r]obS]f$"
+    }
+   }
+  },
+  {
+   "Name": "Matteo Ashfingham",
+   "Id": "4c6610e03b7a5ff6fc8e03616f46fd52",
+   "Role": "Mei Ostisford",
+   "Type": "Actor",
+   "PrimaryImageTag": "113cd2ac84389297d2b7a6880001e20d",
+   "ImageBlurHashes": {
+    "Primary": {
+     "113cd2ac84389297d2b7a6880001e20d": "L6EO*gt2fPbubGn}f*o4X8ofoej="
+    }
+   }
+  },
+  {
+   "Name": "Bastien Brackoran",
+   "Id": "45313ea0126fb054bcc3ae1d325f7f5b",
+   "Role": "Kofi Thistlecombe",
+   "Type": "Actor",
+   "PrimaryImageTag": "f67c0dfcccf6477ff9fd9fc3e6489d10",
+   "ImageBlurHashes": {
+    "Primary": {
+     "f67c0dfcccf6477ff9fd9fc3e6489d10": "L7E+$UfSRpkWr[e-S#bGeobvS3f4"
+    }
+   }
+  },
+  {
+   "Name": "Seo-yeon Marrewood",
+   "Id": "1d7d99c773e3ceb2102b4edea06d0b8a",
+   "Type": "Director",
+   "PrimaryImageTag": "bc17410297f49b396b8e704d1c1a3e0d",
+   "ImageBlurHashes": {
+    "Primary": {
+     "bc17410297f49b396b8e704d1c1a3e0d": "L9GKw4S^S{sEf7bJS^r]WAr^WVsB"
+    }
+   }
+  },
+  {
+   "Name": "Ottilie Fennrand",
+   "Id": "4a3bfb7b71517e0f93af710b66102d2f",
+   "Type": "Writer"
+  },
+  {
+   "Name": "Amara Sorrerly",
+   "Id": "1e94b296c0da6b5cd51679eba92923fc",
+   "Type": "Writer",
+   "PrimaryImageTag": "6a0bf75c13482cee0932bf59afe368ae",
+   "ImageBlurHashes": {
+    "Primary": {
+     "6a0bf75c13482cee0932bf59afe368ae": "LA8abKaOs-bDaLShsTV^awr_bXbD"
+    }
+   }
+  },
+  {
+   "Name": "Ines Dunstard",
+   "Id": "c4a4282cb81bac1c9d4b11d3531a2ac9",
+   "Type": "Producer"
+  },
+  {
+   "Name": "Amara Pembemere",
+   "Id": "63d0bcbc8a04e07e36f2b9b5f6b3ddf5",
+   "Type": "Producer",
+   "PrimaryImageTag": "2eb39e80e838ea77e786ea935c87d50a",
+   "ImageBlurHashes": {
+    "Primary": {
+     "2eb39e80e838ea77e786ea935c87d50a": "L7LDq[s*jHoxRpn$jwskShf4j@WU"
+    }
+   }
+  },
+  {
+   "Name": "Tobias Ostow",
+   "Id": "8215653b1e82ebc60cbc0de166945417",
+   "Type": "Producer",
+   "PrimaryImageTag": "f6a36e07d7a2da81d4da694439ff29c9",
+   "ImageBlurHashes": {
+    "Primary": {
+     "f6a36e07d7a2da81d4da694439ff29c9": "LAIneZV|r[SOWTf|ofowR%jvrvah"
+    }
+   }
+  },
+  {
+   "Name": "Teodor Larkrand",
+   "Id": "b7f46b477587a0bd00347ef798fb90cf",
+   "Type": "Producer",
+   "PrimaryImageTag": "ac5d18adc8d6f15159f4437c92284488",
+   "ImageBlurHashes": {
+    "Primary": {
+     "ac5d18adc8d6f15159f4437c92284488": "LEHp=Zf}t5nmS1bWkTs9a%nkSPkQ"
+    }
+   }
+  },
+  {
+   "Name": "Emeric Vellingham",
+   "Id": "38b74e751d85463e0ca3176010b401dc",
+   "Type": "Producer",
+   "PrimaryImageTag": "1bc23176c26aa82f5f4c314ab5afe66f",
+   "ImageBlurHashes": {
+    "Primary": {
+     "1bc23176c26aa82f5f4c314ab5afe66f": "L8D-;$e=j1a%fTS~jFX3f9jJW;oe"
+    }
+   }
+  },
+  {
+   "Name": "Ottilie Marremere",
+   "Id": "a1cb3bcbd66157ba7b84a5ba4a2f89c8",
+   "Type": "Producer",
+   "PrimaryImageTag": "c6066cdb2cec6cc12b10eb2bf646fe85",
+   "ImageBlurHashes": {
+    "Primary": {
+     "c6066cdb2cec6cc12b10eb2bf646fe85": "LEBhZasos8j=s:r]SLfjbpoJfPox"
+    }
+   }
+  },
+  {
+   "Name": "Emeric Elmwell",
+   "Id": "e40239c633437d294d7adbd07813ed11",
+   "Type": "Producer"
+  },
+  {
+   "Name": "Haruto Larkrand",
+   "Id": "93bf1e1fc2e0f5882d1378507803d311",
+   "Type": "Producer",
+   "PrimaryImageTag": "b055657683d702d54349a11b66382b2e",
+   "ImageBlurHashes": {
+    "Primary": {
+     "b055657683d702d54349a11b66382b2e": "LCJFHBjrX5S1aKjcSKjqt4a^Scju"
+    }
+   }
+  },
+  {
+   "Name": "Ravi Corvemere",
+   "Id": "d33b6e6d3a9e06c32d9d94a69aea644e",
+   "Type": "Producer",
+   "PrimaryImageTag": "b86608f09b99eeeefeb235a9ba028fa2",
+   "ImageBlurHashes": {
+    "Primary": {
+     "b86608f09b99eeeefeb235a9ba028fa2": "L64}7vSgV]XQobbubDsDWnkDajer"
+    }
+   }
+  }
+ ],
+ "Studios": [
+  {
+   "Name": "Harrow Lane Pictures",
+   "Id": "ed5147ab6c82b4378af7805796e62c0b"
+  },
+  {
+   "Name": "Northlight Fixture Films",
+   "Id": "58fc7bd2f1b69e9003333cb49879b4af"
+  },
+  {
+   "Name": "Paper Crane Studio",
+   "Id": "0046561254acdefdb70942c5fe9a12be"
+  }
+ ],
+ "UserData": {
+  "PlaybackPositionTicks": 0,
+  "PlayCount": 1,
+  "IsFavorite": false,
+  "Played": true
+ },
+ "PrimaryImageAspectRatio": 0.6666666666666666,
+ "MediaStreams": [
+  {
+   "AspectRatio": "791:538",
+   "AudioSpatialFormat": "None",
+   "AverageFrameRate": 23.976025,
+   "BitDepth": 10,
+   "BitRate": 24800000,
+   "BlPresentFlag": 1,
+   "Codec": "hevc",
+   "ColorPrimaries": "bt2020",
+   "ColorSpace": "bt2020nc",
+   "ColorTransfer": "smpte2084",
+   "DvBlSignalCompatibilityId": 1,
+   "DvLevel": 6,
+   "DvProfile": 8,
+   "DvVersionMajor": 1,
+   "DvVersionMinor": 0,
+   "ElPresentFlag": 0,
+   "Hdr10PlusPresentFlag": true,
+   "Height": 2152,
+   "Index": 0,
+   "IsAVC": false,
+   "IsAnamorphic": false,
+   "IsDefault": true,
+   "IsExternal": false,
+   "IsForced": false,
+   "IsHearingImpaired": false,
+   "IsInterlaced": false,
+   "IsTextSubtitleStream": false,
+   "Language": "eng",
+   "Level": 150,
+   "PixelFormat": "yuv420p10le",
+   "Profile": "Main 10",
+   "RealFrameRate": 23.976025,
+   "RefFrames": 1,
+   "ReferenceFrameRate": 23.976025,
+   "RpuPresentFlag": 1,
+   "SupportsExternalStream": false,
+   "TimeBase": "1/1000",
+   "Type": "Video",
+   "VideoDoViTitle": "Dolby Vision Profile 8.1 (HDR10)",
+   "VideoRange": "HDR",
+   "VideoRangeType": "DOVIWithHDR10Plus",
+   "Width": 3164,
+   "DisplayTitle": "1080p HEVC Dolby Vision Profile 8.1 (HDR10+)"
+  },
+  {
+   "AudioSpatialFormat": "DolbyAtmos",
+   "BitRate": 768000,
+   "ChannelLayout": "5.1",
+   "Channels": 6,
+   "Codec": "eac3",
+   "Index": 1,
+   "IsAVC": false,
+   "IsDefault": true,
+   "IsExternal": false,
+   "IsForced": false,
+   "IsHearingImpaired": false,
+   "IsInterlaced": false,
+   "IsTextSubtitleStream": false,
+   "Language": "eng",
+   "Level": 0,
+   "LocalizedDefault": "Default",
+   "LocalizedExternal": "External",
+   "Profile": "Dolby Digital Plus + Dolby Atmos",
+   "SampleRate": 48000,
+   "SupportsExternalStream": false,
+   "TimeBase": "1/1000",
+   "Type": "Audio",
+   "VideoRange": "Unknown",
+   "VideoRangeType": "Unknown",
+   "DisplayTitle": "English - Dolby Digital Plus + Dolby Atmos - 5.1 - Default"
+  },
+  {
+   "AudioSpatialFormat": "None",
+   "Codec": "subrip",
+   "Height": 0,
+   "Index": 2,
+   "IsAVC": false,
+   "IsDefault": true,
+   "IsExternal": false,
+   "IsForced": true,
+   "IsHearingImpaired": false,
+   "IsInterlaced": false,
+   "IsTextSubtitleStream": true,
+   "Language": "eng",
+   "Level": 0,
+   "LocalizedDefault": "Default",
+   "LocalizedExternal": "External",
+   "LocalizedForced": "Forced",
+   "LocalizedHearingImpaired": "Hearing Impaired",
+   "LocalizedUndefined": "Undefined",
+   "SupportsExternalStream": true,
+   "TimeBase": "1/1000",
+   "Type": "Subtitle",
+   "VideoRange": "Unknown",
+   "VideoRangeType": "Unknown",
+   "Width": 0,
+   "DisplayTitle": "Forced - English - Default - SUBRIP"
+  },
+  {
+   "AudioSpatialFormat": "None",
+   "Codec": "subrip",
+   "Height": 0,
+   "Index": 3,
+   "IsAVC": false,
+   "IsDefault": false,
+   "IsExternal": false,
+   "IsForced": false,
+   "IsHearingImpaired": false,
+   "IsInterlaced": false,
+   "IsTextSubtitleStream": true,
+   "Language": "eng",
+   "Level": 0,
+   "LocalizedDefault": "Default",
+   "LocalizedExternal": "External",
+   "LocalizedForced": "Forced",
+   "LocalizedHearingImpaired": "Hearing Impaired",
+   "LocalizedUndefined": "Undefined",
+   "SupportsExternalStream": true,
+   "TimeBase": "1/1000",
+   "Type": "Subtitle",
+   "VideoRange": "Unknown",
+   "VideoRangeType": "Unknown",
+   "Width": 0,
+   "DisplayTitle": "English - SUBRIP"
+  },
+  {
+   "AudioSpatialFormat": "None",
+   "Codec": "subrip",
+   "Height": 0,
+   "Index": 4,
+   "IsAVC": false,
+   "IsDefault": false,
+   "IsExternal": false,
+   "IsForced": false,
+   "IsHearingImpaired": false,
+   "IsInterlaced": false,
+   "IsTextSubtitleStream": true,
+   "Language": "eng",
+   "Level": 0,
+   "LocalizedDefault": "Default",
+   "LocalizedExternal": "External",
+   "LocalizedForced": "Forced",
+   "LocalizedHearingImpaired": "Hearing Impaired",
+   "LocalizedUndefined": "Undefined",
+   "SupportsExternalStream": true,
+   "TimeBase": "1/1000",
+   "Type": "Subtitle",
+   "VideoRange": "Unknown",
+   "VideoRangeType": "Unknown",
+   "Width": 0,
+   "DisplayTitle": "English - SUBRIP"
+  }
+ ],
+ "ImageTags": {
+  "Thumb": "6bfec9d645f2a12f5bf7e06532c47702",
+  "Primary": "744a256ae851bc1816e1301c0616b8df",
+  "Logo": "3f535c152e37e169a5bc400826b22b76"
+ },
+ "BackdropImageTags": [
+  "243b4aa3742707d67b6c9ad720f9b055"
+ ],
+ "ImageBlurHashes": {
+  "Thumb": {
+   "6bfec9d645f2a12f5bf7e06532c47702": "LB6fj4rvbXbtf#nQrsRjfjfQobbD"
+  },
+  "Primary": {
+   "744a256ae851bc1816e1301c0616b8df": "LBB4QqV_WWSxV]n-s-nTeonmV[oI"
+  },
+  "Logo": {
+   "3f535c152e37e169a5bc400826b22b76": "L77fW6nOs+V[Sgf$Sgova{axrxn-"
+  },
+  "Backdrop": {
+   "243b4aa3742707d67b6c9ad720f9b055": "LEJ+O]V]bWf#f}oeo2f*t7SNaib0"
+  }
+ },
+ "Chapters": [
+  {
+   "StartPositionTicks": 0,
+   "Name": "Chapter 1"
+  },
+  {
+   "StartPositionTicks": 26353333333,
+   "Name": "Chapter 2"
+  },
+  {
+   "StartPositionTicks": 52706666666,
+   "Name": "Chapter 3"
+  }
+ ],
+ "MediaType": "Video",
+ "Width": 3164,
+ "Height": 2152,
+ "LocalTrailerCount": 1,
+ "SpecialFeatureCount": 0
+}

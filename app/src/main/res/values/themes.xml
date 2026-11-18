@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="marquee_bg">#FF0B0C10</color>
+    <style name="Theme.Marquee" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/marquee_bg</item>
+        <item name="android:colorBackground">@color/marquee_bg</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+    </style>
+    <style name="Theme.Marquee.Player" parent="Theme.Marquee">
+        <item name="android:windowBackground">@android:color/black</item>
+    </style>
+</resources>

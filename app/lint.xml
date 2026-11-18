@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Narrow, documented lint configuration. Everything else uses lint defaults; pre-existing warnings
+  that are deliberately not fixed are recorded in lint-baseline.xml (regenerate with
+  ./gradlew :app:updateLintBaseline only after reviewing what changed). New errors fail the build.
+-->
+<lint>
+    <!-- These query Google Maven / Maven Central at lint time: results change daily and need
+         network access, so lint would not be reproducible in CI. Dependency updates are reviewed
+         by hand. -->
+    <issue id="GradleDependency" severity="ignore" />
+    <issue id="NewerVersionAvailable" severity="ignore" />
+    <issue id="AndroidGradlePluginVersion" severity="ignore" />
+
+    <!-- Cleartext HTTP is intentional for Jellyfin servers on a home network; see the comment in
+         res/xml/network_security_config.xml and docs/dev/BUILD_NOTES.md. -->
+    <issue id="InsecureBaseConfiguration" severity="ignore" />
+
+    <!-- Android TV app: ARM builds only (ChromeOS is not a target). Debug builds include x86/x86_64. -->
+    <issue id="ChromeOsAbiSupport" severity="ignore" />
+</lint>

@@ -1,0 +1,63 @@
+Marquee — an unofficial native Android TV client for Jellyfin
+Copyright (C) 2026 the Marquee authors
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any later
+version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License along with
+this program (see LICENSE). If not, see <https://www.gnu.org/licenses/>.
+
+SPDX-License-Identifier: GPL-3.0-or-later
+
+-------------------------------------------------------------------------------
+Why GPL-3.0
+-------------------------------------------------------------------------------
+
+Release builds link org.jellyfin.media3:media3-ffmpeg-decoder, whose published
+Maven POM declares "GNU General Public License v3.0". An APK that contains it
+is therefore distributed as a whole under GPL-3.0-compatible terms. Marquee's
+own source is licensed GPL-3.0-or-later so that the combined work is
+consistent. All other runtime libraries (Apache-2.0) and the bundled font
+(SIL OFL 1.1) are compatible with GPLv3. Details and evidence:
+THIRD_PARTY_NOTICES.md.
+
+-------------------------------------------------------------------------------
+Bundled third-party components (summary)
+-------------------------------------------------------------------------------
+
+- AndroidX, Jetpack Compose and AndroidX Media3 — The Android Open Source
+  Project, Apache License 2.0.
+- Kotlin standard library and kotlinx libraries — JetBrains s.r.o. and
+  contributors, Apache License 2.0.
+- OkHttp and Okio — Square, Inc., Apache License 2.0.
+- Coil 3 — Coil Contributors, Apache License 2.0.
+- Jellyfin AndroidX Media3 FFmpeg decoder (media3-ffmpeg-decoder 1.9.0+1) —
+  Jellyfin project, GNU General Public License v3.0. It contains a statically
+  linked build of FFmpeg (libavcodec, libavutil, libswresample) and the
+  AndroidX Media3 FFmpeg JNI glue (Apache License 2.0).
+- Material Symbols and Material Icons path data — Google LLC, Apache License
+  2.0.
+- Hanken Grotesk — Copyright 2021 The Hanken Grotesk Project Authors
+  (https://github.com/marcologous/hanken-grotesk), SIL Open Font License 1.1.
+
+Full licence texts ship inside the APK under assets/licenses/ and in this
+repository (LICENSE, app/src/main/assets/licenses/, design/fonts/OFL.txt).
+
+-------------------------------------------------------------------------------
+Trademarks
+-------------------------------------------------------------------------------
+
+Marquee is an unofficial, independent third-party client. It is not affiliated
+with, sponsored by or endorsed by the Jellyfin project. "Jellyfin" is used only
+to describe compatibility. Android, Android TV and Google TV are trademarks of
+Google LLC. Sony and BRAVIA are trademarks of Sony Group Corporation or its
+affiliates. Dolby, Dolby Vision, Dolby Atmos and TrueHD are trademarks of Dolby
+Laboratories. DTS is a trademark of DTS, Inc. FFmpeg is a trademark of Fabrice
+Bellard. Other names are the property of their respective owners and are used
+only to identify formats, hardware or software that Marquee interoperates with.

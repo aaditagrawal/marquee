@@ -1,0 +1,364 @@
+{
+ "schema": 1,
+ "common": {
+  "device": "Sony BRAVIA VU1 (Android 11 / API 30, armeabi-v7a userspace, Realtek RTD287O, 4x Cortex-A55, Mali-G31, 2 GiB RAM, 1920x1080 @ 60 Hz only, density 320)",
+  "network": "TV on household Wi-Fi to a LAN Jellyfin server, live household traffic; not isolated",
+  "server": "Jellyfin 10.11.11",
+  "cache": "unless stated: process-cold launches keep app data, saved login, the app disk image cache and OS page cache; frame captures warm the path once before measuring",
+  "version": "every artifact reports versionCode 1 / versionName 0.1.0, so the SHA-256 is the only build identity",
+  "timezone": "all times IST (UTC+05:30) as recorded by the capturing host"
+ },
+ "campaigns": [
+  {
+   "id": "renderer-spike",
+   "date": "2026-10-12 (before app work)",
+   "apks": [
+    "separate synthetic spike APKs (Compose / Views / GLES3); hashes not carried into this record"
+   ],
+   "build": "release, R8",
+   "compile": "speed (verified)",
+   "measures": "synthetic focus-grid scene: HWUI frame time, SurfaceFlinger focus cadence, CPU, PSS, cold start",
+   "dataset": "data/renderer_spike.json",
+   "origin": "spikes/results/aggregate.json",
+   "samples": "2-3 runs per approach",
+   "status": "historical (not the Marquee app)"
+  },
+  {
+   "id": "r4-compiler-modes",
+   "date": "2026-10-12 13:11-13:13",
+   "apks": [
+    "67142546ffa4e25bc5807e69580afc2c700dcbc9f04f7b95221fe7f2accab2bc"
+   ],
+   "build": "release, R8, bundled baseline profile",
+   "compile": "verify / speed-profile / speed (switched with cmd package compile; verified per mode)",
+   "measures": "cold start: am start -W TotalTime, MARQUEE_HOME_READY",
+   "dataset": "data/startup_samples.csv (campaign r4-compiler-modes)",
+   "origin": "bench/evidence/perf/entry-{verify,profile,speed}.json",
+   "samples": "4 cold launches per mode",
+   "status": "accepted (historical; entry UI build)"
+  },
+  {
+   "id": "r4-frames",
+   "date": "2026-10-12 13:28-14:27",
+   "apks": [
+    "unattributed (installs 13:23, 13:29, 13:42, 14:02; install logs lack a hash)",
+    "618e6561e5029aefb62923244c59b9c1c3928ff025af50ee4ed8b990679e3738 (installed 14:13:43)"
+   ],
+   "build": "release, R8",
+   "compile": "speed (verified by installer)",
+   "measures": "held-D-pad HWUI frame times (12 s path), bitmap-mode A/B",
+   "dataset": "data/frame_runs.csv + frame_samples.csv (campaign r4)",
+   "origin": "bench/evidence/perf/r4-*-frames/, bench/evidence/r4-home/bitmap-*",
+   "samples": "1 run per screen; A/B 1-2 runs per variant",
+   "status": "historical / control; one misrouted (search), one failed (app crash)"
+  },
+  {
+   "id": "r4-largeheap-ab",
+   "date": "2026-10-12 13:38-13:43",
+   "apks": [
+    "unattributed (largeHeap=true: the installed release, pulled)",
+    "4a1574ddb743daeb1925b49b98775db9bcb011955b48753dd27de418f7ab344b (largeHeap=false: same DEX, manifest flag only, re-signed)"
+   ],
+   "build": "release, R8",
+   "compile": "speed",
+   "measures": "one cold launch + PSS after a short browse, per variant",
+   "dataset": "data/startup_samples.csv, data/memory_samples.csv (r4-largeheap-ab)",
+   "origin": "bench/evidence/perf/heap-*",
+   "samples": "1 per variant",
+   "status": "control (single samples)"
+  },
+  {
+   "id": "r4-final-startup",
+   "date": "2026-10-12 14:03 and 14:10",
+   "apks": [
+    "unattributed (installed 14:02:30)"
+   ],
+   "build": "release, R8",
+   "compile": "speed",
+   "measures": "cold/warm start",
+   "dataset": "data/startup_samples.csv (r4-final)",
+   "origin": "bench/evidence/perf/final-speed.json, bench/evidence/r4-home/startup.json",
+   "samples": "8 cold, 1 warm",
+   "status": "historical"
+  },
+  {
+   "id": "r4-player-memory",
+   "date": "2026-10-12 13:43-13:47",
+   "apks": [
+    "unattributed"
+   ],
+   "build": "release, R8",
+   "compile": "speed",
+   "measures": "PSS 6 s and 25 s into playback (media-A, media-B)",
+   "dataset": "data/memory_samples.csv (r4-player)",
+   "origin": "bench/evidence/perf/release-*-meminfo-*.txt",
+   "samples": "1 per case",
+   "status": "historical"
+  },
+  {
+   "id": "qa-perf-cycle-01",
+   "date": "2026-10-12 13:25-14:26",
+   "apks": [
+    "unattributed (release installed 13:23:23)"
+   ],
+   "build": "release",
+   "compile": "speed",
+   "measures": "cold/warm HOME_READY",
+   "dataset": "data/startup_samples.csv",
+   "origin": "bench/evidence/qa-perf-cycle-01/startup/",
+   "samples": "1 cold, 1 warm",
+   "status": "historical"
+  },
+  {
+   "id": "early-qa-cycles",
+   "date": "2026-10-12 13:00-16:43",
+   "apks": [
+    "mixed debug and release builds, mostly unattributed"
+   ],
+   "build": "mixed",
+   "compile": "mixed",
+   "measures": "functional QA screenshots/logs (qa-cycle-01..08, qa-r5*, r5-*, qa-review-*, screens-orch, player-orch)",
+   "dataset": "not extracted",
+   "origin": "bench/evidence/qa-*, r5-*",
+   "samples": "-",
+   "status": "not used: functional QA, debug builds, superseded by r9+"
+  },
+  {
+   "id": "r5-hook",
+   "date": "2026-10-12 14:47",
+   "apks": [
+    "93352bdfa92ad9e3a29350a318f5f2b111bcaa56466e0a3e044645c6b2cb5e28"
+   ],
+   "build": "release",
+   "compile": "speed",
+   "measures": "Movies held-D-pad, 2 runs",
+   "dataset": "data/frame_runs.csv (r5-hook-movies-on)",
+   "origin": "bench/perf/results/r5-hook-movies-on/",
+   "samples": "2 runs",
+   "status": "historical"
+  },
+  {
+   "id": "r9-baseline",
+   "date": "2026-10-12 23:15-23:33",
+   "apks": [
+    "5b6b9df05c213eadf0882374e4d8c58a311eb430ad9c8635f9b41e51c5b9ba52"
+   ],
+   "build": "release, R8",
+   "compile": "speed (verified per capture)",
+   "measures": "5-surface held-D-pad frames; QA cold/warm start; player start baseline",
+   "dataset": "frame_runs (r9-baseline*, r9-movies-no-prefetch), startup (qa-r9-hdrfix), playback (r9p/before-*)",
+   "origin": "bench/perf/results/r9-baseline-*, bench/evidence/qa-r9-hdrfix/, bench/offline/r9-player/before-*",
+   "samples": "1 run per surface; 3 cold + 3 warm",
+   "status": "accepted baseline"
+  },
+  {
+   "id": "r9-qa",
+   "date": "2026-10-12 23:35 - 2026-10-13 00:29",
+   "apks": [
+    "4519f3d3ea7f251b80ff5523433c2abd801b349beec06def0c41e0dff6c5d618"
+   ],
+   "build": "release, R8",
+   "compile": "speed",
+   "measures": "5-surface frames; QA startup; QA playback matrix; r9 player acceptance",
+   "dataset": "frame_runs (r9-anchor-*), startup (qa-r9-integrated), playback (qa-r9/*, r9p/after-*)",
+   "origin": "bench/perf/results/r9-anchor-*, bench/evidence/qa-r9-integrated/, bench/offline/r9-player/after-*",
+   "samples": "1 run per surface; 3+3 starts; 1 sample per playback action",
+   "status": "accepted (this is the build docs/QA_REPORT.md describes; superseded by later rounds)"
+  },
+  {
+   "id": "r9-ab",
+   "date": "2026-10-12 23:23 and 2026-10-13 00:36-00:47",
+   "apks": [
+    "5b6b9df0... (prefetch A/B)",
+    "eec219270a3b4ece01fb94df6c75fd6bcc3cf6738aef5a6a61f1907f1e2ccce9 (grid and parent-anchor A/B)"
+   ],
+   "build": "release, R8",
+   "compile": "speed",
+   "measures": "same-APK runtime-flag A/B",
+   "dataset": "frame_runs (r9-pool-*, r9-parent-*, r9-movies-no-prefetch)",
+   "origin": "bench/perf/results/r9-pool-*, r9-parent-*",
+   "samples": "1 run per variant",
+   "status": "control (fast-reset and timed-out pairs excluded)"
+  },
+  {
+   "id": "r9-final + r10-player",
+   "date": "2026-10-13 00:55-01:16",
+   "apks": [
+    "f0370893dd332b6ec3e05b54c23553a3451496fb31e35cd276f14e1b6f6a1ec4"
+   ],
+   "build": "release, R8",
+   "compile": "speed",
+   "measures": "5-surface frames; r10 player acceptance (start/resume/seek, PGS restarts)",
+   "dataset": "frame_runs (r9-final-*), playback (r10p/final-*)",
+   "origin": "bench/perf/results/r9-final-*, bench/offline/r10-player/final-*",
+   "samples": "1 run per surface; 1 per playback action",
+   "status": "accepted (superseded)"
+  },
+  {
+   "id": "r10-ui",
+   "date": "2026-10-13 01:19-02:31",
+   "apks": [
+    "f0370893... (before)",
+    "55cc9857c1bdae1696af35502987863981fd89a809f945fbe9732ff2644a7657 (intermediate)",
+    "3053e78e122ca7db116aa28429646b4543d82cc7c58d2debf28d373031c5eeb3 (final)"
+   ],
+   "build": "release, R8",
+   "compile": "speed",
+   "measures": "5-surface frames before/after, paced Home reset",
+   "dataset": "frame_runs (r10-*)",
+   "origin": "bench/perf/results/r10-*",
+   "samples": "1 run per surface",
+   "status": "accepted (final 3053e78e); rushed Home and screenshot-timeout captures excluded"
+  },
+  {
+   "id": "r11-player",
+   "date": "2026-10-13 01:51-02:04",
+   "apks": [
+    "55cc9857..."
+   ],
+   "build": "release, R8",
+   "compile": "speed",
+   "measures": "exact-position resume/seek",
+   "dataset": "playback (r11p/*)",
+   "origin": "bench/offline/r11-player/",
+   "samples": "1 per action",
+   "status": "accepted (superseded by r12 player)"
+  },
+  {
+   "id": "r12-player",
+   "date": "2026-10-13 02:14-02:53",
+   "apks": [
+    "3053e78e... / 8461dbe99a17faa8ced2cd659af6681cb00de3ddc3026223cbfa5c8d4004f868 / 19dca9d2879ff23f83d515c4aea5f406a485b4db7bea71179c4c33b570a4f78e (intermediate)",
+    "d2d2e7528749bcb8ee05bf0d29b31dc5205bd952d2f2555876aa9c416e0f6fda (final)"
+   ],
+   "build": "release, R8",
+   "compile": "speed",
+   "measures": "keyframe-snapped resume/seek",
+   "dataset": "playback (r12p/*)",
+   "origin": "bench/offline/r12-player/",
+   "samples": "1 per action",
+   "status": "accepted (d2d2e752); last accepted playback timing in the record"
+  },
+  {
+   "id": "r11-ui",
+   "date": "2026-10-13 02:55-06:00",
+   "apks": [
+    "3053e78e... (before)",
+    "experiments incl. c4aff44c, a456661b, cee0b85b (invalid: blank native cards)",
+    "89ac29d5f469fa77053ac8196d2ce3cebbc057c7873b952d95895617e242c3df (accepted)",
+    "cfd54fa0863b51a51623bc6a11224ad2d5c970ccc9f4050971ed5c2a0a97933b (final, repeats)",
+    "profile builds 36980ee9, a6c400a9, 2ab1cd76, d70c2f18, 67501449, 44c7a637 (traces)"
+   ],
+   "build": "release, R8; profile = release-inherited, non-debuggable, Compose tracing",
+   "compile": "speed",
+   "measures": "5-surface frames; Perfetto/atrace attribution",
+   "dataset": "frame_runs (r11-*)",
+   "origin": "bench/perf/results/r11-*",
+   "samples": "1-4 runs per surface",
+   "status": "accepted (89ac29d5, cfd54fa0); blank-render runs invalid; traces diagnostic only"
+  },
+  {
+   "id": "r12-ui",
+   "date": "2026-10-13 07:21-07:57",
+   "apks": [
+    "7098d3c607d4db29731eb85e77d6e1e1f86f8004517a658c8008702cf19b0bba (candidate)",
+    "f266c76a47b5c93c493f8ce9eaec69293edd1989ad4c40266fc805311fe5b2c0 (final)",
+    "profile 842bdbc5 (trace)"
+   ],
+   "build": "release, R8",
+   "compile": "speed",
+   "measures": "Home x3, Movies x2, Episodes, Search; OSD attempted",
+   "dataset": "frame_runs (r12-*)",
+   "origin": "bench/perf/results/r12-*",
+   "samples": "Home 3 runs, Movies 2, others 1",
+   "status": "accepted; OSD failed (decoder failure before first frame)"
+  },
+  {
+   "id": "r13-player",
+   "date": "2026-10-13 08:02-08:27",
+   "apks": [
+    "f266c76a... (reproduction)",
+    "debug fixture builds (unattributed)",
+    "414b94087dc8ae2544a7456a9f34b05c6e3645d6b9ad665a6002678839c33aa8",
+    "868ef47ba81eeae0fa055aad2a5b065b1e931904d9dfd4544d3365d332e5f1c7 (final)"
+   ],
+   "build": "release + debug probes",
+   "compile": "speed (release)",
+   "measures": "playback recovery ladder",
+   "dataset": "playback (r12p/r13-baseline, r13p/*)",
+   "origin": "bench/offline/r13-player/",
+   "samples": "-",
+   "status": "failed: no first frame; hardware decoder resource acquisition failed; TV rebooted 08:44 by the owner"
+  },
+  {
+   "id": "r14-player",
+   "date": "2026-10-13 08:53-09:02",
+   "apks": [
+    "a1e3841bf265cf128ba2e0aef4f80aa5638854305452f091af9e37ed2a5aab23"
+   ],
+   "build": "release, R8",
+   "compile": "speed",
+   "measures": "post-reboot start/seek",
+   "dataset": "playback (r14p/*)",
+   "origin": "bench/offline/r14-player/",
+   "samples": "2 valid single samples, 1 misrouted, 6 failed",
+   "status": "partial: round cancelled by the owner at 09:03 (all TV use stopped)"
+  },
+  {
+   "id": "host-nav-budget",
+   "date": "2026-10-13 01:55",
+   "apks": [
+    "n/a (JVM, offline fixtures)"
+   ],
+   "build": "Robolectric SDK 30",
+   "compile": "n/a",
+   "measures": "app key-handler time per D-pad event (host proxy)",
+   "dataset": "data/host_proxies.json",
+   "origin": "bench/offline/nav-budget.json",
+   "samples": "10-15 events per screen",
+   "status": "host proxy only"
+  },
+  {
+   "id": "host-remux-latency",
+   "date": "2026-10-12 17:08",
+   "apks": [
+    "n/a (server + host ffprobe)"
+   ],
+   "build": "-",
+   "compile": "-",
+   "measures": "server time to first decodable frame of a remuxed 4K stream",
+   "dataset": "data/host_proxies.json",
+   "origin": "bench/offline/remux-latency.json",
+   "samples": "1-8 per variant",
+   "status": "server-side proxy, historical (before the r10-r12 player changes)"
+  },
+  {
+   "id": "skip-credits-2026-11-08",
+   "date": "2026-11-08",
+   "apks": [
+    "214e95ebf58d6db1b15e6b5bdc2d19af2648863e6aeb79a0d5fed23bbfaa47c9"
+   ],
+   "build": "release",
+   "compile": "unknown",
+   "measures": "none",
+   "dataset": "-",
+   "origin": "hash does not occur anywhere in the benchmark tree",
+   "samples": "0",
+   "status": "UNMEASURED"
+  },
+  {
+   "id": "marquee-public-fork",
+   "date": "-",
+   "apks": [
+    "none"
+   ],
+   "build": "-",
+   "compile": "-",
+   "measures": "none",
+   "dataset": "-",
+   "origin": "-",
+   "samples": "0",
+   "status": "UNMEASURED: nothing in this record measures the public repository build"
+  }
+ ]
+}

@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="633" viewBox="0 0 920 633" role="img" aria-labelledby="t d">
+<title id="t">Playback time to first frame, accepted samples</title><desc id="d">media-D start · 1920x800 H.264 direct (4519f3d3): 601 ms; media-E start · HEVC SDR direct (4519f3d3): 649 ms; media-B start · 3164x2152 HEVC HDR direct (4519f3d3): 1097 ms; media-G start · H.264 episode direct (4519f3d3): 1178 ms; media-F start · HEVC SDR episode direct (4519f3d3): 1844 ms; media-A start · 4K DV, video copy + audio convert (4519f3d3): 1987 ms; media-B seek (in place) (4519f3d3): 458 ms; media-A start (f0370893): 2039 ms; media-A resume (f0370893): 2565 ms; media-A seek (stream restart) (f0370893): 2568 ms; media-C resume · HEVC SDR + SRT (f0370893): 1447 ms; media-A resume (keyframe-snapped) (d2d2e752): 1014 ms  lands -3.7 s from target; media-A seek 1 (stream restart) (d2d2e752): 1936 ms  lands +3 ms from target; media-A seek 2 (stream restart) (d2d2e752): 1898 ms  lands +3.7 s from target; media-B resume (keyframe-snapped) (d2d2e752): 796 ms  lands -3.4 s from target; media-B seek (in place) (d2d2e752): 505 ms  lands -274 ms from target; media-C resume (d2d2e752): 911 ms  lands -2.5 s from target</desc>
+
+<style>
+  .bg{fill:#fcfcfb} .ink{fill:#0b0b0b} .ink2{fill:#52514e} .grid{stroke:#e2e1dc} .axis{stroke:#9a9890}
+  .ref{stroke:#6b6a64} .s1{fill:#2a78d6;stroke:#2a78d6} .s2{fill:#eb6834;stroke:#eb6834} .s3{fill:#1baf7a;stroke:#1baf7a}
+  .l1{stroke:#2a78d6;fill:none} .l2{stroke:#eb6834;fill:none} .l3{stroke:#1baf7a;fill:none} .link{stroke:#b9b7ae}
+  .ring{stroke:#fcfcfb}
+  text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+  @media (prefers-color-scheme: dark){
+    .bg{fill:#1a1a19} .ink{fill:#f0efec} .ink2{fill:#c3c2b7} .grid{stroke:#33322f} .axis{stroke:#6f6e68}
+    .ref{stroke:#a3a29a} .s1{fill:#3987e5;stroke:#3987e5} .s2{fill:#d95926;stroke:#d95926} .s3{fill:#199e70;stroke:#199e70}
+    .l1{stroke:#3987e5;fill:none} .l2{stroke:#d95926;fill:none} .l3{stroke:#199e70;fill:none} .link{stroke:#55544f} .ring{stroke:#1a1a19}
+  }
+</style>
+
+<rect class="bg" x="0" y="0" width="920" height="633" rx="6"/>
+<text class="ink" x="24" y="26" font-size="16" text-anchor="start" font-weight="600">Playback: time to first video frame (single samples per action)</text>
+<text class="ink2" x="24" y="44" font-size="12" text-anchor="start" font-weight="normal">Start/resume: player Activity created to first rendered frame. Seek: seek committed to first new frame. Includes server work.</text>
+<text class="ink" x="24" y="108" font-size="12.5" text-anchor="start" font-weight="600">QA r9 · 4519f3d3</text>
+<text class="ink" x="24" y="289" font-size="12.5" text-anchor="start" font-weight="600">r10 player final · f0370893</text>
+<text class="ink" x="24" y="407" font-size="12.5" text-anchor="start" font-weight="600">r12 final player · d2d2e752</text>
+<line class="grid" x1="330" y1="80" x2="330" y2="549" stroke-width="1"/>
+<text class="ink2" x="330" y="565" font-size="11" text-anchor="middle" font-weight="normal">0</text>
+<line class="grid" x1="408.3" y1="80" x2="408.3" y2="549" stroke-width="1"/>
+<text class="ink2" x="408.3" y="565" font-size="11" text-anchor="middle" font-weight="normal">500</text>
+<line class="grid" x1="486.7" y1="80" x2="486.7" y2="549" stroke-width="1"/>
+<text class="ink2" x="486.7" y="565" font-size="11" text-anchor="middle" font-weight="normal">1000</text>
+<line class="grid" x1="565" y1="80" x2="565" y2="549" stroke-width="1"/>
+<text class="ink2" x="565" y="565" font-size="11" text-anchor="middle" font-weight="normal">1500</text>
+<line class="grid" x1="643.3" y1="80" x2="643.3" y2="549" stroke-width="1"/>
+<text class="ink2" x="643.3" y="565" font-size="11" text-anchor="middle" font-weight="normal">2000</text>
+<line class="grid" x1="721.7" y1="80" x2="721.7" y2="549" stroke-width="1"/>
+<text class="ink2" x="721.7" y="565" font-size="11" text-anchor="middle" font-weight="normal">2500</text>
+<line class="grid" x1="800" y1="80" x2="800" y2="549" stroke-width="1"/>
+<text class="ink2" x="800" y="565" font-size="11" text-anchor="middle" font-weight="normal">3000</text>
+<text class="ink2" x="565" y="583" font-size="11" text-anchor="middle" font-weight="normal">milliseconds</text>
+<line class="ref" x1="643.3" y1="80" x2="643.3" y2="549" stroke-width="1.2" stroke-dasharray="6 4"/>
+<text class="ink" x="320" y="139" font-size="11.5" text-anchor="end" font-weight="normal">media-D start · 1920x800 H.264 direct</text>
+<line class="link" x1="330" y1="135" x2="424.2" y2="135" stroke-width="1"/>
+<circle class="s1" cx="424.2" cy="135" r="4.5" stroke-width="0"/>
+<text class="ink2" x="433.2" y="139" font-size="11" text-anchor="start" font-weight="normal">601 ms</text>
+<text class="ink" x="320" y="160" font-size="11.5" text-anchor="end" font-weight="normal">media-E start · HEVC SDR direct</text>
+<line class="link" x1="330" y1="156" x2="431.7" y2="156" stroke-width="1"/>
+<circle class="s1" cx="431.7" cy="156" r="4.5" stroke-width="0"/>
+<text class="ink2" x="440.7" y="160" font-size="11" text-anchor="start" font-weight="normal">649 ms</text>
+<text class="ink" x="320" y="181" font-size="11.5" text-anchor="end" font-weight="normal">media-B start · 3164x2152 HEVC HDR direct</text>
+<line class="link" x1="330" y1="177" x2="501.9" y2="177" stroke-width="1"/>
+<circle class="s1" cx="501.9" cy="177" r="4.5" stroke-width="0"/>
+<text class="ink2" x="510.9" y="181" font-size="11" text-anchor="start" font-weight="normal">1097 ms</text>
+<text class="ink" x="320" y="202" font-size="11.5" text-anchor="end" font-weight="normal">media-G start · H.264 episode direct</text>
+<line class="link" x1="330" y1="198" x2="514.6" y2="198" stroke-width="1"/>
+<circle class="s1" cx="514.6" cy="198" r="4.5" stroke-width="0"/>
+<text class="ink2" x="523.6" y="202" font-size="11" text-anchor="start" font-weight="normal">1178 ms</text>
+<text class="ink" x="320" y="223" font-size="11.5" text-anchor="end" font-weight="normal">media-F start · HEVC SDR episode direct</text>
+<line class="link" x1="330" y1="219" x2="618.9" y2="219" stroke-width="1"/>
+<circle class="s1" cx="618.9" cy="219" r="4.5" stroke-width="0"/>
+<text class="ink2" x="627.9" y="223" font-size="11" text-anchor="start" font-weight="normal">1844 ms</text>
+<text class="ink" x="320" y="244" font-size="11.5" text-anchor="end" font-weight="normal">media-A start · 4K DV, video copy + audio convert</text>
+<line class="link" x1="330" y1="240" x2="641.3" y2="240" stroke-width="1"/>
+<circle class="s1" cx="641.3" cy="240" r="4.5" stroke-width="0"/>
+<text class="ink2" x="650.3" y="244" font-size="11" text-anchor="start" font-weight="normal">1987 ms</text>
+<text class="ink" x="320" y="265" font-size="11.5" text-anchor="end" font-weight="normal">media-B seek (in place)</text>
+<line class="link" x1="330" y1="261" x2="401.8" y2="261" stroke-width="1"/>
+<circle class="s1" cx="401.8" cy="261" r="4.5" stroke-width="0"/>
+<text class="ink2" x="410.8" y="265" font-size="11" text-anchor="start" font-weight="normal">458 ms</text>
+<text class="ink" x="320" y="320" font-size="11.5" text-anchor="end" font-weight="normal">media-A start</text>
+<line class="link" x1="330" y1="316" x2="649.4" y2="316" stroke-width="1"/>
+<path class="s2" stroke-width="0" d="M649.4 310.4L655.1 316L649.4 321.6L643.8 316Z"/>
+<text class="ink2" x="658.4" y="320" font-size="11" text-anchor="start" font-weight="normal">2039 ms</text>
+<text class="ink" x="320" y="341" font-size="11.5" text-anchor="end" font-weight="normal">media-A resume</text>
+<line class="link" x1="330" y1="337" x2="731.9" y2="337" stroke-width="1"/>
+<path class="s2" stroke-width="0" d="M731.9 331.4L737.5 337L731.9 342.6L726.2 337Z"/>
+<text class="ink2" x="740.9" y="341" font-size="11" text-anchor="start" font-weight="normal">2565 ms</text>
+<text class="ink" x="320" y="362" font-size="11.5" text-anchor="end" font-weight="normal">media-A seek (stream restart)</text>
+<line class="link" x1="330" y1="358" x2="732.3" y2="358" stroke-width="1"/>
+<path class="s2" stroke-width="0" d="M732.3 352.4L737.9 358L732.3 363.6L726.7 358Z"/>
+<text class="ink2" x="741.3" y="362" font-size="11" text-anchor="start" font-weight="normal">2568 ms</text>
+<text class="ink" x="320" y="383" font-size="11.5" text-anchor="end" font-weight="normal">media-C resume · HEVC SDR + SRT</text>
+<line class="link" x1="330" y1="379" x2="556.7" y2="379" stroke-width="1"/>
+<path class="s2" stroke-width="0" d="M556.7 373.4L562.3 379L556.7 384.6L551.1 379Z"/>
+<text class="ink2" x="565.7" y="383" font-size="11" text-anchor="start" font-weight="normal">1447 ms</text>
+<text class="ink" x="320" y="438" font-size="11.5" text-anchor="end" font-weight="normal">media-A resume (keyframe-snapped)</text>
+<line class="link" x1="330" y1="434" x2="488.9" y2="434" stroke-width="1"/>
+<rect class="s3" stroke-width="0" x="484.8" y="429.9" width="8.1" height="8.1" rx="1"/>
+<text class="ink2" x="497.9" y="438" font-size="11" text-anchor="start" font-weight="normal">1014 ms  lands -3.7 s from target</text>
+<text class="ink" x="320" y="459" font-size="11.5" text-anchor="end" font-weight="normal">media-A seek 1 (stream restart)</text>
+<line class="link" x1="330" y1="455" x2="633.3" y2="455" stroke-width="1"/>
+<rect class="s3" stroke-width="0" x="629.3" y="450.9" width="8.1" height="8.1" rx="1"/>
+<text class="ink2" x="642.3" y="459" font-size="11" text-anchor="start" font-weight="normal">1936 ms  lands +3 ms from target</text>
+<text class="ink" x="320" y="480" font-size="11.5" text-anchor="end" font-weight="normal">media-A seek 2 (stream restart)</text>
+<line class="link" x1="330" y1="476" x2="627.4" y2="476" stroke-width="1"/>
+<rect class="s3" stroke-width="0" x="623.3" y="471.9" width="8.1" height="8.1" rx="1"/>
+<text class="ink2" x="636.4" y="480" font-size="11" text-anchor="start" font-weight="normal">1898 ms  lands +3.7 s from target</text>
+<text class="ink" x="320" y="501" font-size="11.5" text-anchor="end" font-weight="normal">media-B resume (keyframe-snapped)</text>
+<line class="link" x1="330" y1="497" x2="454.7" y2="497" stroke-width="1"/>
+<rect class="s3" stroke-width="0" x="450.7" y="492.9" width="8.1" height="8.1" rx="1"/>
+<text class="ink2" x="463.7" y="501" font-size="11" text-anchor="start" font-weight="normal">796 ms  lands -3.4 s from target</text>
+<text class="ink" x="320" y="522" font-size="11.5" text-anchor="end" font-weight="normal">media-B seek (in place)</text>
+<line class="link" x1="330" y1="518" x2="409.1" y2="518" stroke-width="1"/>
+<rect class="s3" stroke-width="0" x="405.1" y="514" width="8.1" height="8.1" rx="1"/>
+<text class="ink2" x="418.1" y="522" font-size="11" text-anchor="start" font-weight="normal">505 ms  lands -274 ms from target</text>
+<text class="ink" x="320" y="543" font-size="11.5" text-anchor="end" font-weight="normal">media-C resume</text>
+<line class="link" x1="330" y1="539" x2="472.7" y2="539" stroke-width="1"/>
+<rect class="s3" stroke-width="0" x="468.7" y="535" width="8.1" height="8.1" rx="1"/>
+<text class="ink2" x="481.7" y="543" font-size="11" text-anchor="start" font-weight="normal">911 ms  lands -2.5 s from target</text>
+<text class="ink2" x="24" y="605" font-size="11" text-anchor="start" font-weight="normal">Off-scale (not drawn): r9 media-A seek re-open, prepare to frame 8734 ms (player run) and 9503 ms (QA run). n = 1 per row.</text>
+<text class="ink2" x="24" y="621" font-size="11" text-anchor="start" font-weight="normal">Dashed line: 2 s. Different rounds used different seek targets and builds; rows are not matched A/B pairs.</text>
+</svg>

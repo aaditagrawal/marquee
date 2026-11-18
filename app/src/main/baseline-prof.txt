@@ -1,0 +1,32 @@
+# Hand-written Home startup and D-pad hot paths. Merged with Compose/Coil library profiles by AGP.
+# Full speed AOT is the install default on this single Android 11 TV; this profile also helps sideloads.
+Lcom/mav/marquee/MainActivity;
+Lcom/mav/marquee/MarqueeApplication;
+HSPLcom/mav/marquee/MainActivity;->**(**)**
+HSPLcom/mav/marquee/MarqueeApplication;->**(**)**
+HSPLcom/mav/marquee/ui/home/**->**(**)**
+HSPLcom/mav/marquee/ui/nav/**->**(**)**
+HSPLcom/mav/marquee/ui/components/**->**(**)**
+HSPLcom/mav/marquee/image/**->**(**)**
+HSPLcom/mav/marquee/data/**->**(**)**
+
+# Later journeys are hot/post-startup, not startup. Native codec code is outside ART.
+HPLcom/mav/marquee/ui/library/**->**(**)**
+HPLcom/mav/marquee/ui/detail/**->**(**)**
+HPLcom/mav/marquee/ui/search/**->**(**)**
+HPLcom/mav/marquee/ui/person/**->**(**)**
+HPLcom/mav/marquee/ui/settings/**->**(**)**
+HPLcom/mav/marquee/player/**->**(**)**
+
+# Offline navigation journey: Home -> held row/card moves -> Detail -> Back -> Library grid.
+# Keep the new bounded controller and framework focus/lazy demand paths hot after startup.
+# This complements the HSP Home startup and HP Detail/Library rules above; no TV capture claimed.
+Lcom/mav/marquee/ui/components/NavigationScroll;
+Lcom/mav/marquee/ui/home/HomeRowUi;
+HPLcom/mav/marquee/ui/home/HomeController;->focusRow(**)**
+HPLcom/mav/marquee/ui/home/HomeController;->focusCard(**)**
+HPLcom/mav/marquee/ui/nav/Navigator;->pop(**)**
+HPLcom/mav/marquee/ui/nav/Navigator;->home(**)**
+HPLandroidx/compose/ui/focus/**->**(**)**
+HPLandroidx/compose/foundation/lazy/**->**(**)**
+HPLandroidx/activity/compose/BackHandlerKt;->**(**)**

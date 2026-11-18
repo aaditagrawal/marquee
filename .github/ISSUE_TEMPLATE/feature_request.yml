@@ -1,0 +1,21 @@
+name: Feature request
+description: Suggest an improvement
+labels: [enhancement]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behaviour
+      description: Marquee is designed for D-pad remotes and low-end TV hardware. Mention how it would work with a remote.
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device you would use it on

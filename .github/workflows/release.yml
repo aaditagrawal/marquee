@@ -1,0 +1,156 @@
+# Manual release build. Creates a DRAFT GitHub release only; a maintainer reviews and publishes it.
+#
+# Signing is opt-in: when the protected "release" environment defines all four secrets
+# (MARQUEE_KEYSTORE_BASE64, MARQUEE_KEYSTORE_PASSWORD, MARQUEE_KEY_ALIAS, MARQUEE_KEY_PASSWORD),
+# the APK is signed with that key. With no secrets, the APK is marked unsigned.
+# Partial signing configuration fails the workflow.
+name: Release
+
+on:
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Existing tag to build, for example v0.2.0"
+        required: true
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: release-${{ inputs.tag }}
+  cancel-in-progress: false
+
+env:
+  GRADLE_OPTS: -Dorg.gradle.daemon=false -Dorg.gradle.workers.max=2
+  JAVA_VERSION: "21"
+
+jobs:
+  build:
+    name: Build ${{ inputs.tag }}
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    # Configure required reviewers and secrets on this environment in the repository settings.
+    environment: release
+    permissions:
+      contents: write        # create the draft release
+      id-token: write        # build provenance attestation (OIDC)
+      attestations: write
+    steps:
+      - name: Validate tag name
+        env:
+          TAG: ${{ inputs.tag }}
+        run: |
+          [[ "$TAG" =~ ^v[0-9]+\.[0-9]+\.[0-9]+(-[0-9A-Za-z.]+)?$ ]] || { echo "Tag must look like v1.2.3 or v1.2.3-rc.1" >&2; exit 1; }
+
+      - name: Check out tag
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: refs/tags/${{ inputs.tag }}
+          persist-credentials: false
+
+      - name: Validate Gradle wrapper
+        uses: gradle/actions/wrapper-validation@8da46b539cd8fe6ab27ca75128919a18d757604c # v6.4.1
+
+      - name: Set up JDK
+        uses: actions/setup-java@d1374f8ac74474200d16ef8ecee22c7ae7a51880 # v6.3.0
+        with:
+          distribution: temurin
+          java-version: ${{ env.JAVA_VERSION }}
+
+      - name: Set up Android SDK
+        uses: android-actions/setup-android@be39fa834029ff78f1a44aa3bb0819b8fc2bd8fd # v4.0.4
+
+      - name: Install Android SDK packages
+        run: sdkmanager "platforms;android-36" "build-tools;36.0.0"
+
+      - name: Set up Gradle (no cache for release builds)
+        uses: gradle/actions/setup-gradle@8da46b539cd8fe6ab27ca75128919a18d757604c # v6.4.1
+        with:
+          cache-disabled: true
+
+      - name: Release lint and tests
+        run: ./gradlew :app:lintRelease :app:verifyRoborazziDebug --console=plain
+
+      - name: Decode signing key (only if configured)
+        id: key
+        env:
+          KEYSTORE_B64: ${{ secrets.MARQUEE_KEYSTORE_BASE64 }}
+          STORE_PASSWORD: ${{ secrets.MARQUEE_KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.MARQUEE_KEY_ALIAS }}
+          KEY_PASSWORD: ${{ secrets.MARQUEE_KEY_PASSWORD }}
+        run: |
+          if [[ -n "$KEYSTORE_B64" && -n "$STORE_PASSWORD" && -n "$KEY_ALIAS" && -n "$KEY_PASSWORD" ]]; then
+            umask 077
+            keystore="$RUNNER_TEMP/marquee-release.jks"
+            printf '%s' "$KEYSTORE_B64" | base64 --decode > "$keystore"
+            echo "path=$keystore" >> "$GITHUB_OUTPUT"
+            echo "signed=true" >> "$GITHUB_OUTPUT"
+          elif [[ -n "$KEYSTORE_B64$STORE_PASSWORD$KEY_ALIAS$KEY_PASSWORD" ]]; then
+            echo "Release signing requires all four MARQUEE signing secrets." >&2
+            exit 1
+          else
+            echo "No signing secrets configured; building an unsigned APK."
+            echo "signed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Assemble release APK
+        env:
+          # Read by app/build.gradle.kts; all four or none (a partial set fails the build).
+          # See docs/dev/BUILD_NOTES.md.
+          MARQUEE_KEYSTORE_FILE: ${{ steps.key.outputs.path }}
+          MARQUEE_KEYSTORE_PASSWORD: ${{ steps.key.outputs.signed == 'true' && secrets.MARQUEE_KEYSTORE_PASSWORD || '' }}
+          MARQUEE_KEY_ALIAS: ${{ steps.key.outputs.signed == 'true' && secrets.MARQUEE_KEY_ALIAS || '' }}
+          MARQUEE_KEY_PASSWORD: ${{ steps.key.outputs.signed == 'true' && secrets.MARQUEE_KEY_PASSWORD || '' }}
+        run: ./gradlew :app:assembleRelease --console=plain
+
+      - name: Remove decoded key
+        if: always()
+        run: rm -f "$RUNNER_TEMP/marquee-release.jks"
+
+      - name: Collect, verify and checksum
+        id: out
+        env:
+          TAG: ${{ inputs.tag }}
+          SIGNED: ${{ steps.key.outputs.signed }}
+        run: |
+          set -euo pipefail
+          mkdir -p dist
+          shopt -s nullglob
+          apks=(app/build/outputs/apk/release/*.apk)
+          [[ ${#apks[@]} -eq 1 ]] || { echo "Expected exactly one release APK, found ${#apks[@]}" >&2; exit 1; }
+          version="${TAG#v}"
+          if [[ "$SIGNED" == "true" ]]; then name="marquee-${version}.apk"; else name="marquee-${version}-unsigned.apk"; fi
+          cp "${apks[0]}" "dist/$name"
+          build_tools="$ANDROID_HOME/build-tools/36.0.0"
+          # The tag must match the versionName in app/build.gradle.kts.
+          built=$("$build_tools/aapt2" dump badging "dist/$name" | sed -n "s/.*versionName='\([^']*\)'.*/\1/p" | head -n1)
+          [[ "$built" == "$version" ]] || { echo "Tag $TAG does not match the APK versionName '$built'." >&2; exit 1; }
+          if [[ "$SIGNED" == "true" ]]; then
+            "$build_tools/apksigner" verify --verbose --print-certs "dist/$name" | tee "dist/$name.certs.txt"
+          fi
+          # 16 KB zip alignment of uncompressed native libraries (Android 15+ page-size requirement).
+          "$build_tools/zipalign" -c -P 16 -v 4 "dist/$name" | tail -n 1
+          (cd dist && sha256sum "$name" > "$name.sha256")
+          echo "apk=dist/$name" >> "$GITHUB_OUTPUT"
+          echo "name=$name" >> "$GITHUB_OUTPUT"
+
+      - name: Attest build provenance
+        uses: actions/attest-build-provenance@4d101475d8b20a2381f78447822ac1eab6504dd8 # v4.2.2
+        with:
+          subject-path: ${{ steps.out.outputs.apk }}
+
+      - name: Create draft release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ inputs.tag }}
+          SIGNED: ${{ steps.key.outputs.signed }}
+        run: |
+          set -euo pipefail
+          notes="Draft created by the release workflow from tag $TAG. Review before publishing."
+          if [[ "$SIGNED" != "true" ]]; then
+            notes="$notes
+
+          This APK is UNSIGNED. Android will not install it until it is signed."
+          fi
+          gh release create "$TAG" dist/* --repo "$GITHUB_REPOSITORY" --draft --verify-tag --title "Marquee $TAG" --notes "$notes"

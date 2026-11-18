@@ -1,0 +1,16 @@
+* text=auto eol=lf
+*.bat text eol=crlf
+gradlew text eol=lf
+*.sh text eol=lf
+
+*.png binary
+*.jpg binary
+*.webp binary
+*.ttf binary
+*.jar binary
+*.apk binary
+
+# Generated or vendored files: keep them out of language statistics.
+app/src/test/resources/**/*.json linguist-generated=true
+docs/benchmarks/data/** linguist-generated=true
+app/src/main/assets/licenses/** linguist-vendored=true

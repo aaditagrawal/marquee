@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Cleartext HTTP is deliberately permitted.
+
+  Jellyfin's default and most common home setup is plain http:// on the local network
+  (for example http://jellyfin.local:8096), often with no hostname a public CA could certify.
+  Marquee must keep working there, so it cannot use Android's default cleartext block.
+
+  What this does NOT change:
+  - https:// servers are verified against the system trust store; user-installed CAs are not
+    trusted (Android's default for targetSdk 24+), and there is no certificate pinning bypass.
+  - The access token is only attached to requests for the configured server origin
+    (data.Session.isServerUrl), and OkHttp drops it on cross-host redirects.
+  - When the user types an address without a scheme, the login screen tries https:// first and
+    falls back to http:// only if https is unreachable; an untrusted certificate stops sign-in
+    instead (data.ServerProbe). The sign-in step labels http:// connections as unencrypted.
+
+  A stricter policy (cleartextTrafficPermitted="false", or a domain allowlist) would break every
+  http:// LAN server and any server reached by IP address. See docs/dev/BUILD_NOTES.md.
+-->
+<network-security-config>
+    <base-config cleartextTrafficPermitted="true">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+</network-security-config>

@@ -1,0 +1,54 @@
+Marquee mark, launcher icon and Android TV banner ("reel lattice")
+
+What it is
+  A round emblem in one colour, ink #0B0B0C on paper #FAFAF8 or the reverse.
+  A sea of overlapping film reels is drawn like seigaiha waves: each reel is
+  wound with bands of film around a windowed hub, and each row hides part of
+  the row behind it. An empty reel rises over them as the sun, under an arc of
+  sign bulbs. Nothing is outlined; the gaps between the shapes do the drawing.
+  At 16 to 32 px the reel is used alone. The wordmark "Marquee" is set in
+  Hanken Grotesk SemiBold.
+
+How it was made
+  design/brand/mark.py holds the geometry. design/brand/build_brand.py turns it
+  into the Android VectorDrawables, the favicon set, logo lockups and social
+  cards. The design and scripts were produced in November 2026 with an AI
+  assistant (Anthropic Claude) at the project owner's request, through several
+  rounds of studies, then reviewed and adopted by the owner as Marquee's
+  identity. The owner supplied two monochrome emblems as references for the
+  kind of look wanted (a round wave emblem and a banded sphere); nothing was
+  traced or copied from them. Seigaiha, the overlapping-arc wave pattern, is a
+  traditional motif in the public domain.
+  It replaces the "folded light" M (October 2026, made with Claude Opus 5.5).
+  design/icon/build_icons.py is kept as the shared drawing library (scene model,
+  VectorDrawable and SVG writers, wordmark outlining) and can still render the
+  old mark for reference; it no longer writes app resources by default.
+
+Regenerate (from the repository root):
+  uv run --no-project --with cairosvg --with fonttools --with uharfbuzz \
+      --with shapely --with pillow python design/brand/build_brand.py
+  Add --kit-only to leave app resources alone.
+
+Outputs
+  app/src/main/res/drawable-*/banner.png            TV banner (320x180 at xhdpi)
+  app/src/main/res/drawable/ic_launcher_background.xml
+  app/src/main/res/drawable/ic_launcher_foreground.xml
+  app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml  adaptive icon
+  app/src/main/res/mipmap-xhdpi/ic_launcher.png       96x96 legacy bitmap
+  app/src/debug/res/drawable-*/banner.png           same banner with a "DEV" tab
+  design/brand/favicon/, logo/, social/, sheet.png  web and repository kit
+
+Third-party material
+  Wordmark glyph outlines: Hanken Grotesk SemiBold (and Regular for the social
+  card tagline), Copyright 2021 The Hanken Grotesk Project Authors
+  (https://github.com/marcologous/hanken-grotesk),
+  SIL Open Font License 1.1 (design/fonts/OFL.txt). Only vector outlines of
+  the words are embedded; the font files are bundled separately under the same
+  licence. The mark is original geometry drawn by the script. No stock imagery,
+  third-party logos or trademarks are used.
+
+Licence
+  The artwork and these scripts are part of Marquee and are licensed under
+  GPL-3.0-or-later, like the code. The embedded glyph outlines remain under
+  OFL-1.1. See THIRD_PARTY_NOTICES.md, section 5, for the project's position on
+  the Marquee name and identity in forks.

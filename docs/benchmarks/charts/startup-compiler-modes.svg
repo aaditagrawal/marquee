@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="300" viewBox="0 0 920 300" role="img" aria-labelledby="t d">
+<title id="t">Cold start by ART compilation mode</title><desc id="d">verify (no AOT): HOME_READY [1749, 1769, 1794, 1933], am start TotalTime [790, 817, 862, 865]; speed-profile: HOME_READY [1535, 1679, 1721, 1943], am start TotalTime [606, 651, 664, 721]; speed (full AOT): HOME_READY [949, 998, 1032, 1130], am start TotalTime [579, 596, 596, 632]</desc>
+
+<style>
+  .bg{fill:#fcfcfb} .ink{fill:#0b0b0b} .ink2{fill:#52514e} .grid{stroke:#e2e1dc} .axis{stroke:#9a9890}
+  .ref{stroke:#6b6a64} .s1{fill:#2a78d6;stroke:#2a78d6} .s2{fill:#eb6834;stroke:#eb6834} .s3{fill:#1baf7a;stroke:#1baf7a}
+  .l1{stroke:#2a78d6;fill:none} .l2{stroke:#eb6834;fill:none} .l3{stroke:#1baf7a;fill:none} .link{stroke:#b9b7ae}
+  .ring{stroke:#fcfcfb}
+  text{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+  @media (prefers-color-scheme: dark){
+    .bg{fill:#1a1a19} .ink{fill:#f0efec} .ink2{fill:#c3c2b7} .grid{stroke:#33322f} .axis{stroke:#6f6e68}
+    .ref{stroke:#a3a29a} .s1{fill:#3987e5;stroke:#3987e5} .s2{fill:#d95926;stroke:#d95926} .s3{fill:#199e70;stroke:#199e70}
+    .l1{stroke:#3987e5;fill:none} .l2{stroke:#d95926;fill:none} .l3{stroke:#199e70;fill:none} .link{stroke:#55544f} .ring{stroke:#1a1a19}
+  }
+</style>
+
+<rect class="bg" x="0" y="0" width="920" height="300" rx="6"/>
+<text class="ink" x="24" y="26" font-size="16" text-anchor="start" font-weight="600">Cold start by ART compilation mode (same entry APK 67142546, 4 launches each)</text>
+<text class="ink2" x="24" y="44" font-size="12" text-anchor="start" font-weight="normal">Process-cold launches with warm disk/image cache and saved login. Early UI build (2026-10-12), before later optimisation.</text>
+<line class="grid" x1="150" y1="70" x2="150" y2="236" stroke-width="1"/>
+<text class="ink2" x="150" y="252" font-size="11" text-anchor="middle" font-weight="normal">0</text>
+<line class="grid" x1="241.2" y1="70" x2="241.2" y2="236" stroke-width="1"/>
+<text class="ink2" x="241.2" y="252" font-size="11" text-anchor="middle" font-weight="normal">250</text>
+<line class="grid" x1="332.5" y1="70" x2="332.5" y2="236" stroke-width="1"/>
+<text class="ink2" x="332.5" y="252" font-size="11" text-anchor="middle" font-weight="normal">500</text>
+<line class="grid" x1="423.8" y1="70" x2="423.8" y2="236" stroke-width="1"/>
+<text class="ink2" x="423.8" y="252" font-size="11" text-anchor="middle" font-weight="normal">750</text>
+<line class="grid" x1="515" y1="70" x2="515" y2="236" stroke-width="1"/>
+<text class="ink2" x="515" y="252" font-size="11" text-anchor="middle" font-weight="normal">1000</text>
+<line class="grid" x1="606.2" y1="70" x2="606.2" y2="236" stroke-width="1"/>
+<text class="ink2" x="606.2" y="252" font-size="11" text-anchor="middle" font-weight="normal">1250</text>
+<line class="grid" x1="697.5" y1="70" x2="697.5" y2="236" stroke-width="1"/>
+<text class="ink2" x="697.5" y="252" font-size="11" text-anchor="middle" font-weight="normal">1500</text>
+<line class="grid" x1="788.8" y1="70" x2="788.8" y2="236" stroke-width="1"/>
+<text class="ink2" x="788.8" y="252" font-size="11" text-anchor="middle" font-weight="normal">1750</text>
+<line class="grid" x1="880" y1="70" x2="880" y2="236" stroke-width="1"/>
+<text class="ink2" x="880" y="252" font-size="11" text-anchor="middle" font-weight="normal">2000</text>
+<text class="ink2" x="515" y="270" font-size="11" text-anchor="middle" font-weight="normal">milliseconds from process start</text>
+<line class="ref" x1="697.5" y1="64" x2="697.5" y2="236" stroke-width="1.2" stroke-dasharray="6 4"/>
+<text class="ink2" x="701.5" y="62" font-size="11" text-anchor="start" font-weight="normal">1.5 s target</text>
+<text class="ink" x="140" y="101.7" font-size="12.5" text-anchor="end" font-weight="normal">verify (no AOT)</text>
+<path class="s2" stroke-width="0" d="M438.4 99L444 104.7L438.4 110.3L432.7 104.7Z"/>
+<path class="s2" stroke-width="0" d="M448.2 99L453.8 104.7L448.2 110.3L442.6 104.7Z"/>
+<path class="s2" stroke-width="0" d="M464.6 99L470.3 104.7L464.6 110.3L459 104.7Z"/>
+<path class="s2" stroke-width="0" d="M465.7 99L471.4 104.7L465.7 110.3L460.1 104.7Z"/>
+<circle class="s1" cx="788.4" cy="90.7" r="4.5" stroke-width="0"/>
+<circle class="s1" cx="795.7" cy="90.7" r="4.5" stroke-width="0"/>
+<circle class="s1" cx="804.8" cy="90.7" r="4.5" stroke-width="0"/>
+<circle class="s1" cx="855.5" cy="90.7" r="4.5" stroke-width="0"/>
+<text class="ink" x="778.4" y="94.7" font-size="11" text-anchor="end" font-weight="normal">Home ready median 1781.5 ms</text>
+<text class="ink2" x="475.7" y="108.7" font-size="11" text-anchor="start" font-weight="normal">am start 839.5 ms</text>
+<text class="ink" x="140" y="157" font-size="12.5" text-anchor="end" font-weight="normal">speed-profile</text>
+<path class="s2" stroke-width="0" d="M371.2 154.4L376.8 160L371.2 165.6L365.6 160Z"/>
+<path class="s2" stroke-width="0" d="M387.6 154.4L393.2 160L387.6 165.6L382 160Z"/>
+<path class="s2" stroke-width="0" d="M392.4 154.4L398 160L392.4 165.6L386.7 160Z"/>
+<path class="s2" stroke-width="0" d="M413.2 154.4L418.8 160L413.2 165.6L407.5 160Z"/>
+<circle class="s1" cx="710.3" cy="146" r="4.5" stroke-width="0"/>
+<circle class="s1" cx="762.8" cy="146" r="4.5" stroke-width="0"/>
+<circle class="s1" cx="778.2" cy="146" r="4.5" stroke-width="0"/>
+<circle class="s1" cx="859.2" cy="146" r="4.5" stroke-width="0"/>
+<text class="ink" x="700.3" y="150" font-size="11" text-anchor="end" font-weight="normal">Home ready median 1700 ms</text>
+<text class="ink2" x="423.2" y="164" font-size="11" text-anchor="start" font-weight="normal">am start 657.5 ms</text>
+<text class="ink" x="140" y="212.3" font-size="12.5" text-anchor="end" font-weight="normal">speed (full AOT)</text>
+<path class="s2" stroke-width="0" d="M361.3 209.7L367 215.3L361.3 221L355.7 215.3Z"/>
+<path class="s2" stroke-width="0" d="M367.5 209.7L373.2 215.3L367.5 221L361.9 215.3Z"/>
+<path class="s2" stroke-width="0" d="M367.5 209.7L373.2 215.3L367.5 221L361.9 215.3Z"/>
+<path class="s2" stroke-width="0" d="M380.7 209.7L386.3 215.3L380.7 221L375.1 215.3Z"/>
+<circle class="s1" cx="496.4" cy="201.3" r="4.5" stroke-width="0"/>
+<circle class="s1" cx="514.3" cy="201.3" r="4.5" stroke-width="0"/>
+<circle class="s1" cx="526.7" cy="201.3" r="4.5" stroke-width="0"/>
+<circle class="s1" cx="562.5" cy="201.3" r="4.5" stroke-width="0"/>
+<text class="ink" x="572.5" y="205.3" font-size="11" text-anchor="start" font-weight="normal">Home ready median 1015 ms</text>
+<text class="ink2" x="390.7" y="219.3" font-size="11" text-anchor="start" font-weight="normal">am start 596 ms</text>
+<circle class="s1" cx="28" cy="284" r="4" stroke-width="0"/>
+<text class="ink" x="36" y="288" font-size="11" text-anchor="start" font-weight="normal">MARQUEE_HOME_READY (hero + first-row art drawn)</text>
+<path class="s2" stroke-width="0" d="M400 279L405 284L400 289L395 284Z"/>
+<text class="ink" x="408" y="288" font-size="11" text-anchor="start" font-weight="normal">am start -W TotalTime (first frame of the activity)</text>
+</svg>

@@ -1,0 +1,993 @@
+{
+  "schemaVersion": 1,
+  "fixture": "home-navigation.json",
+  "scope": "App Home/card composable scopes and named measure/placement nodes. Includes demand and bounded prefetch. Not hardware frame duration.",
+  "window": "Exactly one frame per key-down; two subsequent ticks assert no delayed motion.",
+  "focusTicks": 1,
+  "contextTicks": 1,
+  "counterSlackPerEvent": 2,
+  "events": [
+    {
+      "event": 0,
+      "keyCode": 22,
+      "repeat": 0,
+      "focusTicks": 1,
+      "contextTicks": 1,
+      "recompositions": 7,
+      "measures": 4,
+      "placements": 4,
+      "firstFrameMeasures": 2,
+      "scrollTicks": 1,
+      "pendingAnimations": 0,
+      "measuredAppKeyWorkMsBefore": 5.091758,
+      "measuredAppKeyWorkMsAfter": 0.959315
+    },
+    {
+      "event": 1,
+      "keyCode": 22,
+      "repeat": 0,
+      "focusTicks": 1,
+      "contextTicks": 1,
+      "recompositions": 7,
+      "measures": 4,
+      "placements": 4,
+      "firstFrameMeasures": 2,
+      "scrollTicks": 1,
+      "pendingAnimations": 0,
+      "measuredAppKeyWorkMsBefore": 2.06744,
+      "measuredAppKeyWorkMsAfter": 1.166096
+    },
+    {
+      "event": 2,
+      "keyCode": 21,
+      "repeat": 0,
+      "focusTicks": 1,
+      "contextTicks": 1,
+      "recompositions": 7,
+      "measures": 4,
+      "placements": 4,
+      "firstFrameMeasures": 2,
+      "scrollTicks": 1,
+      "pendingAnimations": 0,
+      "measuredAppKeyWorkMsBefore": 0.493214,
+      "measuredAppKeyWorkMsAfter": 1.134465
+    },
+    {
+      "event": 3,
+      "keyCode": 20,
+      "repeat": 0,
+      "focusTicks": 1,
+      "contextTicks": 1,
+      "recompositions": 23,
+      "measures": 18,
+      "placements": 18,
+      "firstFrameMeasures": 18,
+      "scrollTicks": 1,
+      "pendingAnimations": 0,
+      "measuredAppKeyWorkMsBefore": 0.411732,
+      "measuredAppKeyWorkMsAfter": 1.174605
+    },
+    {
+      "event": 4,
+      "keyCode": 22,
+      "repeat": 1,
+      "focusTicks": 1,
+      "contextTicks": 1,
+      "recompositions": 6,
+      "measures": 5,
+      "placements": 5,
+      "firstFrameMeasures": 5,
+      "scrollTicks": 1,
+      "pendingAnimations": 0,
+      "measuredAppKeyWorkMsBefore": 4.162352,
+      "measuredAppKeyWorkMsAfter": 1.304746
+    },
+    {
+      "event": 5,
+      "keyCode": 22,
+      "repeat": 2,
+      "focusTicks": 1,
+      "contextTicks": 1,
+      "recompositions": 6,
+      "measures": 5,
+      "placements": 5,
+      "firstFrameMeasures": 5,
+      "scrollTicks": 1,
+      "pendingAnimations": 0,
+      "measuredAppKeyWorkMsBefore": 4.396968,
+      "measuredAppKeyWorkMsAfter": 1.223856
+    },
+    {
+      "event": 6,
+      "keyCode": 20,
+      "repeat": 3,
+      "focusTicks": 1,
+      "contextTicks": 1,
+      "recompositions": 19,
+      "measures": 18,
+      "placements": 18,
+      "firstFrameMeasures": 18,
+      "scrollTicks": 1,
+      "pendingAnimations": 0,
+      "measuredAppKeyWorkMsBefore": 22.236179,
+      "measuredAppKeyWorkMsAfter": 1.591908
+    },
+    {
+      "event": 7,
+      "keyCode": 20,
+      "repeat": 4,
+      "focusTicks": 1,
+      "contextTicks": 1,
+      "recompositions": 20,
+      "measures": 21,
+      "placements": 21,
+      "firstFrameMeasures": 21,
+      "scrollTicks": 1,
+      "pendingAnimations": 0,
+      "measuredAppKeyWorkMsBefore": 20.719065,
+      "measuredAppKeyWorkMsAfter": 1.481077
+    },
+    {
+      "event": 8,
+      "keyCode": 19,
+      "repeat": 5,
+      "focusTicks": 1,
+      "contextTicks": 1,
+      "recompositions": 20,
+      "measures": 21,
+      "placements": 21,
+      "firstFrameMeasures": 21,
+      "scrollTicks": 1,
+      "pendingAnimations": 0,
+      "measuredAppKeyWorkMsBefore": 1.35895,
+      "measuredAppKeyWorkMsAfter": 0.852833
+    },
+    {
+      "event": 9,
+      "keyCode": 22,
+      "repeat": 6,
+      "focusTicks": 1,
+      "contextTicks": 1,
+      "recompositions": 5,
+      "measures": 5,
+      "placements": 5,
+      "firstFrameMeasures": 5,
+      "scrollTicks": 1,
+      "pendingAnimations": 0,
+      "measuredAppKeyWorkMsBefore": 4.074999,
+      "measuredAppKeyWorkMsAfter": 1.368366
+    }
+  ],
+  "screens": {
+    "library": [
+      {
+        "focusTicks": 1,
+        "scrollTicks": 1,
+        "pendingAnimations": 0,
+        "recompositions": 2,
+        "firstFrameRecompositions": 2,
+        "measures": 0,
+        "firstFrameMeasures": 0,
+        "placements": 0
+      },
+      {
+        "focusTicks": 1,
+        "scrollTicks": 1,
+        "pendingAnimations": 0,
+        "recompositions": 2,
+        "firstFrameRecompositions": 2,
+        "measures": 0,
+        "firstFrameMeasures": 0,
+        "placements": 0
+      },
+      {
+        "focusTicks": 1,
+        "scrollTicks": 1,
+        "pendingAnimations": 0,
+        "recompositions": 2,
+        "firstFrameRecompositions": 2,
+        "measures": 0,
+        "firstFrameMeasures": 0,
+        "placements": 0
+      },
+      {
+        "focusTicks": 1,
+        "scrollTicks": 1,
+        "pendingAnimations": 0,
+        "recompositions": 20,
+        "firstFrameRecompositions": 20,
+        "measures": 0,
+        "firstFrameMeasures": 0,
+        "placements": 7
+      },
+      {
+        "focusTicks": 1,
+        "scrollTicks": 1,
+        "pendingAnimations": 0,
+        "recompositions": 20,
+        "firstFrameRecompositions": 20,
+        "measures": 19,
+        "firstFrameMeasures": 19,
+        "placements": 19
+      },
+      {
+        "focusTicks": 1,
+        "scrollTicks": 1,
+        "pendingAnimations": 0,
+        "recompositions": 2,
+        "firstFrameRecompositions": 2,
+        "measures": 0,
+        "firstFrameMeasures": 0,
+        "placements": 7
+      },
+      {
+        "focusTicks": 1,
+        "scrollTicks": 1,
+        "pendingAnimations": 0,
+        "recompositions": 2,
+        "firstFrameRecompositions": 2,
+        "measures": 0,
+        "firstFrameMeasures": 0,
+        "placements": 0
+      },
+      {
+        "focusTicks": 1,
+        "scrollTicks": 1,
+        "pendingAnimations": 0,
+        "recompositions": 2,
+        "firstFrameRecompositions": 2,
+        "measures": 0,
+        "firstFrameMeasures": 0,
+        "placements": 0
+      },
+      {
+        "focusTicks": 1,
+        "scrollTicks": 1,
+        "pendingAnimations": 0,
+        "recompositions": 2,
+        "firstFrameRecompositions": 2,
+        "measures": 0,
+        "firstFrameMeasures": 0,
+        "placements": 0
+      },
+      {
+        "focusTicks": 1,
+        "scrollTicks": 1,
+        "pendingAnimations": 0,
+        "recompositions": 2,
+        "firstFrameRecompositions": 2,
+        "measures": 0,
+        "firstFrameMeasures": 0,
+        "placements": 0
+      }
+    ],
+    "series": [
+      {
+        "focusTicks": 1,
+        "scrollTicks": 1,
+        "pendingAnimations": 0,
+        "recompositions": 19,
+        "firstFrameRecompositions": 19,
+        "measures": 0,
+        "firstFrameMeasures": 0,
+        "placements": 9
+      },
+      {
+        "focusTicks": 1,
+        "scrollTicks": 1,
+        "pendingAnimations": 0,
+        "recompositions": 0,
+        "firstFrameRecompositions": 0,
+        "measures": 0,
+        "firstFrameMeasures": 0,
+        "placements": 0
+      },
+      {
+        "focusTicks": 1,
+        "scrollTicks": 1,
+        "pendingAnimations": 0,
+        "recompositions": 3,
+        "firstFrameRecompositions": 3,
+        "measures": 3,
+        "firstFrameMeasures": 3,
+        "placements": 3
+      },
+      {
+        "focusTicks": 1,
+        "scrollTicks": 1,
+        "pendingAnimations": 0,
+        "recompositions": 2,
+        "firstFrameRecompositions": 2,
+        "measures": 2,
+        "firstFrameMeasures": 2,
+        "placements": 2
+      },
+      {
+        "focusTicks": 1,
+        "scrollTicks": 1,
+        "pendingAnimations": 0,
+        "recompositions": 17,
+        "firstFrameRecompositions": 17,
+        "measures": 15,
+        "firstFrameMeasures": 15,
+        "placements": 15
+      },
+      {
+        "focusTicks": 1,
+        "scrollTicks": 1,
+        "pendingAnimations": 0,
+        "recompositions": 3,
+        "firstFrameRecompositions": 3,
+        "measures": 3,
+        "firstFrameMeasures": 3,
+        "placements": 3
+      },
+      {
+        "focusTicks": 1,
+        "scrollTicks": 1,
+        "pendingAnimations": 0,
+        "recompositions": 0,
+        "firstFrameRecompositions": 0,
+        "measures": 0,
+        "firstFrameMeasures": 0,
+        "placements": 0
+      },
+      {
+        "focusTicks": 1,
+        "scrollTicks": 1,
+        "pendingAnimations": 0,
+        "recompositions": 2,
+        "firstFrameRecompositions": 2,
+        "measures": 0,
+        "firstFrameMeasures": 0,
+        "placements": 0
+      },
+      {
+        "focusTicks": 1,
+        "scrollTicks": 1,
+        "pendingAnimations": 0,
+        "recompositions": 0,
+        "firstFrameRecompositions": 0,
+        "measures": 0,
+        "firstFrameMeasures": 0,
+        "placements": 0
+      },
+      {
+        "focusTicks": 1,
+        "scrollTicks": 1,
+        "pendingAnimations": 0,
+        "recompositions": 0,
+        "firstFrameRecompositions": 0,
+        "measures": 0,
+        "firstFrameMeasures": 0,
+        "placements": 0
+      },
+      {
+        "focusTicks": 1,
+        "scrollTicks": 1,
+        "pendingAnimations": 0,
+        "recompositions": 3,
+        "firstFrameRecompositions": 3,
+        "measures": 3,
+        "firstFrameMeasures": 3,
+        "placements": 3
+      },
+      {
+        "focusTicks": 1,
+        "scrollTicks": 1,
+        "pendingAnimations": 0,
+        "recompositions": 2,
+        "firstFrameRecompositions": 2,
+        "measures": 2,
+        "firstFrameMeasures": 2,
+        "placements": 2
+      },
+      {
+        "focusTicks": 1,
+        "scrollTicks": 1,
+        "pendingAnimations": 0,
+        "recompositions": 0,
+        "firstFrameRecompositions": 0,
+        "measures": 0,
+        "firstFrameMeasures": 0,
+        "placements": 0
+      }
+    ],
+    "playerOsd": [
+      {
+        "focusTicks": 1,
+        "scrollTicks": 1,
+        "pendingAnimations": 0,
+        "appKeyWorkNanosExclusiveLimit": 4000000
+      },
+      {
+        "focusTicks": 1,
+        "scrollTicks": 1,
+        "pendingAnimations": 0,
+        "appKeyWorkNanosExclusiveLimit": 4000000
+      },
+      {
+        "focusTicks": 1,
+        "scrollTicks": 1,
+        "pendingAnimations": 0,
+        "appKeyWorkNanosExclusiveLimit": 4000000
+      },
+      {
+        "focusTicks": 1,
+        "scrollTicks": 1,
+        "pendingAnimations": 0,
+        "appKeyWorkNanosExclusiveLimit": 4000000
+      },
+      {
+        "focusTicks": 1,
+        "scrollTicks": 1,
+        "pendingAnimations": 0,
+        "appKeyWorkNanosExclusiveLimit": 4000000
+      },
+      {
+        "focusTicks": 1,
+        "scrollTicks": 1,
+        "pendingAnimations": 0,
+        "appKeyWorkNanosExclusiveLimit": 4000000
+      },
+      {
+        "focusTicks": 1,
+        "scrollTicks": 1,
+        "pendingAnimations": 0,
+        "appKeyWorkNanosExclusiveLimit": 4000000
+      },
+      {
+        "focusTicks": 1,
+        "scrollTicks": 1,
+        "pendingAnimations": 0,
+        "appKeyWorkNanosExclusiveLimit": 4000000
+      },
+      {
+        "focusTicks": 1,
+        "scrollTicks": 1,
+        "pendingAnimations": 0,
+        "appKeyWorkNanosExclusiveLimit": 4000000
+      },
+      {
+        "focusTicks": 1,
+        "scrollTicks": 1,
+        "pendingAnimations": 0,
+        "appKeyWorkNanosExclusiveLimit": 4000000
+      },
+      {
+        "focusTicks": 1,
+        "scrollTicks": 1,
+        "pendingAnimations": 0,
+        "appKeyWorkNanosExclusiveLimit": 4000000
+      },
+      {
+        "focusTicks": 1,
+        "scrollTicks": 1,
+        "pendingAnimations": 0,
+        "appKeyWorkNanosExclusiveLimit": 4000000
+      },
+      {
+        "focusTicks": 1,
+        "scrollTicks": 1,
+        "pendingAnimations": 0,
+        "appKeyWorkNanosExclusiveLimit": 4000000
+      },
+      {
+        "focusTicks": 1,
+        "scrollTicks": 1,
+        "pendingAnimations": 0,
+        "appKeyWorkNanosExclusiveLimit": 4000000
+      },
+      {
+        "focusTicks": 1,
+        "scrollTicks": 1,
+        "pendingAnimations": 0,
+        "appKeyWorkNanosExclusiveLimit": 4000000
+      }
+    ]
+  },
+  "screensMethod": {
+    "fixture": "QA OfflineFixtures/OfflineServer, preloaded image doubles and seeded models",
+    "sdk": 30,
+    "densityDpi": 320,
+    "frameMs": 16,
+    "comparison": "Same-code old scroll/section/FocusFinder control vs INSTANT candidate; same shared components/cached captions and preloaded fixtures",
+    "counts": "App-owned composition completions including new lazy cells, measure and placement scopes; not every Compose internal node or TV frame duration",
+    "limits": "Every app body <4ms; focus/scroll =1 observed frame; 0 running animation callbacks; nonzero instrumented work candidate+1, zero stays zero",
+    "pagingVisibleCellMeasureLimit": 0,
+    "loadingChecks": "Library initial focus before data, stable focus through hydration, no focus stealing from Sort; season placeholder handoff and Search feedback within1 tick",
+    "window": "Exactly one observed UI frame after key-down; late scroll stability checked separately",
+    "mainThreadMeasurement": "Injected ThreadMXBean.currentThreadCpuTime around app key-down bodies and synchronous focus callbacks via ScreenKeyCpuTrace, null in production. One Down/Up screen or show/hide OSD warmup. App wall time and whole Android dispatch thread CPU retained separately; host scheduling pauses do not count as app CPU work. Native fixture omits real onCreate; before first coroutine use is included. Not A55 hardware timing."
+  },
+  "scrollTicks": 1,
+  "pendingAnimations": 0,
+  "mainThreadKeyBudgetMs": 4,
+  "keyTimingMethod": "Home root directional key-down handler plus focus callbacks in the first UI frame; nested intervals counted once; Compose/Android framework render and scheduling duration; not A55 physical hardware timing",
+  "firstFrameBudgetNote": "Event3 now performs all row-layout work in frame1 instead of spreading it over scroll ticks; existing total composition/measure/placement limits retained.",
+  "mainThreadKeyTiming": {
+    "method": "System.nanoTime on JVM Android main; non-nested intervals, no timing overhead when observer is null",
+    "baselineScope": "Original Home onFocused callback, including immediate list remeasurement and prefetch URL/list creation",
+    "candidateScope": "Home root directional key-down handler plus focus callbacks in the first UI frame; nested intervals counted once",
+    "excludes": "Compose/Android framework render and scheduling duration; not A55 physical hardware timing",
+    "before": {
+      "samplesMs": [
+        5.091758,
+        2.06744,
+        0.493214,
+        0.411732,
+        4.162352,
+        4.396968,
+        22.236179,
+        20.719065,
+        1.35895,
+        4.074999
+      ],
+      "medianMs": 4.1186755,
+      "maxMs": 22.236179
+    },
+    "after": {
+      "samplesMs": [
+        0.959315,
+        1.166096,
+        1.134465,
+        1.174605,
+        1.304746,
+        1.223856,
+        1.591908,
+        1.481077,
+        0.852833,
+        1.368366
+      ],
+      "medianMs": 1.1992305,
+      "maxMs": 1.591908
+    },
+    "budgetMs": 4
+  },
+  "screenKeyTimings": {
+    "library": {
+      "beforeMaxAppKeyMs": 1.437467,
+      "afterMaxAppKeyMs": 1.163536,
+      "beforeMedianAppKeyMs": 1.0812895,
+      "afterMedianAppKeyMs": 0.908619,
+      "events": [
+        {
+          "event": 0,
+          "key": "Key code: 94489280512",
+          "beforeAppKeyNanos": 1437467,
+          "afterAppKeyNanos": 914594,
+          "beforeAppWallNanos": 1522661,
+          "afterAppWallNanos": 917156,
+          "afterFocusTicks": 1,
+          "afterScrollTicks": 1,
+          "afterPendingAnimations": 0
+        },
+        {
+          "event": 1,
+          "key": "Key code: 94489280512",
+          "beforeAppKeyNanos": 1140855,
+          "afterAppKeyNanos": 1162215,
+          "beforeAppWallNanos": 1141098,
+          "afterAppWallNanos": 1156356,
+          "afterFocusTicks": 1,
+          "afterScrollTicks": 1,
+          "afterPendingAnimations": 0
+        },
+        {
+          "event": 2,
+          "key": "Key code: 90194313216",
+          "beforeAppKeyNanos": 1070955,
+          "afterAppKeyNanos": 895044,
+          "beforeAppWallNanos": 1068258,
+          "afterAppWallNanos": 890297,
+          "afterFocusTicks": 1,
+          "afterScrollTicks": 1,
+          "afterPendingAnimations": 0
+        },
+        {
+          "event": 3,
+          "key": "Key code: 85899345920",
+          "beforeAppKeyNanos": 1091624,
+          "afterAppKeyNanos": 902644,
+          "beforeAppWallNanos": 1130148,
+          "afterAppWallNanos": 897626,
+          "afterFocusTicks": 1,
+          "afterScrollTicks": 1,
+          "afterPendingAnimations": 0
+        },
+        {
+          "event": 4,
+          "key": "Key code: 85899345920",
+          "beforeAppKeyNanos": 1254775,
+          "afterAppKeyNanos": 1163536,
+          "beforeAppWallNanos": 1247939,
+          "afterAppWallNanos": 1162927,
+          "afterFocusTicks": 1,
+          "afterScrollTicks": 1,
+          "afterPendingAnimations": 0
+        },
+        {
+          "event": 5,
+          "key": "Key code: 81604378624",
+          "beforeAppKeyNanos": 1124385,
+          "afterAppKeyNanos": 1040385,
+          "beforeAppWallNanos": 1116918,
+          "afterAppWallNanos": 1034701,
+          "afterFocusTicks": 1,
+          "afterScrollTicks": 1,
+          "afterPendingAnimations": 0
+        },
+        {
+          "event": 6,
+          "key": "Key code: 94489280512",
+          "beforeAppKeyNanos": 1065626,
+          "afterAppKeyNanos": 1106595,
+          "beforeAppWallNanos": 1119589,
+          "afterAppWallNanos": 1123858,
+          "afterFocusTicks": 1,
+          "afterScrollTicks": 1,
+          "afterPendingAnimations": 0
+        },
+        {
+          "event": 7,
+          "key": "Key code: 94489280512",
+          "beforeAppKeyNanos": 764593,
+          "afterAppKeyNanos": 794874,
+          "beforeAppWallNanos": 759986,
+          "afterAppWallNanos": 790290,
+          "afterFocusTicks": 1,
+          "afterScrollTicks": 1,
+          "afterPendingAnimations": 0
+        },
+        {
+          "event": 8,
+          "key": "Key code: 90194313216",
+          "beforeAppKeyNanos": 681533,
+          "afterAppKeyNanos": 688454,
+          "beforeAppWallNanos": 676705,
+          "afterAppWallNanos": 691584,
+          "afterFocusTicks": 1,
+          "afterScrollTicks": 1,
+          "afterPendingAnimations": 0
+        },
+        {
+          "event": 9,
+          "key": "Key code: 81604378624",
+          "beforeAppKeyNanos": 818923,
+          "afterAppKeyNanos": 757324,
+          "beforeAppWallNanos": 866487,
+          "afterAppWallNanos": 761201,
+          "afterFocusTicks": 1,
+          "afterScrollTicks": 1,
+          "afterPendingAnimations": 0
+        }
+      ]
+    },
+    "series": {
+      "beforeMaxAppKeyMs": 4.593922,
+      "afterMaxAppKeyMs": 1.674667,
+      "beforeMedianAppKeyMs": 1.365656,
+      "afterMedianAppKeyMs": 1.180215,
+      "events": [
+        {
+          "event": 0,
+          "key": "Key code: 85899345920",
+          "beforeAppKeyNanos": 1369006,
+          "afterAppKeyNanos": 1319746,
+          "beforeAppWallNanos": 1363320,
+          "afterAppWallNanos": 1349789,
+          "afterFocusTicks": 1,
+          "afterScrollTicks": 1,
+          "afterPendingAnimations": 0
+        },
+        {
+          "event": 1,
+          "key": "Key code: 85899345920",
+          "beforeAppKeyNanos": 1269895,
+          "afterAppKeyNanos": 1180215,
+          "beforeAppWallNanos": 1265250,
+          "afterAppWallNanos": 1173216,
+          "afterFocusTicks": 1,
+          "afterScrollTicks": 1,
+          "afterPendingAnimations": 0
+        },
+        {
+          "event": 2,
+          "key": "Key code: 90194313216",
+          "beforeAppKeyNanos": 1955069,
+          "afterAppKeyNanos": 1674667,
+          "beforeAppWallNanos": 1967474,
+          "afterAppWallNanos": 1661718,
+          "afterFocusTicks": 1,
+          "afterScrollTicks": 1,
+          "afterPendingAnimations": 0
+        },
+        {
+          "event": 3,
+          "key": "Key code: 94489280512",
+          "beforeAppKeyNanos": 1365656,
+          "afterAppKeyNanos": 1278185,
+          "beforeAppWallNanos": 1358390,
+          "afterAppWallNanos": 1269381,
+          "afterFocusTicks": 1,
+          "afterScrollTicks": 1,
+          "afterPendingAnimations": 0
+        },
+        {
+          "event": 4,
+          "key": "Key code: 85899345920",
+          "beforeAppKeyNanos": 4593922,
+          "afterAppKeyNanos": 1121196,
+          "beforeAppWallNanos": 4660844,
+          "afterAppWallNanos": 1172555,
+          "afterFocusTicks": 1,
+          "afterScrollTicks": 1,
+          "afterPendingAnimations": 0
+        },
+        {
+          "event": 5,
+          "key": "Key code: 94489280512",
+          "beforeAppKeyNanos": 1392035,
+          "afterAppKeyNanos": 1220755,
+          "beforeAppWallNanos": 1467571,
+          "afterAppWallNanos": 1241993,
+          "afterFocusTicks": 1,
+          "afterScrollTicks": 1,
+          "afterPendingAnimations": 0
+        },
+        {
+          "event": 6,
+          "key": "Key code: 90194313216",
+          "beforeAppKeyNanos": 1340226,
+          "afterAppKeyNanos": 1323846,
+          "beforeAppWallNanos": 1334080,
+          "afterAppWallNanos": 1321579,
+          "afterFocusTicks": 1,
+          "afterScrollTicks": 1,
+          "afterPendingAnimations": 0
+        },
+        {
+          "event": 7,
+          "key": "Key code: 81604378624",
+          "beforeAppKeyNanos": 2877853,
+          "afterAppKeyNanos": 1081015,
+          "beforeAppWallNanos": 2887262,
+          "afterAppWallNanos": 1075210,
+          "afterFocusTicks": 1,
+          "afterScrollTicks": 1,
+          "afterPendingAnimations": 0
+        },
+        {
+          "event": 8,
+          "key": "Key code: 81604378624",
+          "beforeAppKeyNanos": 1336607,
+          "afterAppKeyNanos": 1151625,
+          "beforeAppWallNanos": 1329629,
+          "afterAppWallNanos": 1221693,
+          "afterFocusTicks": 1,
+          "afterScrollTicks": 1,
+          "afterPendingAnimations": 0
+        },
+        {
+          "event": 9,
+          "key": "Key code: 85899345920",
+          "beforeAppKeyNanos": 1162915,
+          "afterAppKeyNanos": 1044975,
+          "beforeAppWallNanos": 1155829,
+          "afterAppWallNanos": 1228344,
+          "afterFocusTicks": 1,
+          "afterScrollTicks": 1,
+          "afterPendingAnimations": 0
+        },
+        {
+          "event": 10,
+          "key": "Key code: 90194313216",
+          "beforeAppKeyNanos": 1639588,
+          "afterAppKeyNanos": 1045495,
+          "beforeAppWallNanos": 1690282,
+          "afterAppWallNanos": 1067528,
+          "afterFocusTicks": 1,
+          "afterScrollTicks": 1,
+          "afterPendingAnimations": 0
+        },
+        {
+          "event": 11,
+          "key": "Key code: 94489280512",
+          "beforeAppKeyNanos": 1010043,
+          "afterAppKeyNanos": 1099096,
+          "beforeAppWallNanos": 1038968,
+          "afterAppWallNanos": 1100008,
+          "afterFocusTicks": 1,
+          "afterScrollTicks": 1,
+          "afterPendingAnimations": 0
+        },
+        {
+          "event": 12,
+          "key": "Key code: 81604378624",
+          "beforeAppKeyNanos": 813164,
+          "afterAppKeyNanos": 1230466,
+          "beforeAppWallNanos": 830096,
+          "afterAppWallNanos": 1257172,
+          "afterFocusTicks": 1,
+          "afterScrollTicks": 1,
+          "afterPendingAnimations": 0
+        }
+      ]
+    },
+    "player-osd": {
+      "beforeMaxAppKeyMs": 26.230551,
+      "afterMaxAppKeyMs": 2.883023,
+      "beforeMedianAppKeyMs": 0.801044,
+      "afterMedianAppKeyMs": 0.518733,
+      "events": [
+        {
+          "event": 0,
+          "key": 19,
+          "beforeAppKeyNanos": 3144735,
+          "afterAppKeyNanos": 2883023,
+          "beforeAppWallNanos": 3117473,
+          "afterAppWallNanos": 2855860,
+          "afterFocusTicks": 1,
+          "afterScrollTicks": 1,
+          "afterPendingAnimations": 0
+        },
+        {
+          "event": 1,
+          "key": 22,
+          "beforeAppKeyNanos": 4365900,
+          "afterAppKeyNanos": 1233085,
+          "beforeAppWallNanos": 4395633,
+          "afterAppWallNanos": 1228202,
+          "afterFocusTicks": 1,
+          "afterScrollTicks": 1,
+          "afterPendingAnimations": 0
+        },
+        {
+          "event": 2,
+          "key": 22,
+          "beforeAppKeyNanos": 801044,
+          "afterAppKeyNanos": 791654,
+          "beforeAppWallNanos": 813996,
+          "afterAppWallNanos": 788139,
+          "afterFocusTicks": 1,
+          "afterScrollTicks": 1,
+          "afterPendingAnimations": 0
+        },
+        {
+          "event": 3,
+          "key": 21,
+          "beforeAppKeyNanos": 762202,
+          "afterAppKeyNanos": 841683,
+          "beforeAppWallNanos": 781165,
+          "afterAppWallNanos": 851677,
+          "afterFocusTicks": 1,
+          "afterScrollTicks": 1,
+          "afterPendingAnimations": 0
+        },
+        {
+          "event": 4,
+          "key": 22,
+          "beforeAppKeyNanos": 26230551,
+          "afterAppKeyNanos": 734963,
+          "beforeAppWallNanos": 26753187,
+          "afterAppWallNanos": 748921,
+          "afterFocusTicks": 1,
+          "afterScrollTicks": 1,
+          "afterPendingAnimations": 0
+        },
+        {
+          "event": 5,
+          "key": 22,
+          "beforeAppKeyNanos": 9642944,
+          "afterAppKeyNanos": 417490,
+          "beforeAppWallNanos": 9971353,
+          "afterAppWallNanos": 444993,
+          "afterFocusTicks": 1,
+          "afterScrollTicks": 1,
+          "afterPendingAnimations": 0
+        },
+        {
+          "event": 6,
+          "key": 22,
+          "beforeAppKeyNanos": 1293785,
+          "afterAppKeyNanos": 518733,
+          "beforeAppWallNanos": 1337660,
+          "afterAppWallNanos": 534080,
+          "afterFocusTicks": 1,
+          "afterScrollTicks": 1,
+          "afterPendingAnimations": 0
+        },
+        {
+          "event": 7,
+          "key": 22,
+          "beforeAppKeyNanos": 649403,
+          "afterAppKeyNanos": 346991,
+          "beforeAppWallNanos": 646165,
+          "afterAppWallNanos": 343547,
+          "afterFocusTicks": 1,
+          "afterScrollTicks": 1,
+          "afterPendingAnimations": 0
+        },
+        {
+          "event": 8,
+          "key": 22,
+          "beforeAppKeyNanos": 594223,
+          "afterAppKeyNanos": 361092,
+          "beforeAppWallNanos": 615264,
+          "afterAppWallNanos": 357506,
+          "afterFocusTicks": 1,
+          "afterScrollTicks": 1,
+          "afterPendingAnimations": 0
+        },
+        {
+          "event": 9,
+          "key": 22,
+          "beforeAppKeyNanos": 576352,
+          "afterAppKeyNanos": 367492,
+          "beforeAppWallNanos": 573034,
+          "afterAppWallNanos": 364006,
+          "afterFocusTicks": 1,
+          "afterScrollTicks": 1,
+          "afterPendingAnimations": 0
+        },
+        {
+          "event": 10,
+          "key": 22,
+          "beforeAppKeyNanos": 594753,
+          "afterAppKeyNanos": 372271,
+          "beforeAppWallNanos": 596484,
+          "afterAppWallNanos": 368946,
+          "afterFocusTicks": 1,
+          "afterScrollTicks": 1,
+          "afterPendingAnimations": 0
+        },
+        {
+          "event": 11,
+          "key": 22,
+          "beforeAppKeyNanos": 583193,
+          "afterAppKeyNanos": 336162,
+          "beforeAppWallNanos": 597424,
+          "afterAppWallNanos": 333007,
+          "afterFocusTicks": 1,
+          "afterScrollTicks": 1,
+          "afterPendingAnimations": 0
+        },
+        {
+          "event": 12,
+          "key": 21,
+          "beforeAppKeyNanos": 1280504,
+          "afterAppKeyNanos": 946955,
+          "beforeAppWallNanos": 1408570,
+          "afterAppWallNanos": 983832,
+          "afterFocusTicks": 1,
+          "afterScrollTicks": 1,
+          "afterPendingAnimations": 0
+        },
+        {
+          "event": 13,
+          "key": 20,
+          "beforeAppKeyNanos": 5627906,
+          "afterAppKeyNanos": 480882,
+          "beforeAppWallNanos": 5747072,
+          "afterAppWallNanos": 510091,
+          "afterFocusTicks": 1,
+          "afterScrollTicks": 1,
+          "afterPendingAnimations": 0
+        },
+        {
+          "event": 14,
+          "key": 4,
+          "beforeAppKeyNanos": 560812,
+          "afterAppKeyNanos": 676072,
+          "beforeAppWallNanos": 556704,
+          "afterAppWallNanos": 718373,
+          "afterFocusTicks": 1,
+          "afterScrollTicks": 1,
+          "afterPendingAnimations": 0
+        }
+      ]
+    }
+  },
+  "containerMeasureBudget": 0,
+  "containerPlacementBudget": 0,
+  "r10ColdSlotCounterNote": "Home events7/8 and series events2/10 count newly revealed retained slots, including the partially visible landscape card and two cards on each side. CPU limit4ms, focus/context/scroll1frame, motion0; in-window container measure/placement strictly0."
+}

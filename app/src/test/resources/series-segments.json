@@ -1,0 +1,226 @@
+[
+ {
+  "item": "55befd79ba87b3df7abb43dfaae74878",
+  "episode": 1,
+  "runtime_ms": 3500960,
+  "segments": [
+   {
+    "Id": "838829a8a7323bda30d11d37ed586d38",
+    "ItemId": "55befd79ba87b3df7abb43dfaae74878",
+    "Type": "Intro",
+    "StartTicks": 0,
+    "EndTicks": 480480695
+   },
+   {
+    "Id": "b98a5aa2d06fe7201872a5a70b121bd3",
+    "ItemId": "55befd79ba87b3df7abb43dfaae74878",
+    "Type": "Outro",
+    "StartTicks": 34040271504,
+    "EndTicks": 34194161587
+   }
+  ]
+ },
+ {
+  "item": "a3d53acefa086ebcd211b4dd4c110cf4",
+  "episode": 2,
+  "runtime_ms": 3576480,
+  "segments": [
+   {
+    "Id": "e3f76a9d4cc5707dd0f02b8f77afbecf",
+    "ItemId": "a3d53acefa086ebcd211b4dd4c110cf4",
+    "Type": "Intro",
+    "StartTicks": 0,
+    "EndTicks": 480480000
+   },
+   {
+    "Id": "95e4ea79c96404da2906f770fe9b8b27",
+    "ItemId": "a3d53acefa086ebcd211b4dd4c110cf4",
+    "Type": "Outro",
+    "StartTicks": 35013429478,
+    "EndTicks": 35275239765
+   }
+  ]
+ },
+ {
+  "item": "d06e4ab0a732d729cfef49e225ee61e3",
+  "episode": 3,
+  "runtime_ms": 3630688,
+  "segments": [
+   {
+    "Id": "25f79c184a34d3c1a398c557c8054a6b",
+    "ItemId": "d06e4ab0a732d729cfef49e225ee61e3",
+    "Type": "Intro",
+    "StartTicks": 0,
+    "EndTicks": 480480000
+   },
+   {
+    "Id": "de4fb72518b88df5c550c1ad5e75539d",
+    "ItemId": "d06e4ab0a732d729cfef49e225ee61e3",
+    "Type": "Outro",
+    "StartTicks": 35609998972,
+    "EndTicks": 35875839259
+   }
+  ]
+ },
+ {
+  "item": "a9aeb90c450c74d2ab373b6ce20c7b9b",
+  "episode": 4,
+  "runtime_ms": 3414080,
+  "segments": [
+   {
+    "Id": "beb10b4e87566eef42bb7f1fcc3fd608",
+    "ItemId": "a9aeb90c450c74d2ab373b6ce20c7b9b",
+    "Type": "Intro",
+    "StartTicks": 0,
+    "EndTicks": 480480000
+   },
+   {
+    "Id": "1f4e33915f8d93e48d004c034f014e92",
+    "ItemId": "a9aeb90c450c74d2ab373b6ce20c7b9b",
+    "Type": "Outro",
+    "StartTicks": 33417912622,
+    "EndTicks": 33673642910
+   }
+  ]
+ },
+ {
+  "item": "fa5fe4a9cd4c1d17ada0b7d4557dbb8a",
+  "episode": 5,
+  "runtime_ms": 3510400,
+  "segments": [
+   {
+    "Id": "66746874ac4bac79bedff751040999c3",
+    "ItemId": "fa5fe4a9cd4c1d17ada0b7d4557dbb8a",
+    "Type": "Intro",
+    "StartTicks": 0,
+    "EndTicks": 480480000
+   },
+   {
+    "Id": "6e49853493f2164d73f1c37ead523203",
+    "ItemId": "fa5fe4a9cd4c1d17ada0b7d4557dbb8a",
+    "Type": "Outro",
+    "StartTicks": 34378635827,
+    "EndTicks": 34674639259
+   }
+  ]
+ },
+ {
+  "item": "31ca327b253546cef537e3d76d8721b3",
+  "episode": 6,
+  "runtime_ms": 3488128,
+  "segments": [
+   {
+    "Id": "5dd675eaa96d8fa862921f6d4624b2fd",
+    "ItemId": "31ca327b253546cef537e3d76d8721b3",
+    "Type": "Intro",
+    "StartTicks": 0,
+    "EndTicks": 480480000
+   },
+   {
+    "Id": "b361e7224365c6d4caeff796f3826880",
+    "ItemId": "31ca327b253546cef537e3d76d8721b3",
+    "Type": "Outro",
+    "StartTicks": 34174491791,
+    "EndTicks": 34474435222
+   }
+  ]
+ },
+ {
+  "item": "64dfbc280127e66ccb8318a783b3330e",
+  "episode": 7,
+  "runtime_ms": 3645952,
+  "segments": [
+   {
+    "Id": "28e61e39d9b59ef724165935f4d05e3c",
+    "ItemId": "64dfbc280127e66ccb8318a783b3330e",
+    "Type": "Intro",
+    "StartTicks": 0,
+    "EndTicks": 480480000
+   },
+   {
+    "Id": "30c9bb93e2001b2fc8c239162484d123",
+    "ItemId": "64dfbc280127e66ccb8318a783b3330e",
+    "Type": "Outro",
+    "StartTicks": 35737871020,
+    "EndTicks": 35995964897
+   }
+  ]
+ },
+ {
+  "item": "d8e4bbca5454660895f39a581f23caa1",
+  "episode": 8,
+  "runtime_ms": 3584160,
+  "segments": [
+   {
+    "Id": "e0ab97ef9c84bb94185e80d8898e3c7a",
+    "ItemId": "d8e4bbca5454660895f39a581f23caa1",
+    "Type": "Intro",
+    "StartTicks": 0,
+    "EndTicks": 480480000
+   },
+   {
+    "Id": "4edb795ad60eaae9deeac72bf271e0b9",
+    "ItemId": "d8e4bbca5454660895f39a581f23caa1",
+    "Type": "Outro",
+    "StartTicks": 35159579743,
+    "EndTicks": 35435403620
+   }
+  ]
+ },
+ {
+  "item": "1fa761e3e680adca813c5d5592d975ce",
+  "episode": 9,
+  "runtime_ms": 3142784,
+  "segments": [
+   {
+    "Id": "b93c57052b81c5c0416c6e40bd887267",
+    "ItemId": "1fa761e3e680adca813c5d5592d975ce",
+    "Type": "Intro",
+    "StartTicks": 0,
+    "EndTicks": 480480000
+   }
+  ]
+ },
+ {
+  "item": "e5bfbdf4ba9b04eb1a8f06937bdbbf9d",
+  "episode": 10,
+  "runtime_ms": 3258496,
+  "segments": [
+   {
+    "Id": "9b84c9a8094575e8790a67552b6f9282",
+    "ItemId": "e5bfbdf4ba9b04eb1a8f06937bdbbf9d",
+    "Type": "Intro",
+    "StartTicks": 0,
+    "EndTicks": 480480000
+   },
+   {
+    "Id": "9305d8221fec1b07886a47f806afe35f",
+    "ItemId": "e5bfbdf4ba9b04eb1a8f06937bdbbf9d",
+    "Type": "Outro",
+    "StartTicks": 31871979803,
+    "EndTicks": 32152116825
+   }
+  ]
+ },
+ {
+  "item": "78cbc515514405e12526d9e9563b537c",
+  "episode": 11,
+  "runtime_ms": 3382176,
+  "segments": [
+   {
+    "Id": "2b2b965e4a6a5b0e47a973939eae4794",
+    "ItemId": "78cbc515514405e12526d9e9563b537c",
+    "Type": "Intro",
+    "StartTicks": 0,
+    "EndTicks": 480480000
+   },
+   {
+    "Id": "28738d9167c4ada5ad4b847a20af2045",
+    "ItemId": "78cbc515514405e12526d9e9563b537c",
+    "Type": "Outro",
+    "StartTicks": 33112494996,
+    "EndTicks": 33393362018
+   }
+  ]
+ }
+]

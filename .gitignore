@@ -1,0 +1,34 @@
+.gradle/
+build/
+local.properties
+*.jks
+*.keystore
+keystore.properties
+.kotlin/
+
+# IDEs and OS files
+.idea/
+*.iml
+.vscode/
+.DS_Store
+captures/
+
+# Python tooling (tools/, bench/)
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# Release outputs and signing material (never commit)
+dist/
+*.apk
+*.aab
+*.p12
+*.pem
+signing.properties
+
+# Benchmark captures (bench/README.md writes to results/; context.json holds the device's build
+# fingerprint) and optional maintainer exports read by tests (real library data). Never commit.
+results/
+bench/results/
+bench/evidence/

@@ -1,0 +1,13 @@
+media,descriptor
+media-A,"Movie, 3840x2160 HEVC Main10, Dolby Vision with enhancement layer (HDR10 base layer), TrueHD 7.1 Atmos, MKV. TV has no TrueHD decoder: server converts audio (E-AC3) and copies video."
+media-B,"Movie, 3164x2152 HEVC Main10, Dolby Vision + HDR10+ (PQ base), E-AC3 5.1 Atmos, MKV. Direct play."
+media-C,"Movie, 1920x804 HEVC Main10 SDR, AAC, external SRT subtitles. Direct play."
+media-D,"Movie, 1920x800 H.264 High SDR 23.976 fps, AC3/E-AC3 5.1. Direct play."
+media-E,"Movie, 1920x800 HEVC Main10 SDR, E-AC3 5.1. Direct play."
+media-F,"Series episode, 1920x804 HEVC Main10 SDR 24 fps, AAC 5.1. Direct play."
+media-G,"Series episode, 1920x1080 H.264 High SDR, E-AC3 2.0, intro/credits segments. Direct play."
+media-G2,Next episode of media-G (auto-advance target).
+media-H,"Movie, 3840x1608 HEVC Main10 HDR10, TrueHD 7.1 Atmos (converted), PGS subtitles copied."
+media-I,"Movie, 3840x1604 HEVC Main10 Dolby Vision + HDR10 base, DTS-HD MA 5.1 (converted), PGS subtitles copied."
+media-J,Movie selected for HEVC encode probe (server reason VideoCodecNotSupported).
+media-K,"Series episode, H.264 High10 source (server reason VideoProfileNotSupported)."

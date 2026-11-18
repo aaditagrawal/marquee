@@ -1,0 +1,453 @@
+{
+ "08fc059bc11df433f37d914cddf74a99": [
+  {
+   "Codec": "eac3",
+   "Language": "kor",
+   "DisplayTitle": "Korean - Default",
+   "IsDefault": true,
+   "Type": "Audio",
+   "Index": 1,
+   "Channels": 2
+  }
+ ],
+ "0a28dc5fba893f99f89c4eac541d9255": [
+  {
+   "Codec": "ac3",
+   "Language": "hin",
+   "DisplayTitle": "Hindi - Default",
+   "IsDefault": true,
+   "Type": "Audio",
+   "Index": 1,
+   "Channels": 2
+  }
+ ],
+ "0a3a66eb94ce764ae9e363dcebfbbd7e": [
+  {
+   "Codec": "aac",
+   "Language": "eng",
+   "DisplayTitle": "English - Default",
+   "IsDefault": true,
+   "Type": "Audio",
+   "Index": 1,
+   "Channels": 2
+  }
+ ],
+ "0adf7e9a32ebbacfff417b96b940862d": [
+  {
+   "Codec": "aac",
+   "Language": "hin",
+   "DisplayTitle": "Hindi - Default",
+   "IsDefault": true,
+   "Type": "Audio",
+   "Index": 1,
+   "Channels": 2
+  }
+ ],
+ "11009bf0ecbfac92a125ace29de9e6ff": [
+  {
+   "Codec": "eac3",
+   "Language": "hin",
+   "DisplayTitle": "Hindi - Default",
+   "IsDefault": true,
+   "Type": "Audio",
+   "Index": 1,
+   "Channels": 2
+  }
+ ],
+ "122dfd74a00f3cc8b2ee58a983e59a82": [
+  {
+   "Codec": "eac3",
+   "Language": "eng",
+   "DisplayTitle": "English - Default",
+   "IsDefault": true,
+   "Type": "Audio",
+   "Index": 1,
+   "Channels": 2
+  }
+ ],
+ "1901d63157e631c3b6c210693d71af0b": [
+  {
+   "Codec": "aac",
+   "Language": "eng",
+   "DisplayTitle": "English - Default",
+   "IsDefault": true,
+   "Type": "Audio",
+   "Index": 1,
+   "Channels": 2
+  }
+ ],
+ "19e8b4a7f8bba41e4a94945eec9d4b93": [
+  {
+   "Codec": "eac3",
+   "Language": "eng",
+   "DisplayTitle": "English - Default",
+   "IsDefault": true,
+   "Type": "Audio",
+   "Index": 1,
+   "Channels": 2
+  }
+ ],
+ "1a27dc4cedc0a81f5088736c39ac32e9": [
+  {
+   "Codec": "eac3",
+   "Language": "eng",
+   "DisplayTitle": "English - Default",
+   "IsDefault": true,
+   "Type": "Audio",
+   "Index": 1,
+   "Channels": 2
+  }
+ ],
+ "1afc7f60c299ed79378ad34fc28bc8b2": [
+  {
+   "Codec": "eac3",
+   "Language": "jpn",
+   "DisplayTitle": "Japanese - Default",
+   "IsDefault": true,
+   "Type": "Audio",
+   "Index": 1,
+   "Channels": 2
+  }
+ ],
+ "21b272e8ef9dfc3effbf6deffb312218": [
+  {
+   "Codec": "aac",
+   "Language": "hin",
+   "DisplayTitle": "Hindi - Default",
+   "IsDefault": true,
+   "Type": "Audio",
+   "Index": 1,
+   "Channels": 2
+  }
+ ],
+ "2ea8801b17835bc0d6352de1cb9de5d6": [
+  {
+   "Codec": "eac3",
+   "Language": "eng",
+   "DisplayTitle": "English - Default",
+   "IsDefault": true,
+   "Type": "Audio",
+   "Index": 1,
+   "Channels": 2
+  }
+ ],
+ "321209e43ef07e4d69ec53f6f5d1be1c": [
+  {
+   "Codec": "aac",
+   "Language": "eng",
+   "DisplayTitle": "English - Default",
+   "IsDefault": true,
+   "Type": "Audio",
+   "Index": 1,
+   "Channels": 2
+  }
+ ],
+ "36049b24bb10f6922b3b07faaec01bb4": [
+  {
+   "Codec": "aac",
+   "Language": "eng",
+   "DisplayTitle": "English - Default",
+   "IsDefault": true,
+   "Type": "Audio",
+   "Index": 1,
+   "Channels": 2
+  }
+ ],
+ "3ab55709788827d0f471c5800917f45e": [
+  {
+   "Codec": "eac3",
+   "Language": "jpn",
+   "DisplayTitle": "Japanese - Default",
+   "IsDefault": true,
+   "Type": "Audio",
+   "Index": 1,
+   "Channels": 2
+  }
+ ],
+ "413c3b670a84bfabd8c6ffca64971500": [
+  {
+   "Codec": "ac3",
+   "Language": "eng",
+   "DisplayTitle": "English - Default",
+   "IsDefault": true,
+   "Type": "Audio",
+   "Index": 1,
+   "Channels": 2
+  }
+ ],
+ "4b55cdc4f8eb4072254cd0cc885940ca": [
+  {
+   "Codec": "aac",
+   "Language": "eng",
+   "DisplayTitle": "English - Default",
+   "IsDefault": true,
+   "Type": "Audio",
+   "Index": 1,
+   "Channels": 2
+  }
+ ],
+ "4b9e0b917d714f1010ae373ff83af47d": [
+  {
+   "Codec": "ac3",
+   "Language": "kor",
+   "DisplayTitle": "Korean - Default",
+   "IsDefault": true,
+   "Type": "Audio",
+   "Index": 1,
+   "Channels": 2
+  }
+ ],
+ "741fb107ad9ad1e7b47e790a0e38026b": [
+  {
+   "Codec": "eac3",
+   "Language": "eng",
+   "DisplayTitle": "English - Default",
+   "IsDefault": true,
+   "Type": "Audio",
+   "Index": 1,
+   "Channels": 2
+  }
+ ],
+ "7c768d42ed506cd693285b29679ac1a3": [
+  {
+   "Codec": "eac3",
+   "Language": "eng",
+   "DisplayTitle": "English - Default",
+   "IsDefault": true,
+   "Type": "Audio",
+   "Index": 1,
+   "Channels": 2
+  }
+ ],
+ "85f7892a71e1d121bab9d92ce10da28b": [
+  {
+   "Codec": "eac3",
+   "Language": "eng",
+   "DisplayTitle": "English - Default",
+   "IsDefault": true,
+   "Type": "Audio",
+   "Index": 1,
+   "Channels": 2
+  }
+ ],
+ "85f88f49b866e839d7d1e853ec85a823": [
+  {
+   "Codec": "ac3",
+   "Language": "kor",
+   "DisplayTitle": "Korean - Default",
+   "IsDefault": true,
+   "Type": "Audio",
+   "Index": 1,
+   "Channels": 2
+  }
+ ],
+ "86e3d8e3557770e70c9971d7e6af8b32": [
+  {
+   "Codec": "aac",
+   "Language": "hin",
+   "DisplayTitle": "Hindi - Default",
+   "IsDefault": true,
+   "Type": "Audio",
+   "Index": 1,
+   "Channels": 2
+  }
+ ],
+ "9ba81adef6a80a3ea138e1234697aa73": [
+  {
+   "Codec": "ac3",
+   "Language": "eng",
+   "DisplayTitle": "English - Default",
+   "IsDefault": true,
+   "Type": "Audio",
+   "Index": 1,
+   "Channels": 2
+  }
+ ],
+ "a3349dde5c7b5b9c36aae9c86d10f15f": [
+  {
+   "Codec": "aac",
+   "Language": "hin",
+   "DisplayTitle": "Hindi - Default",
+   "IsDefault": true,
+   "Type": "Audio",
+   "Index": 1,
+   "Channels": 2
+  }
+ ],
+ "a5a9ad20f991df30bb2aae7dc50baa80": [
+  {
+   "Codec": "eac3",
+   "Language": "eng",
+   "DisplayTitle": "English - Default",
+   "IsDefault": true,
+   "Type": "Audio",
+   "Index": 1,
+   "Channels": 2
+  }
+ ],
+ "b29699db5bbae8eb00116045fb55ee90": [
+  {
+   "Codec": "eac3",
+   "Language": "eng",
+   "DisplayTitle": "English - Default",
+   "IsDefault": true,
+   "Type": "Audio",
+   "Index": 1,
+   "Channels": 2
+  }
+ ],
+ "b3246f9177a34a52d890865fe7aecad3": [
+  {
+   "Codec": "aac",
+   "Language": "kor",
+   "DisplayTitle": "Korean - Default",
+   "IsDefault": true,
+   "Type": "Audio",
+   "Index": 1,
+   "Channels": 2
+  }
+ ],
+ "b67250ad81949f43b8553966065dce7a": [
+  {
+   "Codec": "aac",
+   "Language": "hin",
+   "DisplayTitle": "Hindi - Default",
+   "IsDefault": true,
+   "Type": "Audio",
+   "Index": 1,
+   "Channels": 2
+  }
+ ],
+ "b931f19d5f67655efcf32411ea3d0e5d": [
+  {
+   "Codec": "eac3",
+   "Language": "hin",
+   "DisplayTitle": "Hindi - Default",
+   "IsDefault": true,
+   "Type": "Audio",
+   "Index": 1,
+   "Channels": 2
+  }
+ ],
+ "bcdc394c7e8a5a05091a94b3f1599b9d": [
+  {
+   "Codec": "ac3",
+   "Language": "eng",
+   "DisplayTitle": "English - Default",
+   "IsDefault": true,
+   "Type": "Audio",
+   "Index": 1,
+   "Channels": 2
+  }
+ ],
+ "bd596b2521bf27cc6dd4d79ed4bf90d1": [
+  {
+   "Codec": "aac",
+   "Language": "kor",
+   "DisplayTitle": "Korean - Default",
+   "IsDefault": true,
+   "Type": "Audio",
+   "Index": 1,
+   "Channels": 2
+  }
+ ],
+ "c6c4257540418201fdfc0561c2ed7be0": [
+  {
+   "Codec": "aac",
+   "Language": "kor",
+   "DisplayTitle": "Korean - Default",
+   "IsDefault": true,
+   "Type": "Audio",
+   "Index": 1,
+   "Channels": 2
+  }
+ ],
+ "d1f6f6b39f28f482bf2122ba743366bf": [
+  {
+   "Codec": "ac3",
+   "Language": "eng",
+   "DisplayTitle": "English - Default",
+   "IsDefault": true,
+   "Type": "Audio",
+   "Index": 1,
+   "Channels": 2
+  }
+ ],
+ "d684e1a11d14d57c0240f87af200a3a7": [
+  {
+   "Codec": "eac3",
+   "Language": "hin",
+   "DisplayTitle": "Hindi - Default",
+   "IsDefault": true,
+   "Type": "Audio",
+   "Index": 1,
+   "Channels": 2
+  }
+ ],
+ "d6e1cbbc6180697c1e005915152a07e5": [
+  {
+   "Codec": "aac",
+   "Language": "eng",
+   "DisplayTitle": "English - Default",
+   "IsDefault": true,
+   "Type": "Audio",
+   "Index": 1,
+   "Channels": 2
+  }
+ ],
+ "d81a9c3eb7b9d1fd07b6fa96db046811": [
+  {
+   "Codec": "ac3",
+   "Language": "eng",
+   "DisplayTitle": "English - Default",
+   "IsDefault": true,
+   "Type": "Audio",
+   "Index": 1,
+   "Channels": 2
+  }
+ ],
+ "d8553638abd0e30d07888333fa78055c": [
+  {
+   "Codec": "aac",
+   "Language": "eng",
+   "DisplayTitle": "English - Default",
+   "IsDefault": true,
+   "Type": "Audio",
+   "Index": 1,
+   "Channels": 2
+  }
+ ],
+ "ddab0f1e917a39b14196f4d804ec2554": [
+  {
+   "Codec": "eac3",
+   "Language": "kor",
+   "DisplayTitle": "Korean - Default",
+   "IsDefault": true,
+   "Type": "Audio",
+   "Index": 1,
+   "Channels": 2
+  }
+ ],
+ "de1666c110e5907f488fd04a4a51a56c": [
+  {
+   "Codec": "aac",
+   "Language": "eng",
+   "DisplayTitle": "English - Default",
+   "IsDefault": true,
+   "Type": "Audio",
+   "Index": 1,
+   "Channels": 2
+  }
+ ],
+ "ed91117c9e787d3427c6021b8b37a920": [
+  {
+   "Codec": "aac",
+   "Language": "zho",
+   "DisplayTitle": "Chinese - Default",
+   "IsDefault": true,
+   "Type": "Audio",
+   "Index": 1,
+   "Channels": 2
+  }
+ ]
+}

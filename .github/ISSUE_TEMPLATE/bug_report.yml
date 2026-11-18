@@ -1,0 +1,89 @@
+name: Bug report
+description: Something does not work as expected
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. **Do not paste access tokens, API keys, passwords, your server's
+        address or stream URLs.** Jellyfin URLs and logs often contain `api_key=`, `Token=` or
+        `Authorization:` values. Replace them with `REDACTED` before posting.
+
+        Security problems: please use private vulnerability reporting instead (see SECURITY.md).
+  - type: input
+    id: version
+    attributes:
+      label: Marquee version
+      description: Settings → About Marquee. Mention if it is a debug build or self-built.
+      placeholder: 0.2.0
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device model
+      placeholder: e.g. Sony BRAVIA VU1, NVIDIA Shield TV Pro, Chromecast with Google TV
+    validations:
+      required: true
+  - type: input
+    id: android
+    attributes:
+      label: Android version and ABI
+      description: "ABI is shown by `adb shell getprop ro.product.cpu.abilist`, if you know it."
+      placeholder: Android 11, armeabi-v7a
+    validations:
+      required: true
+  - type: input
+    id: jellyfin
+    attributes:
+      label: Jellyfin server version
+      placeholder: 10.11.x
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Sign-in / server setup
+        - Browsing (home, libraries, search, details)
+        - Playback start / buffering
+        - Audio
+        - Video / HDR
+        - Subtitles
+        - Skip intro / credits
+        - Remote control / focus
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened, and what did you expect?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open …
+        2. Press …
+    validations:
+      required: true
+  - type: textarea
+    id: media
+    attributes:
+      label: Media details (playback issues)
+      description: |
+        Container, video codec/profile/resolution/HDR type, audio codec and channels, subtitle format.
+        Jellyfin's "Media info" for the item has these. Enable Settings → Playback diagnostics in Marquee
+        and describe the play method it shows (Direct play / Remux / Transcode). Do not include file paths
+        or titles if you prefer not to.
+      placeholder: MKV · HEVC Main10 3840x2160 HDR10 · E-AC3 5.1 · PGS subtitles · Direct play
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs (optional, redacted)
+      description: "Filtered logcat for the app only. Remove URLs, tokens and `Authorization` headers first."
+      render: text

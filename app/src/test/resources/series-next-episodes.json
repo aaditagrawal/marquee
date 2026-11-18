@@ -1,0 +1,111 @@
+[
+ {
+  "itemId": "55befd79ba87b3df7abb43dfaae74878",
+  "episode": 1,
+  "returnedEpisodes": [
+   1,
+   2
+  ],
+  "nextEpisode": 2,
+  "nextItemId": "a3d53acefa086ebcd211b4dd4c110cf4"
+ },
+ {
+  "itemId": "a3d53acefa086ebcd211b4dd4c110cf4",
+  "episode": 2,
+  "returnedEpisodes": [
+   2,
+   3
+  ],
+  "nextEpisode": 3,
+  "nextItemId": "d06e4ab0a732d729cfef49e225ee61e3"
+ },
+ {
+  "itemId": "d06e4ab0a732d729cfef49e225ee61e3",
+  "episode": 3,
+  "returnedEpisodes": [
+   3,
+   4
+  ],
+  "nextEpisode": 4,
+  "nextItemId": "a9aeb90c450c74d2ab373b6ce20c7b9b"
+ },
+ {
+  "itemId": "a9aeb90c450c74d2ab373b6ce20c7b9b",
+  "episode": 4,
+  "returnedEpisodes": [
+   4,
+   5
+  ],
+  "nextEpisode": 5,
+  "nextItemId": "fa5fe4a9cd4c1d17ada0b7d4557dbb8a"
+ },
+ {
+  "itemId": "fa5fe4a9cd4c1d17ada0b7d4557dbb8a",
+  "episode": 5,
+  "returnedEpisodes": [
+   5,
+   6
+  ],
+  "nextEpisode": 6,
+  "nextItemId": "31ca327b253546cef537e3d76d8721b3"
+ },
+ {
+  "itemId": "31ca327b253546cef537e3d76d8721b3",
+  "episode": 6,
+  "returnedEpisodes": [
+   6,
+   7
+  ],
+  "nextEpisode": 7,
+  "nextItemId": "64dfbc280127e66ccb8318a783b3330e"
+ },
+ {
+  "itemId": "64dfbc280127e66ccb8318a783b3330e",
+  "episode": 7,
+  "returnedEpisodes": [
+   7,
+   8
+  ],
+  "nextEpisode": 8,
+  "nextItemId": "d8e4bbca5454660895f39a581f23caa1"
+ },
+ {
+  "itemId": "d8e4bbca5454660895f39a581f23caa1",
+  "episode": 8,
+  "returnedEpisodes": [
+   8,
+   9
+  ],
+  "nextEpisode": 9,
+  "nextItemId": "1fa761e3e680adca813c5d5592d975ce"
+ },
+ {
+  "itemId": "1fa761e3e680adca813c5d5592d975ce",
+  "episode": 9,
+  "returnedEpisodes": [
+   9,
+   10
+  ],
+  "nextEpisode": 10,
+  "nextItemId": "e5bfbdf4ba9b04eb1a8f06937bdbbf9d"
+ },
+ {
+  "itemId": "e5bfbdf4ba9b04eb1a8f06937bdbbf9d",
+  "episode": 10,
+  "returnedEpisodes": [
+   10,
+   11
+  ],
+  "nextEpisode": 11,
+  "nextItemId": "78cbc515514405e12526d9e9563b537c"
+ },
+ {
+  "itemId": "78cbc515514405e12526d9e9563b537c",
+  "episode": 11,
+  "returnedEpisodes": [
+   11
+  ],
+  "nextEpisode": null,
+  "nextItemId": null
+ }
+]

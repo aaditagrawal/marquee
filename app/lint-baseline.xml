@@ -1,0 +1,1023 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<issues format="6" by="lint 9.3.1" type="baseline" client="gradle" dependencies="false" name="AGP (9.3.1)" variant="all" version="9.3.1">
+
+    <issue
+        id="TranslucentOrientation"
+        message="Should not specify screen orientation with translucent or floating theme"
+        errorLine1="        &lt;item name=&quot;android:windowIsFloating&quot;>false&lt;/item>"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/res/values/themes.xml"
+            line="9"
+            column="21"/>
+        <location
+            file="src/main/AndroidManifest.xml"
+            line="29"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="DefaultLocale"
+        message="Implicitly using the default locale is a common source of bugs: Use `String.format(Locale, ...)` instead"
+        errorLine1="    item.communityRating?.takeIf { it > 0 }?.let { sep(); withStyle(SpanStyle(color = MarqueeColors.Yellow)) { append(&quot;★ &quot;) }; append(String.format(&quot;%.1f&quot;, it)) }"
+        errorLine2="                                                                                                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/ui/home/HomeScreen.kt"
+            line="329"
+            column="135"/>
+    </issue>
+
+    <issue
+        id="OldTargetApi"
+        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the `android.os.Build.VERSION_CODES` javadoc for details."
+        errorLine1="        targetSdk = 36"
+        errorLine2="        ~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle.kts"
+            line="49"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="ComposableNaming"
+        message="Composable functions that return Unit should start with an uppercase letter"
+        errorLine1="    fun composition(scope: String) {"
+        errorLine2="        ~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/ui/components/NavWorkTrace.kt"
+            line="33"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="ComposableNaming"
+        message="Composable functions that return Unit should start with an uppercase letter"
+        errorLine1="    private fun keyboardMode() {"
+        errorLine2="                ~~~~~~~~~~~~">
+        <location
+            file="src/test/java/com/mav/marquee/ui/library/ScreenNavigationTest.kt"
+            line="69"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="ModifierParameter"
+        message="Modifier parameter should be the first optional parameter"
+        errorLine1="private fun NavPill(text: String, key: String, selected: Boolean = false, modifier: Modifier = Modifier, onClick: () -> Unit) {"
+        errorLine2="                                                                          ~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/ui/home/HomeScreen.kt"
+            line="516"
+            column="75"/>
+    </issue>
+
+    <issue
+        id="UnnecessaryComposedModifier"
+        message="Unnecessary use of Modifier.composed"
+        errorLine1="): Modifier = composed {"
+        errorLine2="              ~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/ui/components/Focus.kt"
+            line="90"
+            column="15"/>
+    </issue>
+
+    <issue
+        id="DiscouragedApi"
+        message="Fixed screen orientations will be ignored in most cases, starting from Android 16. Android is moving toward a model where apps are expected to adapt to various orientations, display sizes, and aspect ratios."
+        errorLine1="            android:screenOrientation=&quot;landscape&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/AndroidManifest.xml"
+            line="34"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="DiscouragedApi"
+        message="Fixed screen orientations will be ignored in most cases, starting from Android 16. Android is moving toward a model where apps are expected to adapt to various orientations, display sizes, and aspect ratios."
+        errorLine1="            android:screenOrientation=&quot;landscape&quot;"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/AndroidManifest.xml"
+            line="48"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UnclosedTrace"
+        message="The `beginSection()` call is not always closed with a matching `endSection()` because the code in between may throw an exception"
+        errorLine1="    if (tracing) Trace.beginSection(section)"
+        errorLine2="                       ~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/ui/components/MeasureTrace.kt"
+            line="13"
+            column="24"/>
+    </issue>
+
+    <issue
+        id="UnclosedTrace"
+        message="The `beginSection()` call is not always closed with a matching `endSection()` because the code in between may return early"
+        errorLine1="        if (tracing) Trace.beginSection(section)"
+        errorLine2="                           ~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/ui/components/MeasureTrace.kt"
+            line="26"
+            column="28"/>
+    </issue>
+
+    <issue
+        id="UnclosedTrace"
+        message="The `beginSection()` call is not always closed with a matching `endSection()` because the code in between may return early"
+        errorLine1="        if (trace) Trace.beginSection(&quot;Marquee:NativeHomeRail:draw&quot;)"
+        errorLine2="                         ~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/ui/home/NativeHomePool.kt"
+            line="278"
+            column="26"/>
+    </issue>
+
+    <issue
+        id="UnclosedTrace"
+        message="The `beginSection()` call is not always closed with a matching `endSection()` because the code in between may throw an exception"
+        errorLine1="        if (tracing) android.os.Trace.beginSection(name)"
+        errorLine2="                                      ~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/ui/library/kit/ScreenPrefetch.kt"
+            line="30"
+            column="39"/>
+    </issue>
+
+    <issue
+        id="DrawAllocation"
+        message="Avoid object allocations during draw/layout operations (preallocate and reuse instead)"
+        errorLine1="                        } else drawPath(check, Color.White, style = Stroke(12.dp.toPx() * .11f * 1.3f, cap = StrokeCap.Round))"
+        errorLine2="                                                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/ui/components/NativeCatalogCard.kt"
+            line="220"
+            column="69"/>
+    </issue>
+
+    <issue
+        id="ObsoleteSdkInt"
+        message="This folder configuration (`v26`) is unnecessary; `minSdkVersion` is 26. Merge all the resources in this folder into `mipmap-anydpi`.">
+        <location
+            file="src/main/res/mipmap-anydpi-v26"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        message="Do not place Android context classes in static fields (static reference to `CardCaptionLayouts` which has field `app` pointing to `Context`); this is a memory leak"
+        errorLine1="/** One-line layouts are prepared on one worker, never during lazy item measurement. */"
+        errorLine2="^">
+        <location
+            file="src/main/java/com/mav/marquee/ui/components/CardCaptionLayouts.kt"
+            line="25"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        message="Do not place Android context classes in static fields; this is a memory leak"
+        errorLine1="    private lateinit var app: Context"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/ui/components/CardCaptionLayouts.kt"
+            line="36"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        message="Do not place Android context classes in static fields (static reference to `Environment` which has field `app` pointing to `Context`); this is a memory leak"
+        errorLine1="    @Volatile private var environment: Environment? = null"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/ui/home/ContextTextLayouts.kt"
+            line="45"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        message="Do not place Android context classes in static fields (static reference to `Env` which has field `app` pointing to `Context`); this is a memory leak"
+        errorLine1="    @Volatile private var env: Env? = null"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/ui/home/HeroTextLayouts.kt"
+            line="37"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        message="Do not place Android context classes in static fields (static reference to `Env` which has field `app` pointing to `Context`); this is a memory leak"
+        errorLine1="    @Volatile private var env: Env? = null"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/ui/library/LibraryFocusLayouts.kt"
+            line="37"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        message="Do not place Android context classes in static fields (static reference to `MarqueeImages` which has field `app` pointing to `Context`); this is a memory leak"
+        errorLine1="/**"
+        errorLine2="^">
+        <location
+            file="src/main/java/com/mav/marquee/image/MarqueeImages.kt"
+            line="33"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        message="Do not place Android context classes in static fields; this is a memory leak"
+        errorLine1="    private lateinit var app: Context"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/image/MarqueeImages.kt"
+            line="42"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        message="Do not place Android context classes in static fields (static reference to `PlaybackCapabilities` which has field `app` pointing to `Context`); this is a memory leak"
+        errorLine1="/**"
+        errorLine2="^">
+        <location
+            file="src/main/java/com/mav/marquee/player/PlaybackCapabilities.kt"
+            line="12"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="StaticFieldLeak"
+        message="Do not place Android context classes in static fields (static reference to `Session` which has field `app` pointing to `Context`); this is a memory leak"
+        errorLine1="/**"
+        errorLine2="^">
+        <location
+            file="src/main/java/com/mav/marquee/data/Session.kt"
+            line="17"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="FrequentlyChangingValue"
+        message="Reading a value annotated with @FrequentlyChangingValue inside composition"
+        errorLine1="        (if (rowGrid) (rowState.firstVisibleItemIndex * 6 until minOf(model.total, (rowState.firstVisibleItemIndex + 2) * 6)).any { model.itemAt(it) == null }"
+        errorLine2="                                ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/ui/library/LibraryScreen.kt"
+            line="403"
+            column="33"/>
+    </issue>
+
+    <issue
+        id="FrequentlyChangingValue"
+        message="Reading a value annotated with @FrequentlyChangingValue inside composition"
+        errorLine1="        (if (rowGrid) (rowState.firstVisibleItemIndex * 6 until minOf(model.total, (rowState.firstVisibleItemIndex + 2) * 6)).any { model.itemAt(it) == null }"
+        errorLine2="                                                                                             ~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/ui/library/LibraryScreen.kt"
+            line="403"
+            column="94"/>
+    </issue>
+
+    <issue
+        id="FrequentlyChangingValue"
+        message="Reading a value annotated with @FrequentlyChangingValue inside composition"
+        errorLine1="         else gridState.layoutInfo.visibleItemsInfo.any { model.itemAt(it.index) == null }) -> &quot;paging&quot;"
+        errorLine2="                        ~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/ui/library/LibraryScreen.kt"
+            line="404"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="AutoboxingStateCreation"
+        message="Prefer `mutableFloatStateOf` instead of `mutableStateOf`"
+        errorLine1="class FocusAnim { val value = mutableStateOf(0f); val focused = mutableStateOf(false) }"
+        errorLine2="                              ~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/ui/components/Focus.kt"
+            line="27"
+            column="31"/>
+    </issue>
+
+    <issue
+        id="MonochromeLauncherIcon"
+        message="The application adaptive icon is missing a monochrome tag"
+        errorLine1="&lt;adaptive-icon xmlns:android=&quot;http://schemas.android.com/apk/res/android&quot;>"
+        errorLine2="^">
+        <location
+            file="src/main/res/mipmap-anydpi-v26/ic_launcher.xml"
+            line="3"
+            column="1"/>
+    </issue>
+
+    <issue
+        id="IconMissingDensityFolder"
+        message="Missing density variation folders in `src/debug/res`: drawable-hdpi, drawable-mdpi, drawable-xxhdpi">
+        <location
+            file="src/debug/res"/>
+    </issue>
+
+    <issue
+        id="ViewConstructor"
+        message="Custom view `NativeCardView` is missing constructor used by tools: `(Context)` or `(Context,AttributeSet)` or `(Context,AttributeSet,int)`"
+        errorLine1="internal class NativeCardView(context: Context, private val changed: () -> Unit) : View(context) {"
+        errorLine2="               ~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/ui/components/NativeCatalogCard.kt"
+            line="81"
+            column="16"/>
+    </issue>
+
+    <issue
+        id="ViewConstructor"
+        message="Custom view `NativeViewportView` is missing constructor used by tools: `(Context)` or `(Context,AttributeSet)` or `(Context,AttributeSet,int)`"
+        errorLine1="private class NativeViewportView(context: Context, pool: HomePool,"
+        errorLine2="              ~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/ui/home/NativeHomePool.kt"
+            line="200"
+            column="15"/>
+    </issue>
+
+    <issue
+        id="ViewConstructor"
+        message="Custom view `NativeRailView` is missing constructor used by tools: `(Context)` or `(Context,AttributeSet)` or `(Context,AttributeSet,int)`"
+        errorLine1="private class NativeRailView(context: Context, private var pool: HomePool, private val slot: Int,"
+        errorLine2="              ~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/ui/home/NativeHomePool.kt"
+            line="227"
+            column="15"/>
+    </issue>
+
+    <issue
+        id="ViewConstructor"
+        message="Custom view `OsdButton` is missing constructor used by tools: `(Context)` or `(Context,AttributeSet)` or `(Context,AttributeSet,int)`"
+        errorLine1="internal class OsdButton(ctx: Context, label: String, private val primary: Boolean = false) : TextView(ctx) {"
+        errorLine2="               ~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/player/OsdViews.kt"
+            line="62"
+            column="16"/>
+    </issue>
+
+    <issue
+        id="ViewConstructor"
+        message="Custom view `OsdIconButton` is missing constructor used by tools: `(Context)` or `(Context,AttributeSet)` or `(Context,AttributeSet,int)`"
+        errorLine1="internal class OsdIconButton(ctx: Context, label: String, iconRes: Int) : android.widget.LinearLayout(ctx) {"
+        errorLine2="               ~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/player/OsdViews.kt"
+            line="163"
+            column="16"/>
+    </issue>
+
+    <issue
+        id="ViewConstructor"
+        message="Custom view `PlayerOsd` is missing constructor used by tools: `(Context)` or `(Context,AttributeSet)` or `(Context,AttributeSet,int)`"
+        errorLine1="internal class PlayerOsd(ctx: Context, onAction: (OsdAction) -> Unit) : LinearLayout(ctx) {"
+        errorLine2="               ~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/player/PlayerOsd.kt"
+            line="15"
+            column="16"/>
+    </issue>
+
+    <issue
+        id="ViewConstructor"
+        message="Custom view `NativeGridRail` is missing constructor used by tools: `(Context)` or `(Context,AttributeSet)` or `(Context,AttributeSet,int)`"
+        errorLine1="private class NativeGridRail(context: Context, private val pool: PosterRows, private val slot: Int,"
+        errorLine2="              ~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/ui/library/RowPosterGrid.kt"
+            line="231"
+            column="15"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX function `createBitmap` instead?"
+        errorLine1="        val bitmap = Bitmap.createBitmap(source.width, source.height, Bitmap.Config.RGB_565)"
+        errorLine2="                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/image/HeroArt.kt"
+            line="58"
+            column="22"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension function `String.toUri` instead?"
+        errorLine1="        val uri = Uri.parse(url)"
+        errorLine2="                  ~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/image/MarqueeImages.kt"
+            line="133"
+            column="19"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        errorLine1="        set(v) = sp.edit().putInt(K_MAX_BITRATE, v).apply()"
+        errorLine2="                 ~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/ui/settings/PlaybackPrefs.kt"
+            line="16"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        errorLine1="        set(v) = sp.edit().putString(K_AUDIO_LANG, v).apply()"
+        errorLine2="                 ~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/ui/settings/PlaybackPrefs.kt"
+            line="21"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        errorLine1="        set(v) = sp.edit().putString(K_SUB_LANG, v).apply()"
+        errorLine2="                 ~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/ui/settings/PlaybackPrefs.kt"
+            line="26"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        errorLine1="        set(v) = sp.edit().putString(K_SUB_MODE, v).apply()"
+        errorLine2="                 ~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/ui/settings/PlaybackPrefs.kt"
+            line="31"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        errorLine1="        set(v) = sp.edit().putString(K_SKIP_INTRO, v).apply()"
+        errorLine2="                 ~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/ui/settings/PlaybackPrefs.kt"
+            line="36"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        errorLine1="        set(v) = sp.edit().putString(K_SKIP_CREDITS, v).apply()"
+        errorLine2="                 ~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/ui/settings/PlaybackPrefs.kt"
+            line="41"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        errorLine1="        set(v) = sp.edit().putBoolean(K_AUTOPLAY, v).apply()"
+        errorLine2="                 ~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/ui/settings/PlaybackPrefs.kt"
+            line="45"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        errorLine1="        set(v) = sp.edit().putBoolean(K_DIAG, v).apply()"
+        errorLine2="                 ~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/ui/settings/PlaybackPrefs.kt"
+            line="49"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        errorLine1="        set(v) = sp.edit().putString(K_IMG_QUALITY, v).apply()"
+        errorLine2="                 ~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/ui/settings/PlaybackPrefs.kt"
+            line="54"
+            column="18"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension property `View.isVisible` instead?"
+        errorLine1="            if (osd.visibility == View.VISIBLE) scheduleHide()"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/player/PlayerActivity.kt"
+            line="655"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension property `View.isVisible` instead?"
+        errorLine1="            if ((com.mav.marquee.BuildConfig.DEBUG || stats.visibility == View.VISIBLE) &amp;&amp; cueGroup.cues.isNotEmpty()) {"
+        errorLine2="                                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/player/PlayerActivity.kt"
+            line="694"
+            column="55"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension property `View.isVisible` instead?"
+        errorLine1="            if (stats.visibility == View.VISIBLE) updateStats()"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/player/PlayerActivity.kt"
+            line="705"
+            column="17"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension property `View.isVisible` instead?"
+        errorLine1="        if (upNextDismissed || upNext.visibility == View.VISIBLE || !prefs.autoPlayNext) return"
+        errorLine2="                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/player/PlayerActivity.kt"
+            line="892"
+            column="32"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension property `View.isVisible` instead?"
+        errorLine1="                    if (sheet.visibility == View.VISIBLE || upNext.visibility == View.VISIBLE)"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/player/PlayerActivity.kt"
+            line="1063"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension property `View.isVisible` instead?"
+        errorLine1="                    if (sheet.visibility == View.VISIBLE || upNext.visibility == View.VISIBLE)"
+        errorLine2="                                                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/player/PlayerActivity.kt"
+            line="1063"
+            column="61"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension property `View.isVisible` instead?"
+        errorLine1="        if (sheet.visibility == View.VISIBLE) {"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/player/PlayerActivity.kt"
+            line="1075"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension property `View.isVisible` instead?"
+        errorLine1="        if (upNext.visibility == View.VISIBLE) {"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/player/PlayerActivity.kt"
+            line="1094"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension property `View.isVisible` instead?"
+        errorLine1="        val osdOn = osd.visibility == View.VISIBLE"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/player/PlayerActivity.kt"
+            line="1106"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension property `View.isVisible` instead?"
+        errorLine1="                    if (skipBtn.visibility == View.VISIBLE) { skipBtn.performClick(); return true }"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/player/PlayerActivity.kt"
+            line="1128"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension property `View.isVisible` instead?"
+        errorLine1="            Triple(&quot;Stats&quot;, stats.visibility == View.VISIBLE) { toggleStats() },"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/player/PlayerActivity.kt"
+            line="1332"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension property `View.isVisible` instead?"
+        errorLine1="                if (generation == sheetGeneration &amp;&amp; sheet.visibility == View.VISIBLE) {"
+        errorLine2="                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/player/PlayerActivity.kt"
+            line="1355"
+            column="54"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension function `String.toUri` instead?"
+        errorLine1="            if (r.isTranscode &amp;&amp; android.net.Uri.parse(r.mediaItem.localConfiguration?.uri.toString())"
+        errorLine2="                                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/player/PlayerActivity.kt"
+            line="1434"
+            column="34"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension property `View.isVisible` instead?"
+        errorLine1="        val osdShown = osd.visibility == View.VISIBLE &amp;&amp; osd.height > 0"
+        errorLine2="                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/player/PlayerActivity.kt"
+            line="1524"
+            column="24"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension property `View.isVisible` instead?"
+        errorLine1="        if (captionShift != bottom) Log.i(TAG, &quot;CAPTION_INSET osd=${osd.visibility == View.VISIBLE} bottom=$bottom&quot;)"
+        errorLine2="                                                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/player/PlayerActivity.kt"
+            line="1529"
+            column="69"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension property `View.isVisible` instead?"
+        errorLine1="        if (stats.visibility == View.VISIBLE) {"
+        errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/player/PlayerActivity.kt"
+            line="1609"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension property `View.isVisible` instead?"
+        errorLine1="        }.filter { it.visibility == VISIBLE }"
+        errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/player/PlayerOsd.kt"
+            line="82"
+            column="20"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        errorLine1="    fun setPassthrough(enabled: Boolean) { sp.edit().putBoolean(&quot;audioPassthrough&quot;, enabled).apply() }"
+        errorLine2="                                           ~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/player/PlayerPrefs.kt"
+            line="25"
+            column="44"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension function `String.toUri` instead?"
+        errorLine1="        val uri = Uri.parse(&quot;${Env.serverUrl}/Videos/$itemId/stream&quot;).buildUpon()"
+        errorLine2="                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/player/RemuxSyncIndex.kt"
+            line="62"
+            column="19"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension function `String.toUri` instead?"
+        errorLine1="        ctx.startActivity(Intent(Intent.ACTION_VIEW, android.net.Uri.parse(url)).addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)); true"
+        errorLine2="                                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/ui/library/kit/ScreenData.kt"
+            line="173"
+            column="54"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        errorLine1="        prefs.edit().putString(recentKey, JSONArray(recent).toString()).apply()"
+        errorLine2="        ~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/ui/search/SearchScreen.kt"
+            line="101"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        errorLine1="                            recent = emptyList(); prefs.edit().remove(recentKey).apply(); model.focus.focus(&quot;input&quot;)"
+        errorLine2="                                                  ~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/ui/search/SearchScreen.kt"
+            line="173"
+            column="51"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        errorLine1="            prefs.edit().putString(&quot;deviceId&quot;, it).apply()"
+        errorLine2="            ~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/data/Session.kt"
+            line="69"
+            column="13"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        errorLine1="        prefs.edit().putString(&quot;serverUrl&quot;, serverUrl).apply()"
+        errorLine2="        ~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/data/Session.kt"
+            line="80"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        errorLine1="        prefs.edit()"
+        errorLine2="        ~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/data/Session.kt"
+            line="88"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension function `SharedPreferences.edit` instead?"
+        errorLine1="        prefs.edit().remove(&quot;accessToken&quot;).remove(&quot;userId&quot;).remove(&quot;userName&quot;).apply()"
+        errorLine2="        ~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/data/Session.kt"
+            line="101"
+            column="9"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension function `String.toUri` instead?"
+        errorLine1="        val uri = Uri.parse(progressiveRemuxUrl(r.mediaItem.localConfiguration!!.uri, r.subtitleIndex ?: -1, actualStartMs))"
+        errorLine2="                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/player/StreamResolver.kt"
+            line="52"
+            column="19"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension function `String.toUri` instead?"
+        errorLine1="        val clean = Uri.parse(safeUrl(hls, false))"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/player/StreamResolver.kt"
+            line="92"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension function `String.toUri` instead?"
+        errorLine1="        val clean = Uri.parse(safeUrl(url, false, limits = limits))"
+        errorLine2="                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/player/StreamResolver.kt"
+            line="136"
+            column="21"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension function `String.toUri` instead?"
+        errorLine1="            val streamUrl = Uri.parse(if (transUrl.startsWith(&quot;http&quot;)) transUrl else server + transUrl)"
+        errorLine2="                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/player/StreamResolver.kt"
+            line="267"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension function `String.toUri` instead?"
+        errorLine1="                hdrCopyHlsUrl(Uri.parse(safe), defaultSub ?: -1)"
+        errorLine2="                              ~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/player/StreamResolver.kt"
+            line="285"
+            column="31"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension function `String.toUri` instead?"
+        errorLine1="            uri = if (progressive) progressiveRemuxUrl(Uri.parse(hlsUri), defaultSub ?: -1, startMs) else hlsUri"
+        errorLine2="                                                       ~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/player/StreamResolver.kt"
+            line="289"
+            column="56"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension function `String.toUri` instead?"
+        errorLine1="            val finalUrl = Uri.parse(uri)"
+        errorLine2="                           ~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/player/StreamResolver.kt"
+            line="290"
+            column="28"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension function `String.toUri` instead?"
+        errorLine1="        val q = transUrl?.let { Uri.parse(it) }"
+        errorLine2="                                ~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/player/StreamResolver.kt"
+            line="297"
+            column="33"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension function `String.toUri` instead?"
+        errorLine1="        val videoCopy = !direct &amp;&amp; Uri.parse(uri).getQueryParameter(&quot;AllowVideoStreamCopy&quot;) == &quot;true&quot;"
+        errorLine2="                                   ~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/player/StreamResolver.kt"
+            line="299"
+            column="36"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension function `String.toUri` instead?"
+        errorLine1="                MediaItem.SubtitleConfiguration.Builder(Uri.parse(safeUrl(Uri.parse(url), false)))"
+        errorLine2="                                                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/player/StreamResolver.kt"
+            line="314"
+            column="57"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension function `String.toUri` instead?"
+        errorLine1="                MediaItem.SubtitleConfiguration.Builder(Uri.parse(safeUrl(Uri.parse(url), false)))"
+        errorLine2="                                                                          ~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/player/StreamResolver.kt"
+            line="314"
+            column="75"/>
+    </issue>
+
+    <issue
+        id="UseKtx"
+        message="Use the KTX extension function `String.toUri` instead?"
+        errorLine1="            .setUri(safeUrl(Uri.parse(uri), false))"
+        errorLine2="                            ~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/player/StreamResolver.kt"
+            line="329"
+            column="29"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders."
+        errorLine1="        subtitle.text = &quot;${index + 1} / ${musicQueue.size}&quot;"
+        errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/player/PlayerActivity.kt"
+            line="596"
+            column="25"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders."
+        errorLine1="        subtitle.text = &quot;${index + 1} / ${musicQueue.size}&quot;"
+        errorLine2="                           ~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/player/PlayerActivity.kt"
+            line="596"
+            column="28"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        message="Do not concatenate text displayed with `setText`. Use resource string with placeholders."
+        errorLine1="                    upNextText.text = &quot;Up next in $displayedSeconds s\n$label&quot;"
+        errorLine2="                                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/player/PlayerActivity.kt"
+            line="906"
+            column="39"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        message="String literal in `setText` can not be translated. Use Android resources instead."
+        errorLine1="                    upNextText.text = &quot;Up next in $displayedSeconds s\n$label&quot;"
+        errorLine2="                                       ~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/player/PlayerActivity.kt"
+            line="906"
+            column="40"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        message="String literal in `setText` can not be translated. Use Android resources instead."
+        errorLine1="        sheetList.addView(text(14f, Tok.TextSecondary).apply { text = &quot;Loading episodes…&quot;; setPadding(0, dp(12), 0, 0) })"
+        errorLine2="                                                                       ~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/player/PlayerActivity.kt"
+            line="1345"
+            column="72"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        message="String literal in `setText` can not be translated. Use Android resources instead."
+        errorLine1="        sheetList.addView(text(20f, Tok.TextPrimary, true).apply { text = &quot;Can&apos;t play&quot;; setPadding(0, 0, 0, dp(8)) })"
+        errorLine2="                                                                           ~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/player/PlayerActivity.kt"
+            line="1598"
+            column="76"/>
+    </issue>
+
+    <issue
+        id="SetTextI18n"
+        message="String literal in `setText` can not be translated. Use Android resources instead."
+        errorLine1="        npText.addView(text(12f, Tok.TextTertiary, true).apply { text = &quot;NOW PLAYING&quot;; letterSpacing = 0.08f })"
+        errorLine2="                                                                         ~~~~~~~~~~~">
+        <location
+            file="src/main/java/com/mav/marquee/player/PlayerActivity.kt"
+            line="1739"
+            column="74"/>
+    </issue>
+
+</issues>

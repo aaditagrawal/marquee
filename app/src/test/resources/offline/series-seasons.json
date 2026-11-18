@@ -1,0 +1,158 @@
+{
+ "Items": [
+  {
+   "Name": "Season 1",
+   "Id": "5df3eac3498a74447dee7fffcc260e19",
+   "DateCreated": "2023-06-10T14:02:56.0000000Z",
+   "PremiereDate": "2026-04-06T00:00:00.0000000Z",
+   "Taglines": [],
+   "Genres": [],
+   "ProductionYear": 2026,
+   "IndexNumber": 1,
+   "IsFolder": true,
+   "Type": "Season",
+   "People": [
+    {
+     "Name": "Felix Thistlrand",
+     "Id": "e9e7504d39ba94ebd086b9c88cd2b39a",
+     "Role": "Inspector Oskar Sorrewood",
+     "Type": "Actor",
+     "PrimaryImageTag": "51e59d4e0a5bb3894b6672a6b6db7b21",
+     "ImageBlurHashes": {
+      "Primary": {
+       "51e59d4e0a5bb3894b6672a6b6db7b21": "LDJb$UjYe?V|f~k9XSoao0W?fhbD"
+      }
+     }
+    },
+    {
+     "Name": "Ines Ashfwell",
+     "Id": "35d413cd15ee08d8e9c6e5ad99c923c6",
+     "Role": "Inspector Yusuf Thistlington",
+     "Type": "Actor",
+     "PrimaryImageTag": "365ce500103a697c93ff57f8a1ca2a5a",
+     "ImageBlurHashes": {
+      "Primary": {
+       "365ce500103a697c93ff57f8a1ca2a5a": "L9Eq*Uj0f,SNetoLoyfTsAk9otoH"
+      }
+     }
+    },
+    {
+     "Name": "Imogen Haskerly",
+     "Id": "6eb58c6a3085199a470c8b6f637b834e",
+     "Role": "Leilani Pembewood",
+     "Type": "Actor"
+    },
+    {
+     "Name": "Ravi Vellecombe",
+     "Id": "c6a2fc746baa153ef041216302630454",
+     "Role": "Emeric Rookisford",
+     "Type": "Actor",
+     "PrimaryImageTag": "0e000473f89673040b433c2e407e6dd6",
+     "ImageBlurHashes": {
+      "Primary": {
+       "0e000473f89673040b433c2e407e6dd6": "LBKJz:jIsWi}S^bsjqrrSNWmW?R."
+      }
+     }
+    },
+    {
+     "Name": "Leilani Brackerly",
+     "Id": "65ec312bca0e8135c9ee34f3c7a6e910",
+     "Role": "Inspector Bastien Brackemere",
+     "Type": "Actor",
+     "PrimaryImageTag": "31ef31f3b65c884c814ae38c5fbce86d",
+     "ImageBlurHashes": {
+      "Primary": {
+       "31ef31f3b65c884c814ae38c5fbce86d": "LDH1vNfRjvagWrfhr]s.s+XSt5SM"
+      }
+     }
+    },
+    {
+     "Name": "Priya Larkewood",
+     "Id": "9bc82d6fe1f54ba84e0d82b1cb4ad5f7",
+     "Role": "Captain Matteo Vellingham",
+     "Type": "Actor",
+     "PrimaryImageTag": "982fc117db740c09708b356d1df438e0",
+     "ImageBlurHashes": {
+      "Primary": {
+       "982fc117db740c09708b356d1df438e0": "LCI2zvfgbunmXPrrSzS_oen-a}oz"
+      }
+     }
+    },
+    {
+     "Name": "Yusuf Haskerly",
+     "Id": "0f0a3612cd20666a7e75d2d46f3f18a4",
+     "Role": "Captain Emeric Ostwell",
+     "Type": "Actor",
+     "PrimaryImageTag": "053058d386878655a0ed56fbbe37287a",
+     "ImageBlurHashes": {
+      "Primary": {
+       "053058d386878655a0ed56fbbe37287a": "LCJ?:qfma}WEjIWUadk8g3aQi|j0"
+      }
+     }
+    },
+    {
+     "Name": "Oskar Marrington",
+     "Id": "bf7ad3497bbf17d5439d343788b3ba8d",
+     "Role": "Teodor Elmrand",
+     "Type": "Actor"
+    },
+    {
+     "Name": "Felix Thistlingham",
+     "Id": "2ca593f55790bd9c89298b964099aace",
+     "Type": "Director",
+     "PrimaryImageTag": "2ae252e6be1f935b93445ad09e7bbab4",
+     "ImageBlurHashes": {
+      "Primary": {
+       "2ae252e6be1f935b93445ad09e7bbab4": "L6EE5ybuafr?jKf*btSgnjsUfkX6"
+      }
+     }
+    },
+    {
+     "Name": "Priya Marrard",
+     "Id": "cb2e1e561457d93b5b548e393b3e298b",
+     "Type": "Writer",
+     "PrimaryImageTag": "7c3617172c0aca8dcd9546fbb2f73df1",
+     "ImageBlurHashes": {
+      "Primary": {
+       "7c3617172c0aca8dcd9546fbb2f73df1": "L78jRRS3oabtsDj]sBbYk8SKrwWB"
+      }
+     }
+    }
+   ],
+   "Studios": [],
+   "ParentLogoItemId": "85f88f49b866e839d7d1e853ec85a823",
+   "ParentBackdropItemId": "85f88f49b866e839d7d1e853ec85a823",
+   "ParentBackdropImageTags": [
+    "febd09c63c43c06be99678a07422d90e"
+   ],
+   "UserData": {
+    "PlayedPercentage": 90.9,
+    "UnplayedItemCount": 1,
+    "PlaybackPositionTicks": 0,
+    "PlayCount": 0,
+    "IsFavorite": false,
+    "Played": false
+   },
+   "ChildCount": 11,
+   "SeriesName": "The Midnight Orchard Society",
+   "SeriesId": "85f88f49b866e839d7d1e853ec85a823",
+   "PrimaryImageAspectRatio": 0.6666666666666666,
+   "SeriesPrimaryImageTag": "f5aa409d56381960ed4e9571fd524bfe",
+   "ImageTags": {
+    "Primary": "42c6045919b30d74e721a074f0d0ec4e"
+   },
+   "BackdropImageTags": [],
+   "ImageBlurHashes": {
+    "Primary": {
+     "42c6045919b30d74e721a074f0d0ec4e": "LB5wIRslsRsAW-X5sTSda#S]kDjt"
+    }
+   },
+   "ParentLogoImageTag": "d4f1d55850b7d1aadcf5f1006c0c069d",
+   "ParentThumbItemId": "85f88f49b866e839d7d1e853ec85a823",
+   "ParentThumbImageTag": "c5e79eeb28478a59452d9f2d26da07ee",
+   "MediaType": "Unknown"
+  }
+ ],
+ "TotalRecordCount": 1,
+ "StartIndex": 0
+}

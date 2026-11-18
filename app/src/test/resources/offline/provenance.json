@@ -1,0 +1,17 @@
+{
+ "synthetic": true,
+ "generator": "tools/fixtures/generate.py",
+ "generatorVersion": 1,
+ "seed": 20261115,
+ "regenerate": "uv run --no-project python tools/fixtures/generate.py",
+ "verify": "uv run --no-project python tools/fixtures/generate.py --check",
+ "catalogCount": 217,
+ "movieCount": 172,
+ "seriesCount": 45,
+ "episodeCount": 11,
+ "content": "Invented titles, overviews, people, roles, studios, IDs, image tags and BlurHashes. No real films, shows, people or studios are intended; any resemblance is coincidental.",
+ "technicalSpecs": "tools/fixtures/specs/*.spec.json hold identity-free stream/codec/flag/URL-parameter structure for three playback regressions (see tools/fixtures/README.md).",
+ "server": "https://jellyfin.example",
+ "user": "offline-home-tv",
+ "art": "Image tags are synthetic. OfflineServer renders deterministic placeholder bitmaps locally; no network."
+}

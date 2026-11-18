@@ -1,0 +1,3919 @@
+{
+ "apk_sizes": [
+  {
+   "apk_sha256": "fd987677d66be9b06086674f5d3f35a99f583b15c94800f5313b88d2f788e940",
+   "build": "release",
+   "built_at": "2026-10-12T21:55",
+   "bytes": "3755006",
+   "file": "marquee-2x-20261012-215513.apk"
+  },
+  {
+   "apk_sha256": "a56bc52867c993924bc5eed107c68b9e3325b534e18978fa4e4a0b41a065bd66",
+   "build": "release",
+   "built_at": "2026-10-12T22:00",
+   "bytes": "3755006",
+   "file": "marquee-castfix-20261012-220053.apk"
+  },
+  {
+   "apk_sha256": "2810e6444de5cdf85f7370442cd63ccb17a3f5198ca10c6a89e8136338d222e1",
+   "build": "release",
+   "built_at": "2026-10-12T17:28",
+   "bytes": "3755130",
+   "file": "marquee-final-20261012-172811.apk"
+  },
+  {
+   "apk_sha256": "6a4fc3150c205f7421d0b5524b396c5c27438c03d4171bc2fe5dbc3569246b66",
+   "build": "release",
+   "built_at": "2026-10-12T19:23",
+   "bytes": "3755006",
+   "file": "marquee-final-instant-20261012-192356.apk"
+  },
+  {
+   "apk_sha256": "cf27ba4388818dc933446c1b65df4a6d19b0fa2de7932d834d89fbf3436b8aa7",
+   "build": "debug",
+   "built_at": "2026-10-12T19:23",
+   "bytes": "20655925",
+   "file": "marquee-final-instant-dev-20261012-192356.apk"
+  },
+  {
+   "apk_sha256": "5b6b9df05c213eadf0882374e4d8c58a311eb430ad9c8635f9b41e51c5b9ba52",
+   "build": "release",
+   "built_at": "2026-10-12T22:23",
+   "bytes": "3755006",
+   "file": "marquee-hdrfix-20261012-222300.apk"
+  },
+  {
+   "apk_sha256": "3fb981916c8c6082248bd40cc43ca791f6f24af31a24486cfc1a3aff31c36d71",
+   "build": "release",
+   "built_at": "2026-10-12T18:41",
+   "bytes": "3755006",
+   "file": "marquee-instant-20261012-184121.apk"
+  },
+  {
+   "apk_sha256": "aa55be8f6f69fcbf0a8a92561de334703f3e84673b54d877a62d549bedc36b8f",
+   "build": "release",
+   "built_at": "2026-10-12T18:53",
+   "bytes": "3755006",
+   "file": "marquee-instant-20261012-185302.apk"
+  },
+  {
+   "apk_sha256": "7282a7495c9c717916b025424c251540d38b4964b69c16e6557cb814f6b5bca9",
+   "build": "release",
+   "built_at": "2026-10-12T16:53",
+   "bytes": "3755130",
+   "file": "marquee-integrated-20261012-165332.apk"
+  },
+  {
+   "apk_sha256": "9495e9358928084c21ed87650d115c0f7615acd97bc6157651bcd029fa6c8a95",
+   "build": "release",
+   "built_at": "2026-10-12",
+   "bytes": "3755130",
+   "file": "marquee-navigation-release-20261012.apk"
+  },
+  {
+   "apk_sha256": "ba5b0894efdddda965a17ba2b075436ed9c45101a8f10d620f9957fe8bad50b2",
+   "build": "release",
+   "built_at": "2026-10-12T22:05",
+   "bytes": "3755006",
+   "file": "marquee-notunnel-20261012-220542.apk"
+  },
+  {
+   "apk_sha256": "eec219270a3b4ece01fb94df6c75fd6bcc3cf6738aef5a6a61f1907f1e2ccce9",
+   "build": "release",
+   "built_at": "2026-10-13T00:28",
+   "bytes": "3771390",
+   "file": "marquee-r10-player-20261013-002814.apk"
+  },
+  {
+   "apk_sha256": "eec219270a3b4ece01fb94df6c75fd6bcc3cf6738aef5a6a61f1907f1e2ccce9",
+   "build": "release",
+   "built_at": "2026-10-13T00:30",
+   "bytes": "3771390",
+   "file": "marquee-r10-player-20261013-003013.apk"
+  },
+  {
+   "apk_sha256": "966382dfde657d3901683a5f91baf8038cc27eb379c3e8627634852210787d10",
+   "build": "release",
+   "built_at": "2026-10-13T00:46",
+   "bytes": "3771390",
+   "file": "marquee-r10-player-20261013-004633.apk"
+  },
+  {
+   "apk_sha256": "f0370893dd332b6ec3e05b54c23553a3451496fb31e35cd276f14e1b6f6a1ec4",
+   "build": "release",
+   "built_at": "2026-10-13T00:55",
+   "bytes": "3771390",
+   "file": "marquee-r10-player-20261013-005533.apk"
+  },
+  {
+   "apk_sha256": "55cc9857c1bdae1696af35502987863981fd89a809f945fbe9732ff2644a7657",
+   "build": "release",
+   "built_at": "2026-10-13T01:35",
+   "bytes": "3771390",
+   "file": "marquee-r10-ui-20261013-013514.apk"
+  },
+  {
+   "apk_sha256": "5907d566b3ca9b66a7bdd395c54f81d73882bb05dcc954f9d1a8e4010a0cf9f5",
+   "build": "release",
+   "built_at": "2026-10-13T01:54",
+   "bytes": "3771390",
+   "file": "marquee-r10-ui-20261013-015418.apk"
+  },
+  {
+   "apk_sha256": "1aa2ee1bd924a07a5b80dc60ea36e8db7cac4f6c9ccb1a18078c1f65d808e237",
+   "build": "release",
+   "built_at": "2026-10-13T01:58",
+   "bytes": "3771390",
+   "file": "marquee-r10-ui-20261013-015816.apk"
+  },
+  {
+   "apk_sha256": "8e60a4e5b89a0b163471a74ddd2bd4a09f53706c2249f140eeb95b3cf50e0fb3",
+   "build": "release",
+   "built_at": "2026-10-13T02:01",
+   "bytes": "3771390",
+   "file": "marquee-r10-ui-20261013-020155.apk"
+  },
+  {
+   "apk_sha256": "3053e78e122ca7db116aa28429646b4543d82cc7c58d2debf28d373031c5eeb3",
+   "build": "release",
+   "built_at": "2026-10-13T02:16",
+   "bytes": "3771390",
+   "file": "marquee-r10-ui-20261013-021626.apk"
+  },
+  {
+   "apk_sha256": "55cc9857c1bdae1696af35502987863981fd89a809f945fbe9732ff2644a7657",
+   "build": "release",
+   "built_at": "2026-10-13T01:41",
+   "bytes": "3771390",
+   "file": "marquee-r11-player-20261013-014100.apk"
+  },
+  {
+   "apk_sha256": "36980ee9c21b52f70143b02a978fc185010909a918d1712f04adfe6f98a91bcf",
+   "build": "profile",
+   "built_at": "2026-10-13T02:48",
+   "bytes": "6369780",
+   "file": "marquee-r11-profile-20261013-024840.apk"
+  },
+  {
+   "apk_sha256": "44c7a6376f9440eceed1dbd02584190156d9e4beb2be8f0f159d1431a60338e5",
+   "build": "profile",
+   "built_at": "2026-10-13T03:24",
+   "bytes": "6369780",
+   "file": "marquee-r11-profile-20261013-032450.apk"
+  },
+  {
+   "apk_sha256": "cfa953f8feed7dfd159b7cbe57ea53adceb0ef4650fa07b27acf5b0a4e16bf7a",
+   "build": "profile",
+   "built_at": "2026-10-13T03:40",
+   "bytes": "6386164",
+   "file": "marquee-r11-profile-20261013-034045.apk"
+  },
+  {
+   "apk_sha256": "a6c400a9638617e4a3563118f186e1492d95a96feec07b59e1501fc22cb9fce0",
+   "build": "profile",
+   "built_at": "2026-10-13T04:05",
+   "bytes": "6386164",
+   "file": "marquee-r11-profile-20261013-040533.apk"
+  },
+  {
+   "apk_sha256": "6f4649868e1e996f6558e892a79716a954c9b744cfee17f3318d5627b52f5359",
+   "build": "profile",
+   "built_at": "2026-10-13T04:15",
+   "bytes": "6386164",
+   "file": "marquee-r11-profile-20261013-041533.apk"
+  },
+  {
+   "apk_sha256": "2ab1cd767eaf747bcc45c4403fff088aa6f7affea0c3cb8ab4bd9bee301ce89f",
+   "build": "profile",
+   "built_at": "2026-10-13T04:34",
+   "bytes": "6386164",
+   "file": "marquee-r11-profile-20261013-043418.apk"
+  },
+  {
+   "apk_sha256": "bc09b00c9409722d8e847ea623922d9dd394256965a30a553ab6cb6c7ce7ff70",
+   "build": "profile",
+   "built_at": "2026-10-13T04:48",
+   "bytes": "6402548",
+   "file": "marquee-r11-profile-20261013-044858.apk"
+  },
+  {
+   "apk_sha256": "a22d6a43cb14db9a7bfd8446476bcfdbfa67343d4895eea26db76e38711d6c2a",
+   "build": "profile",
+   "built_at": "2026-10-13T05:03",
+   "bytes": "6402548",
+   "file": "marquee-r11-profile-20261013-050349.apk"
+  },
+  {
+   "apk_sha256": "4ef01f36fe21dea30550c01fb29d99c2e5e1c2d0fd451e2fb107e47fc4847465",
+   "build": "profile",
+   "built_at": "2026-10-13T05:08",
+   "bytes": "6402548",
+   "file": "marquee-r11-profile-20261013-050823.apk"
+  },
+  {
+   "apk_sha256": "d70c2f18c226dd50493e555fefc40061fc00905cb871cced73fd501d415375df",
+   "build": "profile",
+   "built_at": "2026-10-13T05:14",
+   "bytes": "6402548",
+   "file": "marquee-r11-profile-20261013-051451.apk"
+  },
+  {
+   "apk_sha256": "073a86634dfbf818cbb200dcfec6e83f51070228b05e40cb2322fb518874f515",
+   "build": "profile",
+   "built_at": "2026-10-13T05:27",
+   "bytes": "6386164",
+   "file": "marquee-r11-profile-20261013-052715.apk"
+  },
+  {
+   "apk_sha256": "67501449c0c1606c6b4f613461a47f7f4b129091f6da34d48c359ad8f98c902a",
+   "build": "profile",
+   "built_at": "2026-10-13T05:38",
+   "bytes": "6386164",
+   "file": "marquee-r11-profile-20261013-053844.apk"
+  },
+  {
+   "apk_sha256": "45602b86ae1e4dafc8eacc44862b7466594bd106542546e141c6051798295b91",
+   "build": "profile",
+   "built_at": "2026-10-13T05:49",
+   "bytes": "6386164",
+   "file": "marquee-r11-profile-20261013-054905.apk"
+  },
+  {
+   "apk_sha256": "842bdbc5aa058d71f31be1bf5819f4be04dc5af28fd5e42a8134f11d223fcac0",
+   "build": "profile",
+   "built_at": "2026-10-13T06:08",
+   "bytes": "6386164",
+   "file": "marquee-r11-profile-20261013-060810.apk"
+  },
+  {
+   "apk_sha256": "d2d2e7528749bcb8ee05bf0d29b31dc5205bd952d2f2555876aa9c416e0f6fda",
+   "build": "release",
+   "built_at": "2026-10-13T02:48",
+   "bytes": "3787774",
+   "file": "marquee-r11-ui-20261013-024840.apk"
+  },
+  {
+   "apk_sha256": "3055468a6ba1071e626969e40ce073512c2eedab389b05356b4486ade47328df",
+   "build": "release",
+   "built_at": "2026-10-13T03:24",
+   "bytes": "3787774",
+   "file": "marquee-r11-ui-20261013-032450.apk"
+  },
+  {
+   "apk_sha256": "fe3291c4256be80a44bbac6b92407791623990a235688ab28672f4afd0224ad9",
+   "build": "release",
+   "built_at": "2026-10-13T03:40",
+   "bytes": "3804158",
+   "file": "marquee-r11-ui-20261013-034045.apk"
+  },
+  {
+   "apk_sha256": "3bcdc972f2f5b5f0fc556b3cc7993eaded3b4ab2f8bf7f31cacaf4de8eae3940",
+   "build": "release",
+   "built_at": "2026-10-13T04:05",
+   "bytes": "3804158",
+   "file": "marquee-r11-ui-20261013-040533.apk"
+  },
+  {
+   "apk_sha256": "cee0b85bbbff29b5c5dac2ff2e221dff94df42885b798c0f46b945cbd45564ef",
+   "build": "release",
+   "built_at": "2026-10-13T04:15",
+   "bytes": "3804158",
+   "file": "marquee-r11-ui-20261013-041533.apk"
+  },
+  {
+   "apk_sha256": "ac12386f1daf7b4bc1de22b19b101eb67ccac2786f3239b2fdd1e055a65f1212",
+   "build": "release",
+   "built_at": "2026-10-13T04:34",
+   "bytes": "3804158",
+   "file": "marquee-r11-ui-20261013-043418.apk"
+  },
+  {
+   "apk_sha256": "c4aff44cb20c94ae3de811496b7e00e39b9076491aebd82dda3b5caf34ff6159",
+   "build": "release",
+   "built_at": "2026-10-13T04:48",
+   "bytes": "3820542",
+   "file": "marquee-r11-ui-20261013-044858.apk"
+  },
+  {
+   "apk_sha256": "a456661bae2bf7c833c1f26cb193449e606c7a7d96f49517b09985a59921db2e",
+   "build": "release",
+   "built_at": "2026-10-13T05:03",
+   "bytes": "3820542",
+   "file": "marquee-r11-ui-20261013-050349.apk"
+  },
+  {
+   "apk_sha256": "5ccebab0e74d781c67204a8ffbee8e0fcbcd25e852073daff882fcacec9b7db2",
+   "build": "release",
+   "built_at": "2026-10-13T05:08",
+   "bytes": "3820542",
+   "file": "marquee-r11-ui-20261013-050823.apk"
+  },
+  {
+   "apk_sha256": "5c005f094f9a97e284f840b1896d1a0ac52cea2e280131b5aac356c1d394cbb0",
+   "build": "release",
+   "built_at": "2026-10-13T05:14",
+   "bytes": "3820542",
+   "file": "marquee-r11-ui-20261013-051451.apk"
+  },
+  {
+   "apk_sha256": "89ac29d5f469fa77053ac8196d2ce3cebbc057c7873b952d95895617e242c3df",
+   "build": "release",
+   "built_at": "2026-10-13T05:27",
+   "bytes": "3804158",
+   "file": "marquee-r11-ui-20261013-052715.apk"
+  },
+  {
+   "apk_sha256": "d8676bb0a167cc6cacece7ba42367c824dcfd65b9b78e24cd0610b8c1dedd379",
+   "build": "release",
+   "built_at": "2026-10-13T05:38",
+   "bytes": "3804158",
+   "file": "marquee-r11-ui-20261013-053844.apk"
+  },
+  {
+   "apk_sha256": "cfd54fa0863b51a51623bc6a11224ad2d5c970ccc9f4050971ed5c2a0a97933b",
+   "build": "release",
+   "built_at": "2026-10-13T05:49",
+   "bytes": "3804158",
+   "file": "marquee-r11-ui-20261013-054905.apk"
+  },
+  {
+   "apk_sha256": "7098d3c607d4db29731eb85e77d6e1e1f86f8004517a658c8008702cf19b0bba",
+   "build": "release",
+   "built_at": "2026-10-13T06:08",
+   "bytes": "3804158",
+   "file": "marquee-r11-ui-20261013-060810.apk"
+  },
+  {
+   "apk_sha256": "3053e78e122ca7db116aa28429646b4543d82cc7c58d2debf28d373031c5eeb3",
+   "build": "release",
+   "built_at": "2026-10-13T02:13",
+   "bytes": "3771390",
+   "file": "marquee-r12-player-20261013-021336.apk"
+  },
+  {
+   "apk_sha256": "0a2c1be90c01ba939571fbcc14d85934c28e91975d41b87d026941a361bbff55",
+   "build": "release",
+   "built_at": "2026-10-13T02:24",
+   "bytes": "3787774",
+   "file": "marquee-r12-player-20261013-022451.apk"
+  },
+  {
+   "apk_sha256": "8461dbe99a17faa8ced2cd659af6681cb00de3ddc3026223cbfa5c8d4004f868",
+   "build": "release",
+   "built_at": "2026-10-13T02:27",
+   "bytes": "3787774",
+   "file": "marquee-r12-player-20261013-022755.apk"
+  },
+  {
+   "apk_sha256": "19dca9d2879ff23f83d515c4aea5f406a485b4db7bea71179c4c33b570a4f78e",
+   "build": "release",
+   "built_at": "2026-10-13T02:38",
+   "bytes": "3787774",
+   "file": "marquee-r12-player-20261013-023813.apk"
+  },
+  {
+   "apk_sha256": "d2d2e7528749bcb8ee05bf0d29b31dc5205bd952d2f2555876aa9c416e0f6fda",
+   "build": "release",
+   "built_at": "2026-10-13T02:46",
+   "bytes": "3787774",
+   "file": "marquee-r12-player-20261013-024641.apk"
+  },
+  {
+   "apk_sha256": "842bdbc5aa058d71f31be1bf5819f4be04dc5af28fd5e42a8134f11d223fcac0",
+   "build": "profile",
+   "built_at": "2026-10-13T07:24",
+   "bytes": "6386164",
+   "file": "marquee-r12-profile-20261013-072425.apk"
+  },
+  {
+   "apk_sha256": "3ab92aa036c85303388746f180e49e81c0073b5ce20d94678027e30c3fe9ca6f",
+   "build": "profile",
+   "built_at": "2026-10-13T07:39",
+   "bytes": "6386164",
+   "file": "marquee-r12-profile-20261013-073936.apk"
+  },
+  {
+   "apk_sha256": "7098d3c607d4db29731eb85e77d6e1e1f86f8004517a658c8008702cf19b0bba",
+   "build": "release",
+   "built_at": "2026-10-13T07:24",
+   "bytes": "3804158",
+   "file": "marquee-r12-ui-20261013-072425.apk"
+  },
+  {
+   "apk_sha256": "f266c76a47b5c93c493f8ce9eaec69293edd1989ad4c40266fc805311fe5b2c0",
+   "build": "release",
+   "built_at": "2026-10-13T07:39",
+   "bytes": "3804158",
+   "file": "marquee-r12-ui-20261013-073936.apk"
+  },
+  {
+   "apk_sha256": "74790087f1a27b15302a61c02be9ee5e28a9fe52190ee3e5b5212288933d2dd6",
+   "build": "release",
+   "built_at": "2026-10-13T08:12",
+   "bytes": "3804158",
+   "file": "marquee-r13-player-20261013-081221.apk"
+  },
+  {
+   "apk_sha256": "414b94087dc8ae2544a7456a9f34b05c6e3645d6b9ad665a6002678839c33aa8",
+   "build": "release",
+   "built_at": "2026-10-13T08:16",
+   "bytes": "3804158",
+   "file": "marquee-r13-player-20261013-081624.apk"
+  },
+  {
+   "apk_sha256": "868ef47ba81eeae0fa055aad2a5b065b1e931904d9dfd4544d3365d332e5f1c7",
+   "build": "release",
+   "built_at": "2026-10-13T08:23",
+   "bytes": "3804158",
+   "file": "marquee-r13-player-20261013-082309.apk"
+  },
+  {
+   "apk_sha256": "a1e3841bf265cf128ba2e0aef4f80aa5638854305452f091af9e37ed2a5aab23",
+   "build": "release",
+   "built_at": "2026-10-13T08:51",
+   "bytes": "3804158",
+   "file": "marquee-r14-player-20261013-085155.apk"
+  },
+  {
+   "apk_sha256": "4e02a1f98bade59a9da1585729a1533cc876f76a335d752eae764209dca834aa",
+   "build": "release",
+   "built_at": "2026-10-12T23:29",
+   "bytes": "3755006",
+   "file": "marquee-r9-anchor-20261012-232908.apk"
+  },
+  {
+   "apk_sha256": "4897adae14dd0792ebc1c8c4d02d64e418d643847c0a72f194a988eac97c3310",
+   "build": "release",
+   "built_at": "2026-10-12T23:30",
+   "bytes": "3755006",
+   "file": "marquee-r9-player-20261012-233034.apk"
+  },
+  {
+   "apk_sha256": "4519f3d3ea7f251b80ff5523433c2abd801b349beec06def0c41e0dff6c5d618",
+   "build": "release",
+   "built_at": "2026-10-12T23:34",
+   "bytes": "3755006",
+   "file": "marquee-r9-player-20261012-233437.apk"
+  },
+  {
+   "apk_sha256": "4519f3d3ea7f251b80ff5523433c2abd801b349beec06def0c41e0dff6c5d618",
+   "build": "release",
+   "built_at": "2026-10-12T23:34",
+   "bytes": "3755006",
+   "file": "marquee-r9-ui-20261012-233437.apk"
+  },
+  {
+   "apk_sha256": "eec219270a3b4ece01fb94df6c75fd6bcc3cf6738aef5a6a61f1907f1e2ccce9",
+   "build": "release",
+   "built_at": "2026-10-13T00:35",
+   "bytes": "3771390",
+   "file": "marquee-r9-ui-20261013-003523.apk"
+  },
+  {
+   "apk_sha256": "f0370893dd332b6ec3e05b54c23553a3451496fb31e35cd276f14e1b6f6a1ec4",
+   "build": "release",
+   "built_at": "2026-10-13T00:53",
+   "bytes": "3771390",
+   "file": "marquee-r9-ui-20261013-005331.apk"
+  },
+  {
+   "apk_sha256": "fbafc7eeb445ba64d74c529d1c47424ac41539f04a4578ed2047f364c1a0109b",
+   "build": "release",
+   "built_at": "2026-10-12",
+   "bytes": "3755130",
+   "file": "marquee-screens-final-20261012.apk"
+  }
+ ],
+ "build_sets": [
+  {
+   "apk": "5b6b9df0",
+   "key": "r9-baseline",
+   "label": "r9 baseline",
+   "protocol_note": "r9 reset",
+   "surfaces": {
+    "home": {
+     "apk_sha256": [
+      "5b6b9df05c213eadf0882374e4d8c58a311eb430ad9c8635f9b41e51c5b9ba52"
+     ],
+     "late_count": 80,
+     "late_pct": 62.0155,
+     "max_ms": 92.2636,
+     "n": 129,
+     "p50_ms": 22.1979,
+     "p90_ms": 40.1502,
+     "p95_ms": 50.1362,
+     "p99_ms": 82.3741,
+     "runs": [
+      {
+       "captured_at": "2026-10-12T23:23",
+       "late_pct": 62.0155,
+       "n": 129,
+       "p50_ms": 22.1979,
+       "p99_ms": 82.3741,
+       "run": 1,
+       "run_id": "r9-baseline-home-exact"
+      }
+     ]
+    },
+    "movies": {
+     "apk_sha256": [
+      "5b6b9df05c213eadf0882374e4d8c58a311eb430ad9c8635f9b41e51c5b9ba52"
+     ],
+     "late_count": 136,
+     "late_pct": 59.6491,
+     "max_ms": 64.5189,
+     "n": 228,
+     "p50_ms": 22.2349,
+     "p90_ms": 30.2763,
+     "p95_ms": 33.9887,
+     "p99_ms": 50.0906,
+     "runs": [
+      {
+       "captured_at": "2026-10-12T23:16",
+       "late_pct": 59.6491,
+       "n": 228,
+       "p50_ms": 22.2349,
+       "p99_ms": 50.0906,
+       "run": 1,
+       "run_id": "r9-baseline-movies"
+      }
+     ]
+    },
+    "osd": {
+     "apk_sha256": [
+      "5b6b9df05c213eadf0882374e4d8c58a311eb430ad9c8635f9b41e51c5b9ba52"
+     ],
+     "late_count": 5,
+     "late_pct": 3.6232,
+     "max_ms": 23.341,
+     "n": 138,
+     "p50_ms": 6.8119,
+     "p90_ms": 9.9464,
+     "p95_ms": 14.386,
+     "p99_ms": 22.7486,
+     "runs": [
+      {
+       "captured_at": "2026-10-12T23:28",
+       "late_pct": 3.6232,
+       "n": 138,
+       "p50_ms": 6.8119,
+       "p99_ms": 22.7486,
+       "run": 1,
+       "run_id": "r9-baseline-osd-final"
+      }
+     ]
+    },
+    "search": {
+     "apk_sha256": [
+      "5b6b9df05c213eadf0882374e4d8c58a311eb430ad9c8635f9b41e51c5b9ba52"
+     ],
+     "late_count": 14,
+     "late_pct": 4.4025,
+     "max_ms": 24.5717,
+     "n": 318,
+     "p50_ms": 10.015,
+     "p90_ms": 13.2268,
+     "p95_ms": 15.9487,
+     "p99_ms": 20.7282,
+     "runs": [
+      {
+       "captured_at": "2026-10-12T23:19",
+       "late_pct": 4.4025,
+       "n": 318,
+       "p50_ms": 10.015,
+       "p99_ms": 20.7282,
+       "run": 1,
+       "run_id": "r9-baseline-search"
+      }
+     ]
+    },
+    "series": {
+     "apk_sha256": [
+      "5b6b9df05c213eadf0882374e4d8c58a311eb430ad9c8635f9b41e51c5b9ba52"
+     ],
+     "late_count": 18,
+     "late_pct": 15.1261,
+     "max_ms": 22.9608,
+     "n": 119,
+     "p50_ms": 11.4352,
+     "p90_ms": 17.3104,
+     "p95_ms": 19.2516,
+     "p99_ms": 21.1569,
+     "runs": [
+      {
+       "captured_at": "2026-10-12T23:18",
+       "late_pct": 15.1261,
+       "n": 119,
+       "p50_ms": 11.4352,
+       "p99_ms": 21.1569,
+       "run": 1,
+       "run_id": "r9-baseline-series"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "apk": "4519f3d3",
+   "key": "r9-qa",
+   "label": "r9 QA build",
+   "protocol_note": "r9 reset",
+   "surfaces": {
+    "home": {
+     "apk_sha256": [
+      "4519f3d3ea7f251b80ff5523433c2abd801b349beec06def0c41e0dff6c5d618"
+     ],
+     "late_count": 55,
+     "late_pct": 76.3889,
+     "max_ms": 92.2838,
+     "n": 72,
+     "p50_ms": 31.4392,
+     "p90_ms": 60.7143,
+     "p95_ms": 78.1118,
+     "p99_ms": 92.2838,
+     "runs": [
+      {
+       "captured_at": "2026-10-12T23:35",
+       "late_pct": 76.3889,
+       "n": 72,
+       "p50_ms": 31.4392,
+       "p99_ms": 92.2838,
+       "run": 1,
+       "run_id": "r9-anchor-home"
+      }
+     ]
+    },
+    "movies": {
+     "apk_sha256": [
+      "4519f3d3ea7f251b80ff5523433c2abd801b349beec06def0c41e0dff6c5d618"
+     ],
+     "late_count": 142,
+     "late_pct": 63.1111,
+     "max_ms": 43.6982,
+     "n": 225,
+     "p50_ms": 23.0427,
+     "p90_ms": 30.55,
+     "p95_ms": 34.1765,
+     "p99_ms": 36.7586,
+     "runs": [
+      {
+       "captured_at": "2026-10-12T23:36",
+       "late_pct": 63.1111,
+       "n": 225,
+       "p50_ms": 23.0427,
+       "p99_ms": 36.7586,
+       "run": 1,
+       "run_id": "r9-anchor-movies"
+      }
+     ]
+    },
+    "osd": {
+     "apk_sha256": [
+      "4519f3d3ea7f251b80ff5523433c2abd801b349beec06def0c41e0dff6c5d618"
+     ],
+     "late_count": 3,
+     "late_pct": 2.1583,
+     "max_ms": 22.5713,
+     "n": 139,
+     "p50_ms": 7.7578,
+     "p90_ms": 10.9191,
+     "p95_ms": 11.8527,
+     "p99_ms": 19.285,
+     "runs": [
+      {
+       "captured_at": "2026-10-12T23:50",
+       "late_pct": 2.1583,
+       "n": 139,
+       "p50_ms": 7.7578,
+       "p99_ms": 19.285,
+       "run": 1,
+       "run_id": "r9-anchor-osd-retry"
+      }
+     ]
+    },
+    "search": {
+     "apk_sha256": [
+      "4519f3d3ea7f251b80ff5523433c2abd801b349beec06def0c41e0dff6c5d618"
+     ],
+     "late_count": 15,
+     "late_pct": 4.717,
+     "max_ms": 29.0826,
+     "n": 318,
+     "p50_ms": 9.643,
+     "p90_ms": 13.4149,
+     "p95_ms": 16.6881,
+     "p99_ms": 22.1967,
+     "runs": [
+      {
+       "captured_at": "2026-10-12T23:49",
+       "late_pct": 4.717,
+       "n": 318,
+       "p50_ms": 9.643,
+       "p99_ms": 22.1967,
+       "run": 1,
+       "run_id": "r9-anchor-search-retry"
+      }
+     ]
+    },
+    "series": {
+     "apk_sha256": [
+      "4519f3d3ea7f251b80ff5523433c2abd801b349beec06def0c41e0dff6c5d618"
+     ],
+     "late_count": 12,
+     "late_pct": 10.084,
+     "max_ms": 21.8878,
+     "n": 119,
+     "p50_ms": 11.7977,
+     "p90_ms": 17.0961,
+     "p95_ms": 17.6515,
+     "p99_ms": 19.3583,
+     "runs": [
+      {
+       "captured_at": "2026-10-12T23:37",
+       "late_pct": 10.084,
+       "n": 119,
+       "p50_ms": 11.7977,
+       "p99_ms": 19.3583,
+       "run": 1,
+       "run_id": "r9-anchor-series"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "apk": "f0370893",
+   "key": "r9-final",
+   "label": "r9 final",
+   "protocol_note": "r9 reset",
+   "surfaces": {
+    "home": {
+     "apk_sha256": [
+      "f0370893dd332b6ec3e05b54c23553a3451496fb31e35cd276f14e1b6f6a1ec4"
+     ],
+     "late_count": 87,
+     "late_pct": 67.9688,
+     "max_ms": 69.1632,
+     "n": 128,
+     "p50_ms": 22.2844,
+     "p90_ms": 40.6055,
+     "p95_ms": 42.498,
+     "p99_ms": 52.3952,
+     "runs": [
+      {
+       "captured_at": "2026-10-13T00:55",
+       "late_pct": 67.9688,
+       "n": 128,
+       "p50_ms": 22.2844,
+       "p99_ms": 52.3952,
+       "run": 1,
+       "run_id": "r9-final-home"
+      }
+     ]
+    },
+    "movies": {
+     "apk_sha256": [
+      "f0370893dd332b6ec3e05b54c23553a3451496fb31e35cd276f14e1b6f6a1ec4"
+     ],
+     "late_count": 96,
+     "late_pct": 45.7143,
+     "max_ms": 41.1506,
+     "n": 210,
+     "p50_ms": 15.1182,
+     "p90_ms": 22.8021,
+     "p95_ms": 25.2198,
+     "p99_ms": 28.9184,
+     "runs": [
+      {
+       "captured_at": "2026-10-13T00:56",
+       "late_pct": 45.7143,
+       "n": 210,
+       "p50_ms": 15.1182,
+       "p99_ms": 28.9184,
+       "run": 1,
+       "run_id": "r9-final-movies"
+      }
+     ]
+    },
+    "osd": {
+     "apk_sha256": [
+      "f0370893dd332b6ec3e05b54c23553a3451496fb31e35cd276f14e1b6f6a1ec4"
+     ],
+     "late_count": 9,
+     "late_pct": 6.6176,
+     "max_ms": 34.1492,
+     "n": 136,
+     "p50_ms": 8.3245,
+     "p90_ms": 11.2084,
+     "p95_ms": 19.9762,
+     "p99_ms": 33.2558,
+     "runs": [
+      {
+       "captured_at": "2026-10-13T00:59",
+       "late_pct": 6.6176,
+       "n": 136,
+       "p50_ms": 8.3245,
+       "p99_ms": 33.2558,
+       "run": 1,
+       "run_id": "r9-final-osd"
+      }
+     ]
+    },
+    "search": {
+     "apk_sha256": [
+      "f0370893dd332b6ec3e05b54c23553a3451496fb31e35cd276f14e1b6f6a1ec4"
+     ],
+     "late_count": 11,
+     "late_pct": 3.4591,
+     "max_ms": 26.3836,
+     "n": 318,
+     "p50_ms": 9.6381,
+     "p90_ms": 12.8414,
+     "p95_ms": 13.8764,
+     "p99_ms": 21.4642,
+     "runs": [
+      {
+       "captured_at": "2026-10-13T00:58",
+       "late_pct": 3.4591,
+       "n": 318,
+       "p50_ms": 9.6381,
+       "p99_ms": 21.4642,
+       "run": 1,
+       "run_id": "r9-final-search"
+      }
+     ]
+    },
+    "series": {
+     "apk_sha256": [
+      "f0370893dd332b6ec3e05b54c23553a3451496fb31e35cd276f14e1b6f6a1ec4"
+     ],
+     "late_count": 21,
+     "late_pct": 17.6471,
+     "max_ms": 26.1518,
+     "n": 119,
+     "p50_ms": 11.3574,
+     "p90_ms": 18.5056,
+     "p95_ms": 21.3602,
+     "p99_ms": 23.945,
+     "runs": [
+      {
+       "captured_at": "2026-10-13T00:57",
+       "late_pct": 17.6471,
+       "n": 119,
+       "p50_ms": 11.3574,
+       "p99_ms": 23.945,
+       "run": 1,
+       "run_id": "r9-final-series"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "apk": "f0370893",
+   "key": "r10-before",
+   "label": "r10 baseline",
+   "protocol_note": "paced reset (same APK as r9 final)",
+   "surfaces": {
+    "home": {
+     "apk_sha256": [
+      "f0370893dd332b6ec3e05b54c23553a3451496fb31e35cd276f14e1b6f6a1ec4"
+     ],
+     "late_count": 62,
+     "late_pct": 73.8095,
+     "max_ms": 67.2262,
+     "n": 84,
+     "p50_ms": 28.3096,
+     "p90_ms": 41.1267,
+     "p95_ms": 46.3176,
+     "p99_ms": 67.2262,
+     "runs": [
+      {
+       "captured_at": "2026-10-13T01:26",
+       "late_pct": 73.8095,
+       "n": 84,
+       "p50_ms": 28.3096,
+       "p99_ms": 67.2262,
+       "run": 1,
+       "run_id": "r10-before-home-paced"
+      }
+     ]
+    },
+    "movies": {
+     "apk_sha256": [
+      "f0370893dd332b6ec3e05b54c23553a3451496fb31e35cd276f14e1b6f6a1ec4"
+     ],
+     "late_count": 99,
+     "late_pct": 47.1429,
+     "max_ms": 44.7384,
+     "n": 210,
+     "p50_ms": 15.4753,
+     "p90_ms": 22.5682,
+     "p95_ms": 25.5002,
+     "p99_ms": 35.7832,
+     "runs": [
+      {
+       "captured_at": "2026-10-13T01:20",
+       "late_pct": 47.1429,
+       "n": 210,
+       "p50_ms": 15.4753,
+       "p99_ms": 35.7832,
+       "run": 1,
+       "run_id": "r10-before-movies"
+      }
+     ]
+    },
+    "osd": {
+     "apk_sha256": [
+      "f0370893dd332b6ec3e05b54c23553a3451496fb31e35cd276f14e1b6f6a1ec4"
+     ],
+     "late_count": 4,
+     "late_pct": 2.8986,
+     "max_ms": 27.1437,
+     "n": 138,
+     "p50_ms": 7.9809,
+     "p90_ms": 10.8999,
+     "p95_ms": 14.7896,
+     "p99_ms": 20.1772,
+     "runs": [
+      {
+       "captured_at": "2026-10-13T01:23",
+       "late_pct": 2.8986,
+       "n": 138,
+       "p50_ms": 7.9809,
+       "p99_ms": 20.1772,
+       "run": 1,
+       "run_id": "r10-before-osd"
+      }
+     ]
+    },
+    "search": {
+     "apk_sha256": [
+      "f0370893dd332b6ec3e05b54c23553a3451496fb31e35cd276f14e1b6f6a1ec4"
+     ],
+     "late_count": 11,
+     "late_pct": 3.4591,
+     "max_ms": 28.8373,
+     "n": 318,
+     "p50_ms": 9.5314,
+     "p90_ms": 13.5522,
+     "p95_ms": 14.9554,
+     "p99_ms": 24.214,
+     "runs": [
+      {
+       "captured_at": "2026-10-13T01:23",
+       "late_pct": 3.4591,
+       "n": 318,
+       "p50_ms": 9.5314,
+       "p99_ms": 24.214,
+       "run": 1,
+       "run_id": "r10-before-search"
+      }
+     ]
+    },
+    "series": {
+     "apk_sha256": [
+      "f0370893dd332b6ec3e05b54c23553a3451496fb31e35cd276f14e1b6f6a1ec4"
+     ],
+     "late_count": 13,
+     "late_pct": 10.9244,
+     "max_ms": 29.1688,
+     "n": 119,
+     "p50_ms": 11.7193,
+     "p90_ms": 17.353,
+     "p95_ms": 19.1133,
+     "p99_ms": 25.5885,
+     "runs": [
+      {
+       "captured_at": "2026-10-13T01:21",
+       "late_pct": 10.9244,
+       "n": 119,
+       "p50_ms": 11.7193,
+       "p99_ms": 25.5885,
+       "run": 1,
+       "run_id": "r10-before-series"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "apk": "3053e78e",
+   "key": "r10-final",
+   "label": "r10 final",
+   "protocol_note": "paced reset",
+   "surfaces": {
+    "home": {
+     "apk_sha256": [
+      "3053e78e122ca7db116aa28429646b4543d82cc7c58d2debf28d373031c5eeb3"
+     ],
+     "late_count": 49,
+     "late_pct": 63.6364,
+     "max_ms": 66.741,
+     "n": 77,
+     "p50_ms": 22.3454,
+     "p90_ms": 39.7571,
+     "p95_ms": 41.5801,
+     "p99_ms": 66.741,
+     "runs": [
+      {
+       "captured_at": "2026-10-13T02:21",
+       "late_pct": 63.6364,
+       "n": 77,
+       "p50_ms": 22.3454,
+       "p99_ms": 66.741,
+       "run": 1,
+       "run_id": "r10-final-home"
+      }
+     ]
+    },
+    "movies": {
+     "apk_sha256": [
+      "3053e78e122ca7db116aa28429646b4543d82cc7c58d2debf28d373031c5eeb3"
+     ],
+     "late_count": 67,
+     "late_pct": 44.3709,
+     "max_ms": 24.4466,
+     "n": 151,
+     "p50_ms": 16.1841,
+     "p90_ms": 21.1239,
+     "p95_ms": 22.4639,
+     "p99_ms": 23.9217,
+     "runs": [
+      {
+       "captured_at": "2026-10-13T02:23",
+       "late_pct": 44.3709,
+       "n": 151,
+       "p50_ms": 16.1841,
+       "p99_ms": 23.9217,
+       "run": 1,
+       "run_id": "r10-final-movies"
+      }
+     ]
+    },
+    "osd": {
+     "apk_sha256": [
+      "3053e78e122ca7db116aa28429646b4543d82cc7c58d2debf28d373031c5eeb3"
+     ],
+     "late_count": 7,
+     "late_pct": 5.1471,
+     "max_ms": 46.7969,
+     "n": 136,
+     "p50_ms": 7.8598,
+     "p90_ms": 12.5595,
+     "p95_ms": 17.4022,
+     "p99_ms": 21.513,
+     "runs": [
+      {
+       "captured_at": "2026-10-13T02:26",
+       "late_pct": 5.1471,
+       "n": 136,
+       "p50_ms": 7.8598,
+       "p99_ms": 21.513,
+       "run": 1,
+       "run_id": "r10-final-osd"
+      }
+     ]
+    },
+    "search": {
+     "apk_sha256": [
+      "3053e78e122ca7db116aa28429646b4543d82cc7c58d2debf28d373031c5eeb3"
+     ],
+     "late_count": 10,
+     "late_pct": 3.1447,
+     "max_ms": 30.0156,
+     "n": 318,
+     "p50_ms": 9.5269,
+     "p90_ms": 13.3414,
+     "p95_ms": 14.9137,
+     "p99_ms": 21.5498,
+     "runs": [
+      {
+       "captured_at": "2026-10-13T02:25",
+       "late_pct": 3.1447,
+       "n": 318,
+       "p50_ms": 9.5269,
+       "p99_ms": 21.5498,
+       "run": 1,
+       "run_id": "r10-final-search"
+      }
+     ]
+    },
+    "series": {
+     "apk_sha256": [
+      "3053e78e122ca7db116aa28429646b4543d82cc7c58d2debf28d373031c5eeb3"
+     ],
+     "late_count": 0,
+     "late_pct": 0.0,
+     "max_ms": 15.58,
+     "n": 87,
+     "p50_ms": 10.8662,
+     "p90_ms": 13.5751,
+     "p95_ms": 14.2411,
+     "p99_ms": 15.58,
+     "runs": [
+      {
+       "captured_at": "2026-10-13T02:24",
+       "late_pct": 0.0,
+       "n": 87,
+       "p50_ms": 10.8662,
+       "p99_ms": 15.58,
+       "run": 1,
+       "run_id": "r10-final-series"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "apk": "3053e78e",
+   "key": "r11-before",
+   "label": "r11 baseline",
+   "protocol_note": "paced reset (same APK as r10 final)",
+   "surfaces": {
+    "home": {
+     "apk_sha256": [
+      "3053e78e122ca7db116aa28429646b4543d82cc7c58d2debf28d373031c5eeb3"
+     ],
+     "late_count": 52,
+     "late_pct": 58.427,
+     "max_ms": 89.8756,
+     "n": 89,
+     "p50_ms": 18.7437,
+     "p90_ms": 39.7911,
+     "p95_ms": 42.4522,
+     "p99_ms": 89.8756,
+     "runs": [
+      {
+       "captured_at": "2026-10-13T02:55",
+       "late_pct": 58.427,
+       "n": 89,
+       "p50_ms": 18.7437,
+       "p99_ms": 89.8756,
+       "run": 1,
+       "run_id": "r11-before-home"
+      }
+     ]
+    },
+    "movies": {
+     "apk_sha256": [
+      "3053e78e122ca7db116aa28429646b4543d82cc7c58d2debf28d373031c5eeb3"
+     ],
+     "late_count": 67,
+     "late_pct": 44.3709,
+     "max_ms": 27.9707,
+     "n": 151,
+     "p50_ms": 15.7581,
+     "p90_ms": 21.9007,
+     "p95_ms": 22.8019,
+     "p99_ms": 24.8618,
+     "runs": [
+      {
+       "captured_at": "2026-10-13T02:57",
+       "late_pct": 44.3709,
+       "n": 151,
+       "p50_ms": 15.7581,
+       "p99_ms": 24.8618,
+       "run": 1,
+       "run_id": "r11-before-movies"
+      }
+     ]
+    },
+    "osd": {
+     "apk_sha256": [
+      "3053e78e122ca7db116aa28429646b4543d82cc7c58d2debf28d373031c5eeb3"
+     ],
+     "late_count": 5,
+     "late_pct": 3.6765,
+     "max_ms": 36.8987,
+     "n": 136,
+     "p50_ms": 7.3275,
+     "p90_ms": 11.4499,
+     "p95_ms": 13.7244,
+     "p99_ms": 32.835,
+     "runs": [
+      {
+       "captured_at": "2026-10-13T02:59",
+       "late_pct": 3.6765,
+       "n": 136,
+       "p50_ms": 7.3275,
+       "p99_ms": 32.835,
+       "run": 1,
+       "run_id": "r11-before-osd"
+      }
+     ]
+    },
+    "search": {
+     "apk_sha256": [
+      "3053e78e122ca7db116aa28429646b4543d82cc7c58d2debf28d373031c5eeb3"
+     ],
+     "late_count": 13,
+     "late_pct": 4.0881,
+     "max_ms": 31.6579,
+     "n": 318,
+     "p50_ms": 9.7872,
+     "p90_ms": 13.576,
+     "p95_ms": 15.5112,
+     "p99_ms": 22.3827,
+     "runs": [
+      {
+       "captured_at": "2026-10-13T02:58",
+       "late_pct": 4.0881,
+       "n": 318,
+       "p50_ms": 9.7872,
+       "p99_ms": 22.3827,
+       "run": 1,
+       "run_id": "r11-before-search"
+      }
+     ]
+    },
+    "series": {
+     "apk_sha256": [
+      "3053e78e122ca7db116aa28429646b4543d82cc7c58d2debf28d373031c5eeb3"
+     ],
+     "late_count": 0,
+     "late_pct": 0.0,
+     "max_ms": 16.5312,
+     "n": 87,
+     "p50_ms": 10.4008,
+     "p90_ms": 14.6362,
+     "p95_ms": 15.4695,
+     "p99_ms": 16.5312,
+     "runs": [
+      {
+       "captured_at": "2026-10-13T02:56",
+       "late_pct": 0.0,
+       "n": 87,
+       "p50_ms": 10.4008,
+       "p99_ms": 16.5312,
+       "run": 1,
+       "run_id": "r11-before-series"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "apk": "89ac29d5",
+   "key": "r11-accepted",
+   "label": "r11 accepted",
+   "protocol_note": "paced reset",
+   "surfaces": {
+    "home": {
+     "apk_sha256": [
+      "89ac29d5f469fa77053ac8196d2ce3cebbc057c7873b952d95895617e242c3df"
+     ],
+     "late_count": 2,
+     "late_pct": 2.0202,
+     "max_ms": 18.7039,
+     "n": 99,
+     "p50_ms": 9.8413,
+     "p90_ms": 13.8258,
+     "p95_ms": 15.6419,
+     "p99_ms": 18.7039,
+     "runs": [
+      {
+       "captured_at": "2026-10-13T05:29",
+       "late_pct": 2.0202,
+       "n": 99,
+       "p50_ms": 9.8413,
+       "p99_ms": 18.7039,
+       "run": 1,
+       "run_id": "r11-accepted-home"
+      }
+     ]
+    },
+    "movies": {
+     "apk_sha256": [
+      "89ac29d5f469fa77053ac8196d2ce3cebbc057c7873b952d95895617e242c3df"
+     ],
+     "late_count": 8,
+     "late_pct": 6.8376,
+     "max_ms": 27.717,
+     "n": 117,
+     "p50_ms": 10.9299,
+     "p90_ms": 14.5129,
+     "p95_ms": 17.4393,
+     "p99_ms": 22.3124,
+     "runs": [
+      {
+       "captured_at": "2026-10-13T05:30",
+       "late_pct": 6.8376,
+       "n": 117,
+       "p50_ms": 10.9299,
+       "p99_ms": 22.3124,
+       "run": 1,
+       "run_id": "r11-accepted-movies"
+      }
+     ]
+    },
+    "osd": {
+     "apk_sha256": [
+      "89ac29d5f469fa77053ac8196d2ce3cebbc057c7873b952d95895617e242c3df"
+     ],
+     "late_count": 6,
+     "late_pct": 3.7975,
+     "max_ms": 63.6083,
+     "n": 158,
+     "p50_ms": 7.7096,
+     "p90_ms": 11.0413,
+     "p95_ms": 12.9337,
+     "p99_ms": 42.3159,
+     "runs": [
+      {
+       "captured_at": "2026-10-13T05:34",
+       "late_pct": 3.7975,
+       "n": 158,
+       "p50_ms": 7.7096,
+       "p99_ms": 42.3159,
+       "run": 1,
+       "run_id": "r11-accepted-osd"
+      }
+     ]
+    },
+    "search": {
+     "apk_sha256": [
+      "89ac29d5f469fa77053ac8196d2ce3cebbc057c7873b952d95895617e242c3df"
+     ],
+     "late_count": 15,
+     "late_pct": 4.717,
+     "max_ms": 33.0438,
+     "n": 318,
+     "p50_ms": 9.4208,
+     "p90_ms": 13.554,
+     "p95_ms": 16.52,
+     "p99_ms": 22.5142,
+     "runs": [
+      {
+       "captured_at": "2026-10-13T05:33",
+       "late_pct": 4.717,
+       "n": 318,
+       "p50_ms": 9.4208,
+       "p99_ms": 22.5142,
+       "run": 1,
+       "run_id": "r11-accepted-search"
+      }
+     ]
+    },
+    "series": {
+     "apk_sha256": [
+      "89ac29d5f469fa77053ac8196d2ce3cebbc057c7873b952d95895617e242c3df"
+     ],
+     "late_count": 4,
+     "late_pct": 4.5977,
+     "max_ms": 21.477,
+     "n": 87,
+     "p50_ms": 10.7617,
+     "p90_ms": 14.3591,
+     "p95_ms": 14.9897,
+     "p99_ms": 21.477,
+     "runs": [
+      {
+       "captured_at": "2026-10-13T05:31",
+       "late_pct": 4.5977,
+       "n": 87,
+       "p50_ms": 10.7617,
+       "p99_ms": 21.477,
+       "run": 1,
+       "run_id": "r11-accepted-series"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "apk": "cfd54fa0",
+   "key": "r11-final2",
+   "label": "r11 final",
+   "protocol_note": "paced reset",
+   "surfaces": {
+    "home": {
+     "apk_sha256": [
+      "cfd54fa0863b51a51623bc6a11224ad2d5c970ccc9f4050971ed5c2a0a97933b"
+     ],
+     "late_count": 34,
+     "late_pct": 8.8773,
+     "max_ms": 24.5914,
+     "n": 383,
+     "p50_ms": 10.0143,
+     "p90_ms": 16.2214,
+     "p95_ms": 18.1374,
+     "p99_ms": 21.0452,
+     "runs": [
+      {
+       "captured_at": "2026-10-13T05:51",
+       "late_pct": 11.7021,
+       "n": 94,
+       "p50_ms": 10.3235,
+       "p99_ms": 22.1199,
+       "run": 1,
+       "run_id": "r11-final2-home"
+      },
+      {
+       "captured_at": "2026-10-13T05:57",
+       "late_pct": 6.25,
+       "n": 96,
+       "p50_ms": 9.9734,
+       "p99_ms": 21.0452,
+       "run": 1,
+       "run_id": "r11-repeat1-home"
+      },
+      {
+       "captured_at": "2026-10-13T05:58",
+       "late_pct": 13.5417,
+       "n": 96,
+       "p50_ms": 9.9182,
+       "p99_ms": 24.5914,
+       "run": 1,
+       "run_id": "r11-repeat2-home"
+      },
+      {
+       "captured_at": "2026-10-13T05:59",
+       "late_pct": 4.1237,
+       "n": 97,
+       "p50_ms": 9.8404,
+       "p99_ms": 19.0773,
+       "run": 1,
+       "run_id": "r11-repeat3-home"
+      }
+     ]
+    },
+    "movies": {
+     "apk_sha256": [
+      "cfd54fa0863b51a51623bc6a11224ad2d5c970ccc9f4050971ed5c2a0a97933b"
+     ],
+     "late_count": 9,
+     "late_pct": 3.8298,
+     "max_ms": 30.9851,
+     "n": 235,
+     "p50_ms": 10.2237,
+     "p90_ms": 13.3258,
+     "p95_ms": 16.044,
+     "p99_ms": 25.1833,
+     "runs": [
+      {
+       "captured_at": "2026-10-13T05:49",
+       "late_pct": 3.3898,
+       "n": 118,
+       "p50_ms": 10.0966,
+       "p99_ms": 25.1833,
+       "run": 1,
+       "run_id": "r11-fixed-movies"
+      },
+      {
+       "captured_at": "2026-10-13T05:52",
+       "late_pct": 4.2735,
+       "n": 117,
+       "p50_ms": 10.2912,
+       "p99_ms": 21.6802,
+       "run": 1,
+       "run_id": "r11-final2-movies"
+      }
+     ]
+    },
+    "osd": {
+     "apk_sha256": [
+      "cfd54fa0863b51a51623bc6a11224ad2d5c970ccc9f4050971ed5c2a0a97933b"
+     ],
+     "late_count": 7,
+     "late_pct": 4.2945,
+     "max_ms": 43.9852,
+     "n": 163,
+     "p50_ms": 8.5151,
+     "p90_ms": 12.4105,
+     "p95_ms": 14.3652,
+     "p99_ms": 33.3336,
+     "runs": [
+      {
+       "captured_at": "2026-10-13T05:55",
+       "late_pct": 4.2945,
+       "n": 163,
+       "p50_ms": 8.5151,
+       "p99_ms": 33.3336,
+       "run": 1,
+       "run_id": "r11-final2-osd"
+      }
+     ]
+    },
+    "search": {
+     "apk_sha256": [
+      "cfd54fa0863b51a51623bc6a11224ad2d5c970ccc9f4050971ed5c2a0a97933b"
+     ],
+     "late_count": 11,
+     "late_pct": 3.4591,
+     "max_ms": 29.6771,
+     "n": 318,
+     "p50_ms": 9.6789,
+     "p90_ms": 13.0146,
+     "p95_ms": 14.1273,
+     "p99_ms": 24.1308,
+     "runs": [
+      {
+       "captured_at": "2026-10-13T05:54",
+       "late_pct": 3.4591,
+       "n": 318,
+       "p50_ms": 9.6789,
+       "p99_ms": 24.1308,
+       "run": 1,
+       "run_id": "r11-final2-search"
+      }
+     ]
+    },
+    "series": {
+     "apk_sha256": [
+      "cfd54fa0863b51a51623bc6a11224ad2d5c970ccc9f4050971ed5c2a0a97933b"
+     ],
+     "late_count": 3,
+     "late_pct": 3.4483,
+     "max_ms": 27.1802,
+     "n": 87,
+     "p50_ms": 11.1155,
+     "p90_ms": 14.2824,
+     "p95_ms": 15.7705,
+     "p99_ms": 27.1802,
+     "runs": [
+      {
+       "captured_at": "2026-10-13T05:53",
+       "late_pct": 3.4483,
+       "n": 87,
+       "p50_ms": 11.1155,
+       "p99_ms": 27.1802,
+       "run": 1,
+       "run_id": "r11-final2-series"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "apk": "7098d3c6",
+   "key": "r12-7098",
+   "label": "r12 candidate",
+   "protocol_note": "paced reset",
+   "surfaces": {
+    "home": {
+     "apk_sha256": [
+      "7098d3c607d4db29731eb85e77d6e1e1f86f8004517a658c8008702cf19b0bba"
+     ],
+     "late_count": 7,
+     "late_pct": 8.046,
+     "max_ms": 21.1211,
+     "n": 87,
+     "p50_ms": 10.357,
+     "p90_ms": 15.2009,
+     "p95_ms": 17.7287,
+     "p99_ms": 21.1211,
+     "runs": [
+      {
+       "captured_at": "2026-10-13T07:23",
+       "late_pct": 8.046,
+       "n": 87,
+       "p50_ms": 10.357,
+       "p99_ms": 21.1211,
+       "run": 1,
+       "run_id": "r12-7098-home"
+      }
+     ]
+    },
+    "movies": {
+     "apk_sha256": [
+      "7098d3c607d4db29731eb85e77d6e1e1f86f8004517a658c8008702cf19b0bba"
+     ],
+     "late_count": 4,
+     "late_pct": 3.4483,
+     "max_ms": 20.6558,
+     "n": 116,
+     "p50_ms": 10.6118,
+     "p90_ms": 13.6385,
+     "p95_ms": 15.6641,
+     "p99_ms": 18.1726,
+     "runs": [
+      {
+       "captured_at": "2026-10-13T07:25",
+       "late_pct": 3.4483,
+       "n": 116,
+       "p50_ms": 10.6118,
+       "p99_ms": 18.1726,
+       "run": 1,
+       "run_id": "r12-7098-movies"
+      }
+     ]
+    },
+    "osd": null,
+    "search": {
+     "apk_sha256": [
+      "7098d3c607d4db29731eb85e77d6e1e1f86f8004517a658c8008702cf19b0bba"
+     ],
+     "late_count": 16,
+     "late_pct": 5.0314,
+     "max_ms": 35.4041,
+     "n": 318,
+     "p50_ms": 9.8788,
+     "p90_ms": 14.0469,
+     "p95_ms": 16.8173,
+     "p99_ms": 23.7382,
+     "runs": [
+      {
+       "captured_at": "2026-10-13T07:27",
+       "late_pct": 5.0314,
+       "n": 318,
+       "p50_ms": 9.8788,
+       "p99_ms": 23.7382,
+       "run": 1,
+       "run_id": "r12-7098-search"
+      }
+     ]
+    },
+    "series": {
+     "apk_sha256": [
+      "7098d3c607d4db29731eb85e77d6e1e1f86f8004517a658c8008702cf19b0bba"
+     ],
+     "late_count": 3,
+     "late_pct": 3.4483,
+     "max_ms": 19.3371,
+     "n": 87,
+     "p50_ms": 10.419,
+     "p90_ms": 14.2234,
+     "p95_ms": 15.3163,
+     "p99_ms": 19.3371,
+     "runs": [
+      {
+       "captured_at": "2026-10-13T07:26",
+       "late_pct": 3.4483,
+       "n": 87,
+       "p50_ms": 10.419,
+       "p99_ms": 19.3371,
+       "run": 1,
+       "run_id": "r12-7098-series"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "apk": "f266c76a",
+   "key": "r12-final",
+   "label": "r12 final",
+   "protocol_note": "paced reset",
+   "surfaces": {
+    "home": {
+     "apk_sha256": [
+      "f266c76a47b5c93c493f8ce9eaec69293edd1989ad4c40266fc805311fe5b2c0"
+     ],
+     "late_count": 8,
+     "late_pct": 2.9412,
+     "max_ms": 20.0481,
+     "n": 272,
+     "p50_ms": 9.8782,
+     "p90_ms": 13.7324,
+     "p95_ms": 15.2272,
+     "p99_ms": 18.4217,
+     "runs": [
+      {
+       "captured_at": "2026-10-13T07:40",
+       "late_pct": 4.1237,
+       "n": 97,
+       "p50_ms": 9.6812,
+       "p99_ms": 20.0481,
+       "run": 1,
+       "run_id": "r12-clip1-home"
+      },
+      {
+       "captured_at": "2026-10-13T07:42",
+       "late_pct": 2.2989,
+       "n": 87,
+       "p50_ms": 10.0234,
+       "p99_ms": 17.9036,
+       "run": 1,
+       "run_id": "r12-clip2-home"
+      },
+      {
+       "captured_at": "2026-10-13T07:44",
+       "late_pct": 2.2727,
+       "n": 88,
+       "p50_ms": 9.8768,
+       "p99_ms": 19.2713,
+       "run": 1,
+       "run_id": "r12-clip3-home"
+      }
+     ]
+    },
+    "movies": {
+     "apk_sha256": [
+      "f266c76a47b5c93c493f8ce9eaec69293edd1989ad4c40266fc805311fe5b2c0"
+     ],
+     "late_count": 7,
+     "late_pct": 2.9915,
+     "max_ms": 24.4254,
+     "n": 234,
+     "p50_ms": 10.59,
+     "p90_ms": 14.0336,
+     "p95_ms": 14.9864,
+     "p99_ms": 20.0255,
+     "runs": [
+      {
+       "captured_at": "2026-10-13T07:41",
+       "late_pct": 3.4188,
+       "n": 117,
+       "p50_ms": 10.2062,
+       "p99_ms": 20.0255,
+       "run": 1,
+       "run_id": "r12-clip1-movies"
+      },
+      {
+       "captured_at": "2026-10-13T07:43",
+       "late_pct": 2.5641,
+       "n": 117,
+       "p50_ms": 10.9385,
+       "p99_ms": 18.3407,
+       "run": 1,
+       "run_id": "r12-clip2-movies"
+      }
+     ]
+    },
+    "osd": null,
+    "search": {
+     "apk_sha256": [
+      "f266c76a47b5c93c493f8ce9eaec69293edd1989ad4c40266fc805311fe5b2c0"
+     ],
+     "late_count": 10,
+     "late_pct": 3.1447,
+     "max_ms": 40.8781,
+     "n": 318,
+     "p50_ms": 9.4525,
+     "p90_ms": 13.8996,
+     "p95_ms": 15.209,
+     "p99_ms": 21.2165,
+     "runs": [
+      {
+       "captured_at": "2026-10-13T07:47",
+       "late_pct": 3.1447,
+       "n": 318,
+       "p50_ms": 9.4525,
+       "p99_ms": 21.2165,
+       "run": 1,
+       "run_id": "r12-finalrest-search"
+      }
+     ]
+    },
+    "series": {
+     "apk_sha256": [
+      "f266c76a47b5c93c493f8ce9eaec69293edd1989ad4c40266fc805311fe5b2c0"
+     ],
+     "late_count": 4,
+     "late_pct": 4.5977,
+     "max_ms": 22.5959,
+     "n": 87,
+     "p50_ms": 11.1624,
+     "p90_ms": 14.8406,
+     "p95_ms": 16.6035,
+     "p99_ms": 22.5959,
+     "runs": [
+      {
+       "captured_at": "2026-10-13T07:46",
+       "late_pct": 4.5977,
+       "n": 87,
+       "p50_ms": 11.1624,
+       "p99_ms": 22.5959,
+       "run": 1,
+       "run_id": "r12-finalrest-series"
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "controlled": [
+  {
+   "a": {
+    "apk_sha256": [
+     "eec219270a3b4ece01fb94df6c75fd6bcc3cf6738aef5a6a61f1907f1e2ccce9"
+    ],
+    "late_count": 152,
+    "late_pct": 64.6809,
+    "max_ms": 60.218,
+    "n": 235,
+    "p50_ms": 23.469,
+    "p90_ms": 30.6299,
+    "p95_ms": 34.8968,
+    "p99_ms": 52.289,
+    "runs": [
+     {
+      "captured_at": "2026-10-13T00:47",
+      "late_pct": 64.6809,
+      "n": 235,
+      "p50_ms": 23.469,
+      "p99_ms": 52.289,
+      "run": 1,
+      "run_id": "r9-pool-off-movies-hidreset"
+     }
+    ]
+   },
+   "a_label": "legacy lazy grid",
+   "apk": "eec21927",
+   "b": {
+    "apk_sha256": [
+     "eec219270a3b4ece01fb94df6c75fd6bcc3cf6738aef5a6a61f1907f1e2ccce9"
+    ],
+    "late_count": 97,
+    "late_pct": 46.1905,
+    "max_ms": 36.9972,
+    "n": 210,
+    "p50_ms": 15.412,
+    "p90_ms": 22.5863,
+    "p95_ms": 24.4826,
+    "p99_ms": 30.0062,
+    "runs": [
+     {
+      "captured_at": "2026-10-13T00:46",
+      "late_pct": 46.1905,
+      "n": 210,
+      "p50_ms": 15.412,
+      "p99_ms": 30.0062,
+      "run": 1,
+      "run_id": "r9-pool-on-movies-hidreset"
+     }
+    ]
+   },
+   "b_label": "retained 5-row grid",
+   "key": "movies-grid",
+   "surface": "movies"
+  },
+  {
+   "a": {
+    "apk_sha256": [
+     "5b6b9df05c213eadf0882374e4d8c58a311eb430ad9c8635f9b41e51c5b9ba52"
+    ],
+    "late_count": 146,
+    "late_pct": 65.7658,
+    "max_ms": 96.881,
+    "n": 222,
+    "p50_ms": 23.3747,
+    "p90_ms": 31.9582,
+    "p95_ms": 36.7827,
+    "p99_ms": 61.8421,
+    "runs": [
+     {
+      "captured_at": "2026-10-12T23:23",
+      "late_pct": 65.7658,
+      "n": 222,
+      "p50_ms": 23.3747,
+      "p99_ms": 61.8421,
+      "run": 1,
+      "run_id": "r9-movies-no-prefetch"
+     }
+    ]
+   },
+   "a_label": "lazy prefetch off",
+   "apk": "5b6b9df0",
+   "b": {
+    "apk_sha256": [
+     "5b6b9df05c213eadf0882374e4d8c58a311eb430ad9c8635f9b41e51c5b9ba52"
+    ],
+    "late_count": 136,
+    "late_pct": 59.6491,
+    "max_ms": 64.5189,
+    "n": 228,
+    "p50_ms": 22.2349,
+    "p90_ms": 30.2763,
+    "p95_ms": 33.9887,
+    "p99_ms": 50.0906,
+    "runs": [
+     {
+      "captured_at": "2026-10-12T23:16",
+      "late_pct": 59.6491,
+      "n": 228,
+      "p50_ms": 22.2349,
+      "p99_ms": 50.0906,
+      "run": 1,
+      "run_id": "r9-baseline-movies"
+     }
+    ]
+   },
+   "b_label": "lazy prefetch on",
+   "key": "movies-prefetch",
+   "surface": "movies"
+  },
+  {
+   "a": {
+    "apk_sha256": [
+     "eec219270a3b4ece01fb94df6c75fd6bcc3cf6738aef5a6a61f1907f1e2ccce9"
+    ],
+    "late_count": 57,
+    "late_pct": 77.027,
+    "max_ms": 135.4266,
+    "n": 74,
+    "p50_ms": 27.4066,
+    "p90_ms": 67.1013,
+    "p95_ms": 75.8615,
+    "p99_ms": 135.4266,
+    "runs": [
+     {
+      "captured_at": "2026-10-13T00:38",
+      "late_pct": 77.027,
+      "n": 74,
+      "p50_ms": 27.4066,
+      "p99_ms": 135.4266,
+      "run": 1,
+      "run_id": "r9-parent-off-home"
+     }
+    ]
+   },
+   "a_label": "parent anchor off",
+   "apk": "eec21927",
+   "b": {
+    "apk_sha256": [
+     "eec219270a3b4ece01fb94df6c75fd6bcc3cf6738aef5a6a61f1907f1e2ccce9"
+    ],
+    "late_count": 55,
+    "late_pct": 80.8824,
+    "max_ms": 137.31,
+    "n": 68,
+    "p50_ms": 34.9429,
+    "p90_ms": 62.1659,
+    "p95_ms": 66.7645,
+    "p99_ms": 137.31,
+    "runs": [
+     {
+      "captured_at": "2026-10-13T00:39",
+      "late_pct": 80.8824,
+      "n": 68,
+      "p50_ms": 34.9429,
+      "p99_ms": 137.31,
+      "run": 1,
+      "run_id": "r9-parent-on-home"
+     }
+    ]
+   },
+   "b_label": "parent anchor on",
+   "key": "home-parent-anchor",
+   "surface": "home"
+  },
+  {
+   "a": {
+    "apk_sha256": [
+     "618e6561e5029aefb62923244c59b9c1c3928ff025af50ee4ed8b990679e3738"
+    ],
+    "late_count": 102,
+    "late_pct": 18.0531,
+    "max_ms": 72.8534,
+    "n": 565,
+    "p50_ms": 10.1342,
+    "p90_ms": 23.3279,
+    "p95_ms": 26.4512,
+    "p99_ms": 43.8741,
+    "runs": [
+     {
+      "captured_at": "2026-10-12T14:16",
+      "late_pct": 14.2384,
+      "n": 302,
+      "p50_ms": 10.1962,
+      "p99_ms": 43.8741,
+      "run": 1,
+      "run_id": "r4-home-swbitmap"
+     },
+     {
+      "captured_at": "2026-10-12T14:16",
+      "late_pct": 22.4335,
+      "n": 263,
+      "p50_ms": 10.0061,
+      "p99_ms": 40.3095,
+      "run": 2,
+      "run_id": "r4-home-swbitmap"
+     }
+    ]
+   },
+   "a_label": "software RGB565",
+   "apk": "618e6561",
+   "b": {
+    "apk_sha256": [
+     "618e6561e5029aefb62923244c59b9c1c3928ff025af50ee4ed8b990679e3738"
+    ],
+    "late_count": 113,
+    "late_pct": 18.9597,
+    "max_ms": 61.2584,
+    "n": 596,
+    "p50_ms": 10.5279,
+    "p90_ms": 24.0186,
+    "p95_ms": 27.401,
+    "p99_ms": 42.791,
+    "runs": [
+     {
+      "captured_at": "2026-10-12T14:16",
+      "late_pct": 18.323,
+      "n": 322,
+      "p50_ms": 10.6596,
+      "p99_ms": 37.6979,
+      "run": 1,
+      "run_id": "r4-home-hwbitmap"
+     },
+     {
+      "captured_at": "2026-10-12T14:16",
+      "late_pct": 19.708,
+      "n": 274,
+      "p50_ms": 10.3892,
+      "p99_ms": 42.8454,
+      "run": 2,
+      "run_id": "r4-home-hwbitmap"
+     }
+    ]
+   },
+   "b_label": "hardware bitmaps",
+   "key": "home-bitmaps",
+   "surface": "home"
+  },
+  {
+   "a": {
+    "apk_sha256": [
+     "618e6561e5029aefb62923244c59b9c1c3928ff025af50ee4ed8b990679e3738"
+    ],
+    "late_count": 1,
+    "late_pct": 1.4286,
+    "max_ms": 17.5856,
+    "n": 70,
+    "p50_ms": 9.0791,
+    "p90_ms": 13.0945,
+    "p95_ms": 15.0472,
+    "p99_ms": 17.5856,
+    "runs": [
+     {
+      "captured_at": "2026-10-12T14:21",
+      "late_pct": 1.4286,
+      "n": 70,
+      "p50_ms": 9.0791,
+      "p99_ms": 17.5856,
+      "run": 1,
+      "run_id": "r4-movies-swbitmap"
+     }
+    ]
+   },
+   "a_label": "software RGB565",
+   "apk": "618e6561",
+   "b": {
+    "apk_sha256": [
+     "618e6561e5029aefb62923244c59b9c1c3928ff025af50ee4ed8b990679e3738"
+    ],
+    "late_count": 2,
+    "late_pct": 2.7778,
+    "max_ms": 18.2942,
+    "n": 72,
+    "p50_ms": 8.7799,
+    "p90_ms": 11.5759,
+    "p95_ms": 12.7711,
+    "p99_ms": 18.2942,
+    "runs": [
+     {
+      "captured_at": "2026-10-12T14:22",
+      "late_pct": 2.7778,
+      "n": 72,
+      "p50_ms": 8.7799,
+      "p99_ms": 18.2942,
+      "run": 1,
+      "run_id": "r4-movies-hwbitmap"
+     }
+    ]
+   },
+   "b_label": "hardware bitmaps",
+   "key": "movies-bitmaps",
+   "surface": "movies"
+  },
+  {
+   "a": {
+    "apk_sha256": [
+     "618e6561e5029aefb62923244c59b9c1c3928ff025af50ee4ed8b990679e3738"
+    ],
+    "late_count": 16,
+    "late_pct": 10.1911,
+    "max_ms": 53.614,
+    "n": 157,
+    "p50_ms": 8.4871,
+    "p90_ms": 17.9315,
+    "p95_ms": 27.208,
+    "p99_ms": 53.0629,
+    "runs": [
+     {
+      "captured_at": "2026-10-12T14:22",
+      "late_pct": 10.1911,
+      "n": 157,
+      "p50_ms": 8.4871,
+      "p99_ms": 53.0629,
+      "run": 1,
+      "run_id": "r4-series-swbitmap"
+     }
+    ]
+   },
+   "a_label": "software RGB565",
+   "apk": "618e6561",
+   "b": {
+    "apk_sha256": [
+     "618e6561e5029aefb62923244c59b9c1c3928ff025af50ee4ed8b990679e3738"
+    ],
+    "late_count": 24,
+    "late_pct": 15.4839,
+    "max_ms": 144.9304,
+    "n": 155,
+    "p50_ms": 8.9377,
+    "p90_ms": 23.1071,
+    "p95_ms": 32.0242,
+    "p99_ms": 119.8493,
+    "runs": [
+     {
+      "captured_at": "2026-10-12T14:23",
+      "late_pct": 15.4839,
+      "n": 155,
+      "p50_ms": 8.9377,
+      "p99_ms": 119.8493,
+      "run": 1,
+      "run_id": "r4-series-hwbitmap"
+     }
+    ]
+   },
+   "b_label": "hardware bitmaps",
+   "key": "series-bitmaps",
+   "surface": "series-detail"
+  }
+ ],
+ "memory_final": [
+  {
+   "code_kib": "18444",
+   "context": "after held-input capture on home",
+   "java_heap_kib": "26064",
+   "native_heap_kib": "43444",
+   "sample_id": "r12-clip1-home",
+   "total_pss_kib": "100539"
+  },
+  {
+   "code_kib": "18228",
+   "context": "after held-input capture on movies",
+   "java_heap_kib": "22464",
+   "native_heap_kib": "58552",
+   "sample_id": "r12-clip1-movies",
+   "total_pss_kib": "111993"
+  },
+  {
+   "code_kib": "18272",
+   "context": "after held-input capture on home",
+   "java_heap_kib": "15316",
+   "native_heap_kib": "38632",
+   "sample_id": "r12-clip2-home",
+   "total_pss_kib": "84431"
+  },
+  {
+   "code_kib": "18196",
+   "context": "after held-input capture on movies",
+   "java_heap_kib": "11872",
+   "native_heap_kib": "57252",
+   "sample_id": "r12-clip2-movies",
+   "total_pss_kib": "99667"
+  },
+  {
+   "code_kib": "18224",
+   "context": "after held-input capture on home",
+   "java_heap_kib": "25156",
+   "native_heap_kib": "40828",
+   "sample_id": "r12-clip3-home",
+   "total_pss_kib": "96345"
+  },
+  {
+   "code_kib": "18292",
+   "context": "after held-input capture on search",
+   "java_heap_kib": "30636",
+   "native_heap_kib": "34536",
+   "sample_id": "r12-finalrest-search",
+   "total_pss_kib": "96004"
+  },
+  {
+   "code_kib": "18640",
+   "context": "after held-input capture on series",
+   "java_heap_kib": "16968",
+   "native_heap_kib": "33612",
+   "sample_id": "r12-finalrest-series",
+   "total_pss_kib": "81958"
+  }
+ ],
+ "observational": [
+  {
+   "after": "r10-final",
+   "before": "r10-before",
+   "gap": "~1 h",
+   "key": "r10",
+   "matched": "same protocol/start; different APK, time and live load",
+   "note": "Player and UI changes both landed.",
+   "surfaces": {
+    "home": {
+     "after": {
+      "late_pct": 63.6364,
+      "n": 77,
+      "p50_ms": 22.3454,
+      "p99_ms": 66.741
+     },
+     "before": {
+      "late_pct": 73.8095,
+      "n": 84,
+      "p50_ms": 28.3096,
+      "p99_ms": 67.2262
+     }
+    },
+    "movies": {
+     "after": {
+      "late_pct": 44.3709,
+      "n": 151,
+      "p50_ms": 16.1841,
+      "p99_ms": 23.9217
+     },
+     "before": {
+      "late_pct": 47.1429,
+      "n": 210,
+      "p50_ms": 15.4753,
+      "p99_ms": 35.7832
+     }
+    },
+    "osd": {
+     "after": {
+      "late_pct": 5.1471,
+      "n": 136,
+      "p50_ms": 7.8598,
+      "p99_ms": 21.513
+     },
+     "before": {
+      "late_pct": 2.8986,
+      "n": 138,
+      "p50_ms": 7.9809,
+      "p99_ms": 20.1772
+     }
+    },
+    "search": {
+     "after": {
+      "late_pct": 3.1447,
+      "n": 318,
+      "p50_ms": 9.5269,
+      "p99_ms": 21.5498
+     },
+     "before": {
+      "late_pct": 3.4591,
+      "n": 318,
+      "p50_ms": 9.5314,
+      "p99_ms": 24.214
+     }
+    },
+    "series": {
+     "after": {
+      "late_pct": 0.0,
+      "n": 87,
+      "p50_ms": 10.8662,
+      "p99_ms": 15.58
+     },
+     "before": {
+      "late_pct": 10.9244,
+      "n": 119,
+      "p50_ms": 11.7193,
+      "p99_ms": 25.5885
+     }
+    }
+   }
+  },
+  {
+   "after": "r11-accepted",
+   "before": "r11-before",
+   "gap": "~2.5 h",
+   "key": "r11",
+   "matched": "same protocol/start; different APK, time and live load",
+   "note": "Native Home rail + cached text layouts.",
+   "surfaces": {
+    "home": {
+     "after": {
+      "late_pct": 2.0202,
+      "n": 99,
+      "p50_ms": 9.8413,
+      "p99_ms": 18.7039
+     },
+     "before": {
+      "late_pct": 58.427,
+      "n": 89,
+      "p50_ms": 18.7437,
+      "p99_ms": 89.8756
+     }
+    },
+    "movies": {
+     "after": {
+      "late_pct": 6.8376,
+      "n": 117,
+      "p50_ms": 10.9299,
+      "p99_ms": 22.3124
+     },
+     "before": {
+      "late_pct": 44.3709,
+      "n": 151,
+      "p50_ms": 15.7581,
+      "p99_ms": 24.8618
+     }
+    },
+    "osd": {
+     "after": {
+      "late_pct": 3.7975,
+      "n": 158,
+      "p50_ms": 7.7096,
+      "p99_ms": 42.3159
+     },
+     "before": {
+      "late_pct": 3.6765,
+      "n": 136,
+      "p50_ms": 7.3275,
+      "p99_ms": 32.835
+     }
+    },
+    "search": {
+     "after": {
+      "late_pct": 4.717,
+      "n": 318,
+      "p50_ms": 9.4208,
+      "p99_ms": 22.5142
+     },
+     "before": {
+      "late_pct": 4.0881,
+      "n": 318,
+      "p50_ms": 9.7872,
+      "p99_ms": 22.3827
+     }
+    },
+    "series": {
+     "after": {
+      "late_pct": 4.5977,
+      "n": 87,
+      "p50_ms": 10.7617,
+      "p99_ms": 21.477
+     },
+     "before": {
+      "late_pct": 0.0,
+      "n": 87,
+      "p50_ms": 10.4008,
+      "p99_ms": 16.5312
+     }
+    }
+   }
+  },
+  {
+   "after": "r12-final",
+   "before": "r11-final2",
+   "gap": "~1.8 h",
+   "key": "r11-r12",
+   "matched": "same protocol/start; different APK, time and live load",
+   "note": "Home native viewport bridge + clipping.",
+   "surfaces": {
+    "home": {
+     "after": {
+      "late_pct": 2.9412,
+      "n": 272,
+      "p50_ms": 9.8782,
+      "p99_ms": 18.4217
+     },
+     "before": {
+      "late_pct": 8.8773,
+      "n": 383,
+      "p50_ms": 10.0143,
+      "p99_ms": 21.0452
+     }
+    },
+    "movies": {
+     "after": {
+      "late_pct": 2.9915,
+      "n": 234,
+      "p50_ms": 10.59,
+      "p99_ms": 20.0255
+     },
+     "before": {
+      "late_pct": 3.8298,
+      "n": 235,
+      "p50_ms": 10.2237,
+      "p99_ms": 25.1833
+     }
+    },
+    "search": {
+     "after": {
+      "late_pct": 3.1447,
+      "n": 318,
+      "p50_ms": 9.4525,
+      "p99_ms": 21.2165
+     },
+     "before": {
+      "late_pct": 3.4591,
+      "n": 318,
+      "p50_ms": 9.6789,
+      "p99_ms": 24.1308
+     }
+    },
+    "series": {
+     "after": {
+      "late_pct": 4.5977,
+      "n": 87,
+      "p50_ms": 11.1624,
+      "p99_ms": 22.5959
+     },
+     "before": {
+      "late_pct": 3.4483,
+      "n": 87,
+      "p50_ms": 11.1155,
+      "p99_ms": 27.1802
+     }
+    }
+   }
+  },
+  {
+   "after": "r12-final",
+   "before": "r10-final",
+   "gap": "~5.3 h",
+   "key": "r10-r12",
+   "matched": "same protocol/start; different APK, time and live load",
+   "note": "Spans r11 and r12; least well matched.",
+   "surfaces": {
+    "home": {
+     "after": {
+      "late_pct": 2.9412,
+      "n": 272,
+      "p50_ms": 9.8782,
+      "p99_ms": 18.4217
+     },
+     "before": {
+      "late_pct": 63.6364,
+      "n": 77,
+      "p50_ms": 22.3454,
+      "p99_ms": 66.741
+     }
+    },
+    "movies": {
+     "after": {
+      "late_pct": 2.9915,
+      "n": 234,
+      "p50_ms": 10.59,
+      "p99_ms": 20.0255
+     },
+     "before": {
+      "late_pct": 44.3709,
+      "n": 151,
+      "p50_ms": 16.1841,
+      "p99_ms": 23.9217
+     }
+    },
+    "search": {
+     "after": {
+      "late_pct": 3.1447,
+      "n": 318,
+      "p50_ms": 9.4525,
+      "p99_ms": 21.2165
+     },
+     "before": {
+      "late_pct": 3.1447,
+      "n": 318,
+      "p50_ms": 9.5269,
+      "p99_ms": 21.5498
+     }
+    },
+    "series": {
+     "after": {
+      "late_pct": 4.5977,
+      "n": 87,
+      "p50_ms": 11.1624,
+      "p99_ms": 22.5959
+     },
+     "before": {
+      "late_pct": 0.0,
+      "n": 87,
+      "p50_ms": 10.8662,
+      "p99_ms": 15.58
+     }
+    }
+   }
+  }
+ ],
+ "playback_accepted": [
+  {
+   "apk_sha256": "4519f3d3ea7f251b80ff5523433c2abd801b349beec06def0c41e0dff6c5d618",
+   "audio_since_activity_ms": "",
+   "campaign": "qa-r9",
+   "case_id": "qa-r9/mediaA-resume",
+   "event": "resume",
+   "landing_delta_ms": "",
+   "media": "media-A",
+   "play_method": "Transcode",
+   "position_policy": "",
+   "prepare_to_first_frame_ms": "415",
+   "seek_to_frame_ms": "",
+   "since_activity_ms": "735",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "4519f3d3ea7f251b80ff5523433c2abd801b349beec06def0c41e0dff6c5d618",
+   "audio_since_activity_ms": "",
+   "campaign": "qa-r9",
+   "case_id": "qa-r9/mediaA-seek",
+   "event": "start",
+   "landing_delta_ms": "",
+   "media": "media-A",
+   "play_method": "Transcode",
+   "position_policy": "",
+   "prepare_to_first_frame_ms": "424",
+   "seek_to_frame_ms": "",
+   "since_activity_ms": "649",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "4519f3d3ea7f251b80ff5523433c2abd801b349beec06def0c41e0dff6c5d618",
+   "audio_since_activity_ms": "",
+   "campaign": "qa-r9",
+   "case_id": "qa-r9/mediaA-seek",
+   "event": "seek-restart",
+   "landing_delta_ms": "",
+   "media": "media-A",
+   "play_method": "Transcode",
+   "position_policy": "",
+   "prepare_to_first_frame_ms": "9503",
+   "seek_to_frame_ms": "",
+   "since_activity_ms": "",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "4519f3d3ea7f251b80ff5523433c2abd801b349beec06def0c41e0dff6c5d618",
+   "audio_since_activity_ms": "",
+   "campaign": "qa-r9",
+   "case_id": "qa-r9/mediaA-start",
+   "event": "start",
+   "landing_delta_ms": "",
+   "media": "media-A",
+   "play_method": "Transcode",
+   "position_policy": "",
+   "prepare_to_first_frame_ms": "1638",
+   "seek_to_frame_ms": "",
+   "since_activity_ms": "1987",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "4519f3d3ea7f251b80ff5523433c2abd801b349beec06def0c41e0dff6c5d618",
+   "audio_since_activity_ms": "",
+   "campaign": "qa-r9",
+   "case_id": "qa-r9/mediaG-credits",
+   "event": "start",
+   "landing_delta_ms": "",
+   "media": "media-G",
+   "play_method": "DirectPlay",
+   "position_policy": "",
+   "prepare_to_first_frame_ms": "768",
+   "seek_to_frame_ms": "",
+   "since_activity_ms": "1004",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "4519f3d3ea7f251b80ff5523433c2abd801b349beec06def0c41e0dff6c5d618",
+   "audio_since_activity_ms": "",
+   "campaign": "qa-r9",
+   "case_id": "qa-r9/mediaG-credits",
+   "event": "seek-in-place",
+   "landing_delta_ms": "",
+   "media": "media-G",
+   "play_method": "DirectPlay",
+   "position_policy": "",
+   "prepare_to_first_frame_ms": "",
+   "seek_to_frame_ms": "381",
+   "since_activity_ms": "",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "4519f3d3ea7f251b80ff5523433c2abd801b349beec06def0c41e0dff6c5d618",
+   "audio_since_activity_ms": "",
+   "campaign": "qa-r9",
+   "case_id": "qa-r9/mediaG-credits",
+   "event": "seek-in-place",
+   "landing_delta_ms": "",
+   "media": "media-G",
+   "play_method": "DirectPlay",
+   "position_policy": "",
+   "prepare_to_first_frame_ms": "",
+   "seek_to_frame_ms": "1039",
+   "since_activity_ms": "",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "4519f3d3ea7f251b80ff5523433c2abd801b349beec06def0c41e0dff6c5d618",
+   "audio_since_activity_ms": "",
+   "campaign": "qa-r9",
+   "case_id": "qa-r9/mediaG-intro",
+   "event": "start",
+   "landing_delta_ms": "",
+   "media": "media-G",
+   "play_method": "DirectPlay",
+   "position_policy": "",
+   "prepare_to_first_frame_ms": "839",
+   "seek_to_frame_ms": "",
+   "since_activity_ms": "1178",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "4519f3d3ea7f251b80ff5523433c2abd801b349beec06def0c41e0dff6c5d618",
+   "audio_since_activity_ms": "",
+   "campaign": "qa-r9",
+   "case_id": "qa-r9/mediaG-intro",
+   "event": "seek-in-place",
+   "landing_delta_ms": "",
+   "media": "media-G",
+   "play_method": "DirectPlay",
+   "position_policy": "",
+   "prepare_to_first_frame_ms": "",
+   "seek_to_frame_ms": "365",
+   "since_activity_ms": "",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "4519f3d3ea7f251b80ff5523433c2abd801b349beec06def0c41e0dff6c5d618",
+   "audio_since_activity_ms": "",
+   "campaign": "qa-r9",
+   "case_id": "qa-r9/mediaF-aac",
+   "event": "start",
+   "landing_delta_ms": "",
+   "media": "media-F",
+   "play_method": "DirectPlay",
+   "position_policy": "",
+   "prepare_to_first_frame_ms": "1594",
+   "seek_to_frame_ms": "",
+   "since_activity_ms": "1844",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "4519f3d3ea7f251b80ff5523433c2abd801b349beec06def0c41e0dff6c5d618",
+   "audio_since_activity_ms": "",
+   "campaign": "qa-r9",
+   "case_id": "qa-r9/mediaB-seek",
+   "event": "start",
+   "landing_delta_ms": "",
+   "media": "media-B",
+   "play_method": "DirectPlay",
+   "position_policy": "",
+   "prepare_to_first_frame_ms": "377",
+   "seek_to_frame_ms": "",
+   "since_activity_ms": "608",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "4519f3d3ea7f251b80ff5523433c2abd801b349beec06def0c41e0dff6c5d618",
+   "audio_since_activity_ms": "",
+   "campaign": "qa-r9",
+   "case_id": "qa-r9/mediaB-seek",
+   "event": "seek-in-place",
+   "landing_delta_ms": "",
+   "media": "media-B",
+   "play_method": "DirectPlay",
+   "position_policy": "",
+   "prepare_to_first_frame_ms": "",
+   "seek_to_frame_ms": "458",
+   "since_activity_ms": "",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "4519f3d3ea7f251b80ff5523433c2abd801b349beec06def0c41e0dff6c5d618",
+   "audio_since_activity_ms": "",
+   "campaign": "qa-r9",
+   "case_id": "qa-r9/mediaB-start",
+   "event": "start",
+   "landing_delta_ms": "",
+   "media": "media-B",
+   "play_method": "DirectPlay",
+   "position_policy": "",
+   "prepare_to_first_frame_ms": "728",
+   "seek_to_frame_ms": "",
+   "since_activity_ms": "1097",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "4519f3d3ea7f251b80ff5523433c2abd801b349beec06def0c41e0dff6c5d618",
+   "audio_since_activity_ms": "",
+   "campaign": "qa-r9",
+   "case_id": "qa-r9/mediaD-ac3",
+   "event": "start",
+   "landing_delta_ms": "",
+   "media": "media-D",
+   "play_method": "DirectPlay",
+   "position_policy": "",
+   "prepare_to_first_frame_ms": "354",
+   "seek_to_frame_ms": "",
+   "since_activity_ms": "601",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "4519f3d3ea7f251b80ff5523433c2abd801b349beec06def0c41e0dff6c5d618",
+   "audio_since_activity_ms": "",
+   "campaign": "qa-r9",
+   "case_id": "qa-r9/mediaE",
+   "event": "start",
+   "landing_delta_ms": "",
+   "media": "media-E",
+   "play_method": "DirectPlay",
+   "position_policy": "",
+   "prepare_to_first_frame_ms": "392",
+   "seek_to_frame_ms": "",
+   "since_activity_ms": "649",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "f0370893dd332b6ec3e05b54c23553a3451496fb31e35cd276f14e1b6f6a1ec4",
+   "audio_since_activity_ms": "2302",
+   "campaign": "r10p",
+   "case_id": "r10p/final-mediaH-pgs-dpad",
+   "event": "resume",
+   "landing_delta_ms": "",
+   "media": "media-H",
+   "play_method": "Transcode",
+   "position_policy": "",
+   "prepare_to_first_frame_ms": "1886",
+   "seek_to_frame_ms": "",
+   "since_activity_ms": "2516",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "f0370893dd332b6ec3e05b54c23553a3451496fb31e35cd276f14e1b6f6a1ec4",
+   "audio_since_activity_ms": "",
+   "campaign": "r10p",
+   "case_id": "r10p/final-mediaH-pgs-dpad",
+   "event": "restart",
+   "landing_delta_ms": "",
+   "media": "media-H",
+   "play_method": "Transcode",
+   "position_policy": "",
+   "prepare_to_first_frame_ms": "4088",
+   "seek_to_frame_ms": "",
+   "since_activity_ms": "",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "f0370893dd332b6ec3e05b54c23553a3451496fb31e35cd276f14e1b6f6a1ec4",
+   "audio_since_activity_ms": "",
+   "campaign": "r10p",
+   "case_id": "r10p/final-mediaH-pgs-dpad",
+   "event": "restart",
+   "landing_delta_ms": "",
+   "media": "media-H",
+   "play_method": "Transcode",
+   "position_policy": "",
+   "prepare_to_first_frame_ms": "2049",
+   "seek_to_frame_ms": "",
+   "since_activity_ms": "",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "f0370893dd332b6ec3e05b54c23553a3451496fb31e35cd276f14e1b6f6a1ec4",
+   "audio_since_activity_ms": "2410",
+   "campaign": "r10p",
+   "case_id": "r10p/final-mediaH-pgs-retry",
+   "event": "resume",
+   "landing_delta_ms": "",
+   "media": "media-H",
+   "play_method": "Transcode",
+   "position_policy": "",
+   "prepare_to_first_frame_ms": "1846",
+   "seek_to_frame_ms": "",
+   "since_activity_ms": "2419",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "f0370893dd332b6ec3e05b54c23553a3451496fb31e35cd276f14e1b6f6a1ec4",
+   "audio_since_activity_ms": "",
+   "campaign": "r10p",
+   "case_id": "r10p/final-mediaH-pgs-retry",
+   "event": "restart",
+   "landing_delta_ms": "",
+   "media": "media-H",
+   "play_method": "Transcode",
+   "position_policy": "",
+   "prepare_to_first_frame_ms": "3737",
+   "seek_to_frame_ms": "",
+   "since_activity_ms": "",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "f0370893dd332b6ec3e05b54c23553a3451496fb31e35cd276f14e1b6f6a1ec4",
+   "audio_since_activity_ms": "",
+   "campaign": "r10p",
+   "case_id": "r10p/final-mediaH-pgs-retry",
+   "event": "restart",
+   "landing_delta_ms": "",
+   "media": "media-H",
+   "play_method": "Transcode",
+   "position_policy": "",
+   "prepare_to_first_frame_ms": "1878",
+   "seek_to_frame_ms": "",
+   "since_activity_ms": "",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "f0370893dd332b6ec3e05b54c23553a3451496fb31e35cd276f14e1b6f6a1ec4",
+   "audio_since_activity_ms": "2305",
+   "campaign": "r10p",
+   "case_id": "r10p/final-mediaH-pgs",
+   "event": "resume",
+   "landing_delta_ms": "",
+   "media": "media-H",
+   "play_method": "Transcode",
+   "position_policy": "",
+   "prepare_to_first_frame_ms": "1829",
+   "seek_to_frame_ms": "",
+   "since_activity_ms": "2438",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "f0370893dd332b6ec3e05b54c23553a3451496fb31e35cd276f14e1b6f6a1ec4",
+   "audio_since_activity_ms": "2559",
+   "campaign": "r10p",
+   "case_id": "r10p/final-mediaA-resume",
+   "event": "resume",
+   "landing_delta_ms": "",
+   "media": "media-A",
+   "play_method": "Transcode",
+   "position_policy": "",
+   "prepare_to_first_frame_ms": "2069",
+   "seek_to_frame_ms": "",
+   "since_activity_ms": "2565",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "f0370893dd332b6ec3e05b54c23553a3451496fb31e35cd276f14e1b6f6a1ec4",
+   "audio_since_activity_ms": "2274",
+   "campaign": "r10p",
+   "case_id": "r10p/final-mediaA-seek",
+   "event": "resume",
+   "landing_delta_ms": "",
+   "media": "media-A",
+   "play_method": "Transcode",
+   "position_policy": "",
+   "prepare_to_first_frame_ms": "1861",
+   "seek_to_frame_ms": "",
+   "since_activity_ms": "2291",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "f0370893dd332b6ec3e05b54c23553a3451496fb31e35cd276f14e1b6f6a1ec4",
+   "audio_since_activity_ms": "",
+   "campaign": "r10p",
+   "case_id": "r10p/final-mediaA-seek",
+   "event": "seek-restart",
+   "landing_delta_ms": "",
+   "media": "media-A",
+   "play_method": "Transcode",
+   "position_policy": "",
+   "prepare_to_first_frame_ms": "2254",
+   "seek_to_frame_ms": "2568",
+   "since_activity_ms": "",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "f0370893dd332b6ec3e05b54c23553a3451496fb31e35cd276f14e1b6f6a1ec4",
+   "audio_since_activity_ms": "2027",
+   "campaign": "r10p",
+   "case_id": "r10p/final-mediaA-start",
+   "event": "start",
+   "landing_delta_ms": "",
+   "media": "media-A",
+   "play_method": "Transcode",
+   "position_policy": "",
+   "prepare_to_first_frame_ms": "1700",
+   "seek_to_frame_ms": "",
+   "since_activity_ms": "2039",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "f0370893dd332b6ec3e05b54c23553a3451496fb31e35cd276f14e1b6f6a1ec4",
+   "audio_since_activity_ms": "1062",
+   "campaign": "r10p",
+   "case_id": "r10p/final-mediaC-srt",
+   "event": "resume",
+   "landing_delta_ms": "",
+   "media": "media-C",
+   "play_method": "DirectPlay",
+   "position_policy": "",
+   "prepare_to_first_frame_ms": "1178",
+   "seek_to_frame_ms": "",
+   "since_activity_ms": "1447",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "f0370893dd332b6ec3e05b54c23553a3451496fb31e35cd276f14e1b6f6a1ec4",
+   "audio_since_activity_ms": "2175",
+   "campaign": "r10p",
+   "case_id": "r10p/final-mediaI-pgs",
+   "event": "resume",
+   "landing_delta_ms": "",
+   "media": "media-I",
+   "play_method": "Transcode",
+   "position_policy": "",
+   "prepare_to_first_frame_ms": "1820",
+   "seek_to_frame_ms": "",
+   "since_activity_ms": "2183",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "f0370893dd332b6ec3e05b54c23553a3451496fb31e35cd276f14e1b6f6a1ec4",
+   "audio_since_activity_ms": "",
+   "campaign": "r10p",
+   "case_id": "r10p/final-mediaI-pgs",
+   "event": "restart",
+   "landing_delta_ms": "",
+   "media": "media-I",
+   "play_method": "Transcode",
+   "position_policy": "",
+   "prepare_to_first_frame_ms": "2764",
+   "seek_to_frame_ms": "",
+   "since_activity_ms": "",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "f0370893dd332b6ec3e05b54c23553a3451496fb31e35cd276f14e1b6f6a1ec4",
+   "audio_since_activity_ms": "",
+   "campaign": "r10p",
+   "case_id": "r10p/final-mediaI-pgs",
+   "event": "restart",
+   "landing_delta_ms": "",
+   "media": "media-I",
+   "play_method": "Transcode",
+   "position_policy": "",
+   "prepare_to_first_frame_ms": "2051",
+   "seek_to_frame_ms": "",
+   "since_activity_ms": "",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "55cc9857c1bdae1696af35502987863981fd89a809f945fbe9732ff2644a7657",
+   "audio_since_activity_ms": "5794",
+   "campaign": "r11p",
+   "case_id": "r11p/mediaA-exact",
+   "event": "resume",
+   "landing_delta_ms": "6",
+   "media": "media-A",
+   "play_method": "Transcode",
+   "position_policy": "exact",
+   "prepare_to_first_frame_ms": "6339",
+   "seek_to_frame_ms": "",
+   "since_activity_ms": "6742",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "55cc9857c1bdae1696af35502987863981fd89a809f945fbe9732ff2644a7657",
+   "audio_since_activity_ms": "",
+   "campaign": "r11p",
+   "case_id": "r11p/mediaA-exact",
+   "event": "seek-restart",
+   "landing_delta_ms": "10",
+   "media": "media-A",
+   "play_method": "Transcode",
+   "position_policy": "exact",
+   "prepare_to_first_frame_ms": "5873",
+   "seek_to_frame_ms": "6090",
+   "since_activity_ms": "",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "55cc9857c1bdae1696af35502987863981fd89a809f945fbe9732ff2644a7657",
+   "audio_since_activity_ms": "",
+   "campaign": "r11p",
+   "case_id": "r11p/mediaA-exact",
+   "event": "seek-restart",
+   "landing_delta_ms": "24",
+   "media": "media-A",
+   "play_method": "Transcode",
+   "position_policy": "exact",
+   "prepare_to_first_frame_ms": "2251",
+   "seek_to_frame_ms": "3109",
+   "since_activity_ms": "",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "55cc9857c1bdae1696af35502987863981fd89a809f945fbe9732ff2644a7657",
+   "audio_since_activity_ms": "1092",
+   "campaign": "r11p",
+   "case_id": "r11p/mediaC-srt",
+   "event": "resume",
+   "landing_delta_ms": "6",
+   "media": "media-C",
+   "play_method": "DirectPlay",
+   "position_policy": "exact",
+   "prepare_to_first_frame_ms": "1098",
+   "seek_to_frame_ms": "",
+   "since_activity_ms": "1337",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "55cc9857c1bdae1696af35502987863981fd89a809f945fbe9732ff2644a7657",
+   "audio_since_activity_ms": "7683",
+   "campaign": "r11p",
+   "case_id": "r11p/mediaB-native",
+   "event": "resume",
+   "landing_delta_ms": "6",
+   "media": "media-B",
+   "play_method": "DirectPlay",
+   "position_policy": "exact",
+   "prepare_to_first_frame_ms": "7665",
+   "seek_to_frame_ms": "",
+   "since_activity_ms": "7891",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "55cc9857c1bdae1696af35502987863981fd89a809f945fbe9732ff2644a7657",
+   "audio_since_activity_ms": "",
+   "campaign": "r11p",
+   "case_id": "r11p/mediaB-native",
+   "event": "seek-in-place",
+   "landing_delta_ms": "33",
+   "media": "media-B",
+   "play_method": "DirectPlay",
+   "position_policy": "exact",
+   "prepare_to_first_frame_ms": "",
+   "seek_to_frame_ms": "7654",
+   "since_activity_ms": "",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "d2d2e7528749bcb8ee05bf0d29b31dc5205bd952d2f2555876aa9c416e0f6fda",
+   "audio_since_activity_ms": "971",
+   "campaign": "r12p",
+   "case_id": "r12p/mediaA-accepted",
+   "event": "resume",
+   "landing_delta_ms": "-3706",
+   "media": "media-A",
+   "play_method": "Transcode",
+   "position_policy": "sync",
+   "prepare_to_first_frame_ms": "769",
+   "seek_to_frame_ms": "",
+   "since_activity_ms": "1014",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "d2d2e7528749bcb8ee05bf0d29b31dc5205bd952d2f2555876aa9c416e0f6fda",
+   "audio_since_activity_ms": "",
+   "campaign": "r12p",
+   "case_id": "r12p/mediaA-accepted",
+   "event": "seek-restart",
+   "landing_delta_ms": "3",
+   "media": "media-A",
+   "play_method": "Transcode",
+   "position_policy": "sync",
+   "prepare_to_first_frame_ms": "1815",
+   "seek_to_frame_ms": "1936",
+   "since_activity_ms": "",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "d2d2e7528749bcb8ee05bf0d29b31dc5205bd952d2f2555876aa9c416e0f6fda",
+   "audio_since_activity_ms": "",
+   "campaign": "r12p",
+   "case_id": "r12p/mediaA-accepted",
+   "event": "seek-restart",
+   "landing_delta_ms": "3705",
+   "media": "media-A",
+   "play_method": "Transcode",
+   "position_policy": "sync",
+   "prepare_to_first_frame_ms": "1811",
+   "seek_to_frame_ms": "1898",
+   "since_activity_ms": "",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "d2d2e7528749bcb8ee05bf0d29b31dc5205bd952d2f2555876aa9c416e0f6fda",
+   "audio_since_activity_ms": "883",
+   "campaign": "r12p",
+   "case_id": "r12p/mediaC-accepted",
+   "event": "resume",
+   "landing_delta_ms": "-2538",
+   "media": "media-C",
+   "play_method": "DirectPlay",
+   "position_policy": "sync",
+   "prepare_to_first_frame_ms": "709",
+   "seek_to_frame_ms": "",
+   "since_activity_ms": "911",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "d2d2e7528749bcb8ee05bf0d29b31dc5205bd952d2f2555876aa9c416e0f6fda",
+   "audio_since_activity_ms": "768",
+   "campaign": "r12p",
+   "case_id": "r12p/mediaB-accepted",
+   "event": "resume",
+   "landing_delta_ms": "-3372",
+   "media": "media-B",
+   "play_method": "DirectPlay",
+   "position_policy": "sync",
+   "prepare_to_first_frame_ms": "571",
+   "seek_to_frame_ms": "",
+   "since_activity_ms": "796",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "d2d2e7528749bcb8ee05bf0d29b31dc5205bd952d2f2555876aa9c416e0f6fda",
+   "audio_since_activity_ms": "",
+   "campaign": "r12p",
+   "case_id": "r12p/mediaB-accepted",
+   "event": "seek-in-place",
+   "landing_delta_ms": "-274",
+   "media": "media-B",
+   "play_method": "DirectPlay",
+   "position_policy": "sync",
+   "prepare_to_first_frame_ms": "",
+   "seek_to_frame_ms": "505",
+   "since_activity_ms": "",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "a1e3841bf265cf128ba2e0aef4f80aa5638854305452f091af9e37ed2a5aab23",
+   "audio_since_activity_ms": "2843",
+   "campaign": "r14p",
+   "case_id": "r14p/mediaA-start-awake",
+   "event": "start",
+   "landing_delta_ms": "0",
+   "media": "media-A",
+   "play_method": "Transcode",
+   "position_policy": "sync",
+   "prepare_to_first_frame_ms": "2300",
+   "seek_to_frame_ms": "",
+   "since_activity_ms": "2866",
+   "status": "partial"
+  },
+  {
+   "apk_sha256": "a1e3841bf265cf128ba2e0aef4f80aa5638854305452f091af9e37ed2a5aab23",
+   "audio_since_activity_ms": "1403",
+   "campaign": "r14p",
+   "case_id": "r14p/mediaB",
+   "event": "start",
+   "landing_delta_ms": "0",
+   "media": "media-B",
+   "play_method": "DirectPlay",
+   "position_policy": "sync",
+   "prepare_to_first_frame_ms": "1137",
+   "seek_to_frame_ms": "",
+   "since_activity_ms": "1428",
+   "status": "partial"
+  },
+  {
+   "apk_sha256": "a1e3841bf265cf128ba2e0aef4f80aa5638854305452f091af9e37ed2a5aab23",
+   "audio_since_activity_ms": "",
+   "campaign": "r14p",
+   "case_id": "r14p/mediaB",
+   "event": "seek-in-place",
+   "landing_delta_ms": "1629",
+   "media": "media-B",
+   "play_method": "DirectPlay",
+   "position_policy": "sync",
+   "prepare_to_first_frame_ms": "",
+   "seek_to_frame_ms": "180",
+   "since_activity_ms": "",
+   "status": "partial"
+  },
+  {
+   "apk_sha256": "4519f3d3ea7f251b80ff5523433c2abd801b349beec06def0c41e0dff6c5d618",
+   "audio_since_activity_ms": "",
+   "campaign": "r9p",
+   "case_id": "r9p/after-mediaA-resume-final",
+   "event": "resume",
+   "landing_delta_ms": "",
+   "media": "media-A",
+   "play_method": "Transcode",
+   "position_policy": "",
+   "prepare_to_first_frame_ms": "1630",
+   "seek_to_frame_ms": "",
+   "since_activity_ms": "2152",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "4519f3d3ea7f251b80ff5523433c2abd801b349beec06def0c41e0dff6c5d618",
+   "audio_since_activity_ms": "",
+   "campaign": "r9p",
+   "case_id": "r9p/after-mediaA-resume-long",
+   "event": "resume",
+   "landing_delta_ms": "",
+   "media": "media-A",
+   "play_method": "Transcode",
+   "position_policy": "",
+   "prepare_to_first_frame_ms": "1604",
+   "seek_to_frame_ms": "",
+   "since_activity_ms": "2083",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "4519f3d3ea7f251b80ff5523433c2abd801b349beec06def0c41e0dff6c5d618",
+   "audio_since_activity_ms": "",
+   "campaign": "r9p",
+   "case_id": "r9p/after-mediaA-seek-retry",
+   "event": "start",
+   "landing_delta_ms": "",
+   "media": "media-A",
+   "play_method": "Transcode",
+   "position_policy": "",
+   "prepare_to_first_frame_ms": "1646",
+   "seek_to_frame_ms": "",
+   "since_activity_ms": "2038",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "4519f3d3ea7f251b80ff5523433c2abd801b349beec06def0c41e0dff6c5d618",
+   "audio_since_activity_ms": "",
+   "campaign": "r9p",
+   "case_id": "r9p/after-mediaA-seek-retry",
+   "event": "seek-restart",
+   "landing_delta_ms": "",
+   "media": "media-A",
+   "play_method": "Transcode",
+   "position_policy": "",
+   "prepare_to_first_frame_ms": "8734",
+   "seek_to_frame_ms": "",
+   "since_activity_ms": "",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "4519f3d3ea7f251b80ff5523433c2abd801b349beec06def0c41e0dff6c5d618",
+   "audio_since_activity_ms": "",
+   "campaign": "r9p",
+   "case_id": "r9p/after-mediaA-start",
+   "event": "start",
+   "landing_delta_ms": "",
+   "media": "media-A",
+   "play_method": "Transcode",
+   "position_policy": "",
+   "prepare_to_first_frame_ms": "1808",
+   "seek_to_frame_ms": "",
+   "since_activity_ms": "2311",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "4519f3d3ea7f251b80ff5523433c2abd801b349beec06def0c41e0dff6c5d618",
+   "audio_since_activity_ms": "",
+   "campaign": "r9p",
+   "case_id": "r9p/after-mediaB-resume-final",
+   "event": "resume",
+   "landing_delta_ms": "",
+   "media": "media-B",
+   "play_method": "DirectPlay",
+   "position_policy": "",
+   "prepare_to_first_frame_ms": "2945",
+   "seek_to_frame_ms": "",
+   "since_activity_ms": "3177",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "4519f3d3ea7f251b80ff5523433c2abd801b349beec06def0c41e0dff6c5d618",
+   "audio_since_activity_ms": "",
+   "campaign": "r9p",
+   "case_id": "r9p/after-mediaB-seek-retry",
+   "event": "start",
+   "landing_delta_ms": "",
+   "media": "media-B",
+   "play_method": "DirectPlay",
+   "position_policy": "",
+   "prepare_to_first_frame_ms": "419",
+   "seek_to_frame_ms": "",
+   "since_activity_ms": "662",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "4519f3d3ea7f251b80ff5523433c2abd801b349beec06def0c41e0dff6c5d618",
+   "audio_since_activity_ms": "",
+   "campaign": "r9p",
+   "case_id": "r9p/after-mediaB-seek-retry",
+   "event": "seek-in-place",
+   "landing_delta_ms": "",
+   "media": "media-B",
+   "play_method": "DirectPlay",
+   "position_policy": "",
+   "prepare_to_first_frame_ms": "",
+   "seek_to_frame_ms": "520",
+   "since_activity_ms": "",
+   "status": "accepted"
+  },
+  {
+   "apk_sha256": "4519f3d3ea7f251b80ff5523433c2abd801b349beec06def0c41e0dff6c5d618",
+   "audio_since_activity_ms": "",
+   "campaign": "r9p",
+   "case_id": "r9p/after-mediaB-start",
+   "event": "start",
+   "landing_delta_ms": "",
+   "media": "media-B",
+   "play_method": "DirectPlay",
+   "position_policy": "",
+   "prepare_to_first_frame_ms": "367",
+   "seek_to_frame_ms": "",
+   "since_activity_ms": "614",
+   "status": "accepted"
+  }
+ ],
+ "schema": 1,
+ "startup": [
+  {
+   "am_total_max_ms": 826.0,
+   "am_total_median_ms": 747.0,
+   "am_total_min_ms": 691.0,
+   "apk": "55cc9857",
+   "campaign": "harness-r10-after",
+   "compile_state": "speed",
+   "home_ready_max_ms": 818.0,
+   "home_ready_median_ms": 765.5,
+   "home_ready_min_ms": 710.0,
+   "n_am": 6,
+   "n_home_ready": 6,
+   "protocol": "harness-cold",
+   "status": "incidental"
+  },
+  {
+   "am_total_max_ms": 848.0,
+   "am_total_median_ms": 714.0,
+   "am_total_min_ms": 696.0,
+   "apk": "f0370893",
+   "campaign": "harness-r10-before",
+   "compile_state": "speed",
+   "home_ready_max_ms": 1127.0,
+   "home_ready_median_ms": 782.0,
+   "home_ready_min_ms": 769.0,
+   "n_am": 6,
+   "n_home_ready": 5,
+   "protocol": "harness-cold",
+   "status": "incidental"
+  },
+  {
+   "am_total_max_ms": 745.0,
+   "am_total_median_ms": 713.0,
+   "am_total_min_ms": 648.0,
+   "apk": "3053e78e",
+   "campaign": "harness-r10-final",
+   "compile_state": "speed",
+   "home_ready_max_ms": 1062.0,
+   "home_ready_median_ms": 802.5,
+   "home_ready_min_ms": 763.0,
+   "n_am": 6,
+   "n_home_ready": 4,
+   "protocol": "harness-cold",
+   "status": "incidental"
+  },
+  {
+   "am_total_max_ms": 698.0,
+   "am_total_median_ms": 698.0,
+   "am_total_min_ms": 698.0,
+   "apk": "3bcdc972",
+   "campaign": "harness-r11-ab",
+   "compile_state": "speed",
+   "home_ready_max_ms": 840.0,
+   "home_ready_median_ms": 840.0,
+   "home_ready_min_ms": 840.0,
+   "n_am": 1,
+   "n_home_ready": 1,
+   "protocol": "harness-cold",
+   "status": "incidental"
+  },
+  {
+   "am_total_max_ms": 765.0,
+   "am_total_median_ms": 741.0,
+   "am_total_min_ms": 652.0,
+   "apk": "89ac29d5",
+   "campaign": "harness-r11-accepted",
+   "compile_state": "speed",
+   "home_ready_max_ms": 901.0,
+   "home_ready_median_ms": 814.0,
+   "home_ready_min_ms": 803.0,
+   "n_am": 5,
+   "n_home_ready": 5,
+   "protocol": "harness-cold",
+   "status": "incidental"
+  },
+  {
+   "am_total_max_ms": 758.0,
+   "am_total_median_ms": 705.0,
+   "am_total_min_ms": 644.0,
+   "apk": "3053e78e",
+   "campaign": "harness-r11-before",
+   "compile_state": "speed",
+   "home_ready_max_ms": 795.0,
+   "home_ready_median_ms": 763.5,
+   "home_ready_min_ms": 710.0,
+   "n_am": 5,
+   "n_home_ready": 4,
+   "protocol": "harness-cold",
+   "status": "incidental"
+  },
+  {
+   "am_total_max_ms": 698.0,
+   "am_total_median_ms": 698.0,
+   "am_total_min_ms": 698.0,
+   "apk": "3055468a",
+   "campaign": "harness-r11-experiment",
+   "compile_state": "speed",
+   "home_ready_max_ms": 711.0,
+   "home_ready_median_ms": 711.0,
+   "home_ready_min_ms": 711.0,
+   "n_am": 1,
+   "n_home_ready": 1,
+   "protocol": "harness-cold",
+   "status": "incidental"
+  },
+  {
+   "am_total_max_ms": 720.0,
+   "am_total_median_ms": 720.0,
+   "am_total_min_ms": 720.0,
+   "apk": "5c005f09",
+   "campaign": "harness-r11-experiment",
+   "compile_state": "speed",
+   "home_ready_max_ms": 809.0,
+   "home_ready_median_ms": 809.0,
+   "home_ready_min_ms": 809.0,
+   "n_am": 1,
+   "n_home_ready": 1,
+   "protocol": "harness-cold",
+   "status": "incidental"
+  },
+  {
+   "am_total_max_ms": 726.0,
+   "am_total_median_ms": 726.0,
+   "am_total_min_ms": 726.0,
+   "apk": "a456661b",
+   "campaign": "harness-r11-experiment",
+   "compile_state": "speed",
+   "home_ready_max_ms": 820.0,
+   "home_ready_median_ms": 820.0,
+   "home_ready_min_ms": 820.0,
+   "n_am": 1,
+   "n_home_ready": 1,
+   "protocol": "harness-cold",
+   "status": "incidental"
+  },
+  {
+   "am_total_max_ms": 704.0,
+   "am_total_median_ms": 704.0,
+   "am_total_min_ms": 704.0,
+   "apk": "ac12386f",
+   "campaign": "harness-r11-experiment",
+   "compile_state": "speed",
+   "home_ready_max_ms": 785.0,
+   "home_ready_median_ms": 785.0,
+   "home_ready_min_ms": 785.0,
+   "n_am": 1,
+   "n_home_ready": 1,
+   "protocol": "harness-cold",
+   "status": "incidental"
+  },
+  {
+   "am_total_max_ms": 701.0,
+   "am_total_median_ms": 701.0,
+   "am_total_min_ms": 701.0,
+   "apk": "c4aff44c",
+   "campaign": "harness-r11-experiment",
+   "compile_state": "speed",
+   "home_ready_max_ms": 822.0,
+   "home_ready_median_ms": 822.0,
+   "home_ready_min_ms": 822.0,
+   "n_am": 1,
+   "n_home_ready": 1,
+   "protocol": "harness-cold",
+   "status": "incidental"
+  },
+  {
+   "am_total_max_ms": 712.0,
+   "am_total_median_ms": 711.5,
+   "am_total_min_ms": 711.0,
+   "apk": "cee0b85b",
+   "campaign": "harness-r11-experiment",
+   "compile_state": "speed",
+   "home_ready_max_ms": 820.0,
+   "home_ready_median_ms": 797.0,
+   "home_ready_min_ms": 774.0,
+   "n_am": 2,
+   "n_home_ready": 2,
+   "protocol": "harness-cold",
+   "status": "incidental"
+  },
+  {
+   "am_total_max_ms": 723.0,
+   "am_total_median_ms": 723.0,
+   "am_total_min_ms": 723.0,
+   "apk": "cfd54fa0",
+   "campaign": "harness-r11-experiment",
+   "compile_state": "speed",
+   "home_ready_max_ms": null,
+   "home_ready_median_ms": null,
+   "home_ready_min_ms": null,
+   "n_am": 1,
+   "n_home_ready": 0,
+   "protocol": "harness-cold",
+   "status": "incidental"
+  },
+  {
+   "am_total_max_ms": 773.0,
+   "am_total_median_ms": 773.0,
+   "am_total_min_ms": 773.0,
+   "apk": "d8676bb0",
+   "campaign": "harness-r11-experiment",
+   "compile_state": "speed",
+   "home_ready_max_ms": 821.0,
+   "home_ready_median_ms": 821.0,
+   "home_ready_min_ms": 821.0,
+   "n_am": 1,
+   "n_home_ready": 1,
+   "protocol": "harness-cold",
+   "status": "incidental"
+  },
+  {
+   "am_total_max_ms": 702.0,
+   "am_total_median_ms": 702.0,
+   "am_total_min_ms": 702.0,
+   "apk": "fe3291c4",
+   "campaign": "harness-r11-experiment",
+   "compile_state": "speed",
+   "home_ready_max_ms": 814.0,
+   "home_ready_median_ms": 814.0,
+   "home_ready_min_ms": 814.0,
+   "n_am": 1,
+   "n_home_ready": 1,
+   "protocol": "harness-cold",
+   "status": "incidental"
+  },
+  {
+   "am_total_max_ms": 739.0,
+   "am_total_median_ms": 694.0,
+   "am_total_min_ms": 643.0,
+   "apk": "c4aff44c",
+   "campaign": "harness-r11-final",
+   "compile_state": "speed",
+   "home_ready_max_ms": 1070.0,
+   "home_ready_median_ms": 794.0,
+   "home_ready_min_ms": 683.0,
+   "n_am": 5,
+   "n_home_ready": 5,
+   "protocol": "harness-cold",
+   "status": "incidental"
+  },
+  {
+   "am_total_max_ms": 794.0,
+   "am_total_median_ms": 733.5,
+   "am_total_min_ms": 692.0,
+   "apk": "cfd54fa0",
+   "campaign": "harness-r11-final2",
+   "compile_state": "speed",
+   "home_ready_max_ms": 849.0,
+   "home_ready_median_ms": 790.5,
+   "home_ready_min_ms": 680.0,
+   "n_am": 8,
+   "n_home_ready": 8,
+   "protocol": "harness-cold",
+   "status": "incidental"
+  },
+  {
+   "am_total_max_ms": 1219.0,
+   "am_total_median_ms": 1219.0,
+   "am_total_min_ms": 1219.0,
+   "apk": "7098d3c6",
+   "campaign": "harness-r12-7098",
+   "compile_state": "speed",
+   "home_ready_max_ms": null,
+   "home_ready_median_ms": null,
+   "home_ready_min_ms": null,
+   "n_am": 1,
+   "n_home_ready": 0,
+   "protocol": "harness-cold",
+   "status": "first-launch-after-install"
+  },
+  {
+   "am_total_max_ms": 925.0,
+   "am_total_median_ms": 814.0,
+   "am_total_min_ms": 747.0,
+   "apk": "7098d3c6",
+   "campaign": "harness-r12-7098",
+   "compile_state": "speed",
+   "home_ready_max_ms": 920.0,
+   "home_ready_median_ms": 863.5,
+   "home_ready_min_ms": 804.0,
+   "n_am": 6,
+   "n_home_ready": 4,
+   "protocol": "harness-cold",
+   "status": "incidental"
+  },
+  {
+   "am_total_max_ms": 966.0,
+   "am_total_median_ms": 718.0,
+   "am_total_min_ms": 693.0,
+   "apk": "f266c76a",
+   "campaign": "harness-r12-final",
+   "compile_state": "speed",
+   "home_ready_max_ms": 1624.0,
+   "home_ready_median_ms": 846.0,
+   "home_ready_min_ms": 779.0,
+   "n_am": 8,
+   "n_home_ready": 6,
+   "protocol": "harness-cold",
+   "status": "incidental"
+  },
+  {
+   "am_total_max_ms": 751.0,
+   "am_total_median_ms": 751.0,
+   "am_total_min_ms": 751.0,
+   "apk": "93352bdf",
+   "campaign": "harness-r5-hook",
+   "compile_state": "speed",
+   "home_ready_max_ms": 787.0,
+   "home_ready_median_ms": 787.0,
+   "home_ready_min_ms": 787.0,
+   "n_am": 1,
+   "n_home_ready": 1,
+   "protocol": "harness-cold",
+   "status": "incidental"
+  },
+  {
+   "am_total_max_ms": 646.0,
+   "am_total_median_ms": 646.0,
+   "am_total_min_ms": 646.0,
+   "apk": "5b6b9df0",
+   "campaign": "harness-r9-ab",
+   "compile_state": "speed",
+   "home_ready_max_ms": 759.0,
+   "home_ready_median_ms": 759.0,
+   "home_ready_min_ms": 759.0,
+   "n_am": 1,
+   "n_home_ready": 1,
+   "protocol": "harness-cold",
+   "status": "incidental"
+  },
+  {
+   "am_total_max_ms": 823.0,
+   "am_total_median_ms": 723.0,
+   "am_total_min_ms": 664.0,
+   "apk": "eec21927",
+   "campaign": "harness-r9-ab",
+   "compile_state": "speed",
+   "home_ready_max_ms": 870.0,
+   "home_ready_median_ms": 781.0,
+   "home_ready_min_ms": 730.0,
+   "n_am": 8,
+   "n_home_ready": 6,
+   "protocol": "harness-cold",
+   "status": "incidental"
+  },
+  {
+   "am_total_max_ms": 736.0,
+   "am_total_median_ms": 657.0,
+   "am_total_min_ms": 607.0,
+   "apk": "4519f3d3",
+   "campaign": "harness-r9-anchor",
+   "compile_state": "speed",
+   "home_ready_max_ms": 811.0,
+   "home_ready_median_ms": 753.0,
+   "home_ready_min_ms": 682.0,
+   "n_am": 5,
+   "n_home_ready": 5,
+   "protocol": "harness-cold",
+   "status": "incidental"
+  },
+  {
+   "am_total_max_ms": 1253.0,
+   "am_total_median_ms": 682.5,
+   "am_total_min_ms": 566.0,
+   "apk": "5b6b9df0",
+   "campaign": "harness-r9-baseline",
+   "compile_state": "speed",
+   "home_ready_max_ms": 1242.0,
+   "home_ready_median_ms": 769.5,
+   "home_ready_min_ms": 658.0,
+   "n_am": 8,
+   "n_home_ready": 6,
+   "protocol": "harness-cold",
+   "status": "incidental"
+  },
+  {
+   "am_total_max_ms": 753.0,
+   "am_total_median_ms": 707.0,
+   "am_total_min_ms": 664.0,
+   "apk": "f0370893",
+   "campaign": "harness-r9-final",
+   "compile_state": "speed",
+   "home_ready_max_ms": 843.0,
+   "home_ready_median_ms": 747.0,
+   "home_ready_min_ms": 723.0,
+   "n_am": 5,
+   "n_home_ready": 5,
+   "protocol": "harness-cold",
+   "status": "incidental"
+  },
+  {
+   "am_total_max_ms": 850.0,
+   "am_total_median_ms": 669.0,
+   "am_total_min_ms": 623.0,
+   "apk": "5b6b9df0",
+   "campaign": "harness-r9-trace",
+   "compile_state": "speed",
+   "home_ready_max_ms": 944.0,
+   "home_ready_median_ms": 774.0,
+   "home_ready_min_ms": 729.0,
+   "n_am": 3,
+   "n_home_ready": 3,
+   "protocol": "harness-cold",
+   "status": "incidental"
+  },
+  {
+   "am_total_max_ms": 670.0,
+   "am_total_median_ms": 670.0,
+   "am_total_min_ms": 670.0,
+   "apk": "f0370893",
+   "campaign": "harness-r9-trace",
+   "compile_state": "speed",
+   "home_ready_max_ms": 775.0,
+   "home_ready_median_ms": 775.0,
+   "home_ready_min_ms": 775.0,
+   "n_am": 1,
+   "n_home_ready": 1,
+   "protocol": "harness-cold",
+   "status": "incidental"
+  },
+  {
+   "am_total_max_ms": null,
+   "am_total_median_ms": null,
+   "am_total_min_ms": null,
+   "apk": "unattrib",
+   "campaign": "qa-perf-cycle-01",
+   "compile_state": "speed",
+   "home_ready_max_ms": 850.0,
+   "home_ready_median_ms": 850.0,
+   "home_ready_min_ms": 850.0,
+   "n_am": 0,
+   "n_home_ready": 1,
+   "protocol": "dedicated-cold",
+   "status": "historical"
+  },
+  {
+   "am_total_max_ms": null,
+   "am_total_median_ms": null,
+   "am_total_min_ms": null,
+   "apk": "unattrib",
+   "campaign": "qa-perf-cycle-01",
+   "compile_state": "speed",
+   "home_ready_max_ms": 32.0,
+   "home_ready_median_ms": 32.0,
+   "home_ready_min_ms": 32.0,
+   "n_am": 0,
+   "n_home_ready": 1,
+   "protocol": "dedicated-warm",
+   "status": "historical"
+  },
+  {
+   "am_total_max_ms": 659.0,
+   "am_total_median_ms": 613.0,
+   "am_total_min_ms": 611.0,
+   "apk": "5b6b9df0",
+   "campaign": "qa-r9-hdrfix",
+   "compile_state": "speed",
+   "home_ready_max_ms": 780.0,
+   "home_ready_median_ms": 733.0,
+   "home_ready_min_ms": 724.0,
+   "n_am": 3,
+   "n_home_ready": 3,
+   "protocol": "dedicated-cold",
+   "status": "accepted"
+  },
+  {
+   "am_total_max_ms": 181.0,
+   "am_total_median_ms": 101.0,
+   "am_total_min_ms": 100.0,
+   "apk": "5b6b9df0",
+   "campaign": "qa-r9-hdrfix",
+   "compile_state": "speed",
+   "home_ready_max_ms": 30.0,
+   "home_ready_median_ms": 27.0,
+   "home_ready_min_ms": 17.0,
+   "n_am": 3,
+   "n_home_ready": 3,
+   "protocol": "dedicated-warm",
+   "status": "accepted"
+  },
+  {
+   "am_total_max_ms": 678.0,
+   "am_total_median_ms": 613.0,
+   "am_total_min_ms": 576.0,
+   "apk": "4519f3d3",
+   "campaign": "qa-r9-integrated",
+   "compile_state": "speed",
+   "home_ready_max_ms": 816.0,
+   "home_ready_median_ms": 752.0,
+   "home_ready_min_ms": 691.0,
+   "n_am": 3,
+   "n_home_ready": 3,
+   "protocol": "dedicated-cold",
+   "status": "accepted"
+  },
+  {
+   "am_total_max_ms": 112.0,
+   "am_total_median_ms": 110.0,
+   "am_total_min_ms": 103.0,
+   "apk": "4519f3d3",
+   "campaign": "qa-r9-integrated",
+   "compile_state": "speed",
+   "home_ready_max_ms": 48.0,
+   "home_ready_median_ms": 22.0,
+   "home_ready_min_ms": 17.0,
+   "n_am": 3,
+   "n_home_ready": 3,
+   "protocol": "dedicated-warm",
+   "status": "accepted"
+  },
+  {
+   "am_total_max_ms": 632.0,
+   "am_total_median_ms": 596.0,
+   "am_total_min_ms": 579.0,
+   "apk": "67142546",
+   "campaign": "r4-compiler-modes",
+   "compile_state": "speed",
+   "home_ready_max_ms": 1130.0,
+   "home_ready_median_ms": 1015.0,
+   "home_ready_min_ms": 949.0,
+   "n_am": 4,
+   "n_home_ready": 4,
+   "protocol": "dedicated-cold",
+   "status": "accepted"
+  },
+  {
+   "am_total_max_ms": 721.0,
+   "am_total_median_ms": 657.5,
+   "am_total_min_ms": 606.0,
+   "apk": "67142546",
+   "campaign": "r4-compiler-modes",
+   "compile_state": "speed-profile",
+   "home_ready_max_ms": 1943.0,
+   "home_ready_median_ms": 1700.0,
+   "home_ready_min_ms": 1535.0,
+   "n_am": 4,
+   "n_home_ready": 4,
+   "protocol": "dedicated-cold",
+   "status": "accepted"
+  },
+  {
+   "am_total_max_ms": 865.0,
+   "am_total_median_ms": 839.5,
+   "am_total_min_ms": 790.0,
+   "apk": "67142546",
+   "campaign": "r4-compiler-modes",
+   "compile_state": "verify",
+   "home_ready_max_ms": 1933.0,
+   "home_ready_median_ms": 1781.5,
+   "home_ready_min_ms": 1749.0,
+   "n_am": 4,
+   "n_home_ready": 4,
+   "protocol": "dedicated-cold",
+   "status": "accepted"
+  },
+  {
+   "am_total_max_ms": 691.0,
+   "am_total_median_ms": 563.0,
+   "am_total_min_ms": 532.0,
+   "apk": "unattrib",
+   "campaign": "r4-final",
+   "compile_state": "speed",
+   "home_ready_max_ms": 819.0,
+   "home_ready_median_ms": 704.5,
+   "home_ready_min_ms": 656.0,
+   "n_am": 8,
+   "n_home_ready": 8,
+   "protocol": "dedicated-cold",
+   "status": "historical"
+  },
+  {
+   "am_total_max_ms": null,
+   "am_total_median_ms": null,
+   "am_total_min_ms": null,
+   "apk": "unattrib",
+   "campaign": "r4-final",
+   "compile_state": "speed",
+   "home_ready_max_ms": 24.0,
+   "home_ready_median_ms": 24.0,
+   "home_ready_min_ms": 24.0,
+   "n_am": 0,
+   "n_home_ready": 1,
+   "protocol": "dedicated-warm",
+   "status": "historical"
+  },
+  {
+   "am_total_max_ms": 770.0,
+   "am_total_median_ms": 770.0,
+   "am_total_min_ms": 770.0,
+   "apk": "4a1574dd",
+   "campaign": "r4-largeheap-ab",
+   "compile_state": "speed",
+   "home_ready_max_ms": 900.0,
+   "home_ready_median_ms": 900.0,
+   "home_ready_min_ms": 900.0,
+   "n_am": 1,
+   "n_home_ready": 1,
+   "protocol": "dedicated-cold",
+   "status": "control"
+  },
+  {
+   "am_total_max_ms": 696.0,
+   "am_total_median_ms": 696.0,
+   "am_total_min_ms": 696.0,
+   "apk": "unattrib",
+   "campaign": "r4-largeheap-ab",
+   "compile_state": "speed",
+   "home_ready_max_ms": 758.0,
+   "home_ready_median_ms": 758.0,
+   "home_ready_min_ms": 758.0,
+   "n_am": 1,
+   "n_home_ready": 1,
+   "protocol": "dedicated-cold",
+   "status": "control"
+  }
+ ],
+ "statistic": "nearest-rank percentiles of FrameCompleted - IntendedVsync (ms); late = > 16.7 ms"
+}
