@@ -203,7 +203,7 @@ dependencies {
     implementation("com.squareup.okhttp3:okhttp:4.12.1")
 
     implementation("io.coil-kt.coil3:coil:3.0.4")
-    implementation("io.coil-kt.coil3:coil-network-okhttp:3.0.4")
+    implementation("io.coil-kt.coil3:coil-network-okhttp:3.6.3")
 
     // Diagnostic variant only. Keep native tracing binaries out of the shipped release.
     "profileImplementation"("androidx.compose.runtime:runtime-tracing:1.11.4")
