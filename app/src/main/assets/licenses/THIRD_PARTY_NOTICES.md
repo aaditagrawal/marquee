@@ -318,7 +318,7 @@ _144 resolved artifacts — Apache-2.0: 143, GPL-3.0: 1._
 | `com.google.guava` | `failureaccess` | 1.0.2 | Apache-2.0 <sub>parent POM com.google.guava:guava-parent:26.0-android</sub> | https://github.com/google/guava |
 | `com.google.guava` | `guava` | 33.3.1-android | Apache-2.0 <sub>parent POM com.google.guava:guava-parent:33.3.1-android</sub> | https://github.com/google/guava |
 | `com.google.guava` | `listenablefuture` | 9999.0-empty-to-avoid-conflict-with-guava | Apache-2.0 <sub>parent POM com.google.guava:guava-parent:26.0-android</sub> | https://github.com/google/guava |
-| `com.squareup.okhttp3` | `okhttp` | 4.12.0 | Apache-2.0 | https://square.github.io/okhttp/ |
+| `com.squareup.okhttp3` | `okhttp` | 4.12.1 | Apache-2.0 | https://square.github.io/okhttp/ |
 | `com.squareup.okio` | `okio` | 3.9.1 | Apache-2.0 | https://github.com/square/okio/ |
 | `com.squareup.okio` | `okio-jvm` | 3.9.1 | Apache-2.0 | https://github.com/square/okio/ |
 | `io.coil-kt.coil3` | `coil` | 3.0.4 | Apache-2.0 | https://github.com/coil-kt/coil |
