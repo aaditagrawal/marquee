@@ -23,8 +23,8 @@ uv run --no-project python tools/publish_manifest.py --write
 ```
 
 - Files: **385** (including this manifest)
-- Total size: **18,670,645 bytes** (excluding this manifest)
-- SHA-256 of the sorted listing: `d58fe4e02c4cad82d08aa4427e4cd4c357777eb4050ba757b2ca44ea30ecb6c4`
+- Total size: **18,670,647 bytes** (excluding this manifest)
+- SHA-256 of the sorted listing: `8d2056ab32ae11452fc72cdbf31996b64eeebd7cc053f4251c978866cfbd3f76`
 
 The listing is the `sha256sum` output for every file except this manifest, one
 `<sha256><two spaces><path><newline>` line per file in the order below, hashed as UTF-8.
@@ -51,7 +51,7 @@ This manifest cannot contain its own hash, so it is listed without one.
 | `README.md` | 13,300 | `a9be1dc52feed6f43607aaf6c5a914fdfa0ce0631943e03fdfb2330f28220e6e` |
 | `SECURITY.md` | 4,122 | `bf5c0e7d2537d5c33702722c104400b55aa320459e827410070bb7645cc143da` |
 | `THIRD_PARTY_NOTICES.md` | 34,722 | `d6b01aa174efe90459a93f5c72f8baab0066c8a00623c834efc1a0d88213490d` |
-| `app/build.gradle.kts` | 10,817 | `2d570f887597449f248aa6fbf8fc0abcf416538ffb4806ef2ed003a395d261b5` |
+| `app/build.gradle.kts` | 10,819 | `0b81ee40580c9534f1e6622b1d573cbfa8bc97a495093874c950ff5fdb4c6ea5` |
 | `app/lint-baseline.xml` | 43,020 | `fdfcea4ac16d343cd3baf6fc0638b1f707e3fd9eff70e1a1edc285a2c84c1a4d` |
 | `app/lint.xml` | 1,140 | `007d1431c77e4b70aa922d926ecb831a53c0c7f4ed79cc4a54100d503b3cb868` |
 | `app/proguard-release-logs.pro` | 475 | `273b8162597a851ecfdacccf27664df21fdff3a24b65bcfbec3c2f30d77e8925` |
