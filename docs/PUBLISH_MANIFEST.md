@@ -23,8 +23,8 @@ uv run --no-project python tools/publish_manifest.py --write
 ```
 
 - Files: **385** (including this manifest)
-- Total size: **18,667,909 bytes** (excluding this manifest)
-- SHA-256 of the sorted listing: `7b735ff2071f7cae5955ea13c95ea50f6fd4ff6326b43815a063df94dcd2cb19`
+- Total size: **18,670,647 bytes** (excluding this manifest)
+- SHA-256 of the sorted listing: `094a1868d907f6dacdfeed4eaeda48b9ccab908bdb9aafe82c65f98798b527f5`
 
 The listing is the `sha256sum` output for every file except this manifest, one
 `<sha256><two spaces><path><newline>` line per file in the order below, hashed as UTF-8.
@@ -39,7 +39,7 @@ This manifest cannot contain its own hash, so it is listed without one.
 | `.github/ISSUE_TEMPLATE/feature_request.yml` | 551 | `a46820d4a491bbae993551cbaf9e5e6b21e1ea77a835c82564911cd915607be3` |
 | `.github/PULL_REQUEST_TEMPLATE.md` | 1,060 | `31b66fbc39c4b227e4502bce92a4ec3fa12f3ab1d88fc638ba37c2b8c59b5edd` |
 | `.github/dependabot.yml` | 484 | `d791ae95355f0fa71ba2a78902f7cd0dd68b8b6d12e34df63620234ab978ce7a` |
-| `.github/workflows/ci.yml` | 3,303 | `8fe0c3bfb33d04f852b5fbf021b50ec21cb6a0a3c525f6c910577347dc2e6988` |
+| `.github/workflows/ci.yml` | 3,303 | `98558a265d61ee263160b073e9841565af9b790807118f044bf1c9eef7f7c61c` |
 | `.github/workflows/release.yml` | 6,615 | `e67d19fc5c7117042d79da60dc84e8424c59b352a0eba8fac55fa4b13890a1cf` |
 | `.gitignore` | 559 | `66c3c9ca54625476675f037a7170e42a48e20f89a79bfbdc185a91eaabd83bb4` |
 | `CHANGELOG.md` | 5,753 | `e69929d78876d1cb9434f76b13ce4a395b47319ce833e9c4366479276cce3aae` |
@@ -51,7 +51,7 @@ This manifest cannot contain its own hash, so it is listed without one.
 | `README.md` | 13,300 | `a9be1dc52feed6f43607aaf6c5a914fdfa0ce0631943e03fdfb2330f28220e6e` |
 | `SECURITY.md` | 4,122 | `bf5c0e7d2537d5c33702722c104400b55aa320459e827410070bb7645cc143da` |
 | `THIRD_PARTY_NOTICES.md` | 34,722 | `ac63ff716c644ac73ae459148e5fcf74df8426fa6c0dc3a9267e6ba473dbd393` |
-| `app/build.gradle.kts` | 10,817 | `33c29af78153c965e745e442a4ae9c78f607d25afc6fa2397016a1abed53e7a4` |
+| `app/build.gradle.kts` | 10,819 | `a63d9c4c5858ee0b071e8365c46a030e23d6058466b91e837d2eff6435823f24` |
 | `app/lint-baseline.xml` | 43,020 | `fdfcea4ac16d343cd3baf6fc0638b1f707e3fd9eff70e1a1edc285a2c84c1a4d` |
 | `app/lint.xml` | 1,140 | `007d1431c77e4b70aa922d926ecb831a53c0c7f4ed79cc4a54100d503b3cb868` |
 | `app/proguard-release-logs.pro` | 475 | `273b8162597a851ecfdacccf27664df21fdff3a24b65bcfbec3c2f30d77e8925` |
@@ -399,10 +399,10 @@ This manifest cannot contain its own hash, so it is listed without one.
 | `docs/media/settings-licences-sheet.png` | 125,403 | `b3874f5b5d9080d5a173328108cd0556578a3833cc4f4e6535801a32ab0c590e` |
 | `docs/media/settings-licences-text.png` | 176,624 | `784d786aaedb8cf42ccde6aed222b421495b19260c9751b88fb3a52e08aeedd8` |
 | `gradle.properties` | 653 | `79d23c6c401747cc7facb8c58884040d37378f42e5897d69345f598c0dbcc778` |
-| `gradle/wrapper/gradle-wrapper.jar` | 48,462 | `497c8c2a7e5031f6aa847f88104aa80a93532ec32ee17bdb8d1d2f67a194a9c7` |
-| `gradle/wrapper/gradle-wrapper.properties` | 368 | `9caeb142fade370957e5e9cd95a83441bbe41f73a1863398dd5467695853332e` |
-| `gradlew` | 8,654 | `ab5c0cad16305af2e619c159c1f58dd68d07fab9c11e36701e109c0277407f7a` |
-| `gradlew.bat` | 2,846 | `475c4f08cd57cf2faa819e7f36d72aa93f0ad646ea23a8f7fa3ef54dee1cbc52` |
+| `gradle/wrapper/gradle-wrapper.jar` | 49,154 | `621008afc4f5d59357fcf06ffa644dd5aade5e091bdc363742710445f73cdaf8` |
+| `gradle/wrapper/gradle-wrapper.properties` | 368 | `adf232c9285776c3f1c647fb178f0ad0ded13e3b2485341982de110708c36e70` |
+| `gradlew` | 8,656 | `a5a5c199ba02189ae8c46a334223371a20599d9c298ef65e7540ede4a3f72d59` |
+| `gradlew.bat` | 4,888 | `f17917f8dbe61182b149273ee78090fec1197442c3f38276af907bfa5190db16` |
 | `keystore.properties.example` | 892 | `5b367b00cf208c013904301f7e2fef6e1168560ed2efb07ff7f21eb838c7cfbc` |
 | `settings.gradle.kts` | 327 | `b45162ec35753cb2b9247854e6a775bbaf891291b50dc331013023466e0f57e7` |
 | `tools/README.md` | 3,498 | `dd8c47687e10aa6e61f0c23d6be27cec71a755f83d24793877c6fd350da2f946` |
