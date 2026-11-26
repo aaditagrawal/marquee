@@ -24,7 +24,7 @@ uv run --no-project python tools/publish_manifest.py --write
 
 - Files: **385** (including this manifest)
 - Total size: **18,670,647 bytes** (excluding this manifest)
-- SHA-256 of the sorted listing: `094a1868d907f6dacdfeed4eaeda48b9ccab908bdb9aafe82c65f98798b527f5`
+- SHA-256 of the sorted listing: `8d2056ab32ae11452fc72cdbf31996b64eeebd7cc053f4251c978866cfbd3f76`
 
 The listing is the `sha256sum` output for every file except this manifest, one
 `<sha256><two spaces><path><newline>` line per file in the order below, hashed as UTF-8.
@@ -50,8 +50,8 @@ This manifest cannot contain its own hash, so it is listed without one.
 | `PRIVACY.md` | 8,466 | `9fd754e2ea2adedc953068224ca5689b5ac273ad085694a24392dbf9a9205aeb` |
 | `README.md` | 13,300 | `a9be1dc52feed6f43607aaf6c5a914fdfa0ce0631943e03fdfb2330f28220e6e` |
 | `SECURITY.md` | 4,122 | `bf5c0e7d2537d5c33702722c104400b55aa320459e827410070bb7645cc143da` |
-| `THIRD_PARTY_NOTICES.md` | 34,722 | `ac63ff716c644ac73ae459148e5fcf74df8426fa6c0dc3a9267e6ba473dbd393` |
-| `app/build.gradle.kts` | 10,819 | `a63d9c4c5858ee0b071e8365c46a030e23d6058466b91e837d2eff6435823f24` |
+| `THIRD_PARTY_NOTICES.md` | 34,722 | `d6b01aa174efe90459a93f5c72f8baab0066c8a00623c834efc1a0d88213490d` |
+| `app/build.gradle.kts` | 10,819 | `0b81ee40580c9534f1e6622b1d573cbfa8bc97a495093874c950ff5fdb4c6ea5` |
 | `app/lint-baseline.xml` | 43,020 | `fdfcea4ac16d343cd3baf6fc0638b1f707e3fd9eff70e1a1edc285a2c84c1a4d` |
 | `app/lint.xml` | 1,140 | `007d1431c77e4b70aa922d926ecb831a53c0c7f4ed79cc4a54100d503b3cb868` |
 | `app/proguard-release-logs.pro` | 475 | `273b8162597a851ecfdacccf27664df21fdff3a24b65bcfbec3c2f30d77e8925` |
@@ -65,7 +65,7 @@ This manifest cannot contain its own hash, so it is listed without one.
 | `app/src/main/assets/licenses/Apache-2.0.txt` | 11,358 | `cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30` |
 | `app/src/main/assets/licenses/GPL-3.0.txt` | 35,149 | `3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986` |
 | `app/src/main/assets/licenses/OFL-1.1-HankenGrotesk.txt` | 4,402 | `e02ccb89a86839b22feff7872ff5cc355cc0f58318d29eee20e2cf83a612f16d` |
-| `app/src/main/assets/licenses/THIRD_PARTY_NOTICES.md` | 34,722 | `ac63ff716c644ac73ae459148e5fcf74df8426fa6c0dc3a9267e6ba473dbd393` |
+| `app/src/main/assets/licenses/THIRD_PARTY_NOTICES.md` | 34,722 | `d6b01aa174efe90459a93f5c72f8baab0066c8a00623c834efc1a0d88213490d` |
 | `app/src/main/assets/licenses/material-symbols.txt` | 11,357 | `58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd` |
 | `app/src/main/baseline-prof.txt` | 1,639 | `e1985ef3384be78f87f341f9e268a685b5b9ef8fccc0bf477b7e0fcdcd897d46` |
 | `app/src/main/java/com/mav/marquee/MainActivity.kt` | 4,980 | `2b327e027fdcfd0082277841e61b9e0bc0973e08ee50574eb32e7b222337ee16` |
