@@ -185,7 +185,7 @@ dependencies {
     testImplementation("com.squareup.okhttp3:okhttp-tls:4.12.1")
     testImplementation("io.github.takahirom.roborazzi:roborazzi:1.76.0")
     testImplementation("io.github.takahirom.roborazzi:roborazzi-compose:1.79.0")
-    val composeBom = platform("androidx.compose:compose-bom:2026.06.01")
+    val composeBom = platform("androidx.compose:compose-bom:2026.11.01")
     implementation(composeBom)
     testImplementation(composeBom)
     implementation("org.jetbrains.kotlinx:kotlinx-collections-immutable:0.4.0")
