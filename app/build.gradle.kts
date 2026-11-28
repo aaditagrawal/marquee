@@ -181,7 +181,7 @@ dependencies {
     testImplementation("androidx.test.ext:junit:1.3.0")
     testImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
-    testImplementation("com.squareup.okhttp3:mockwebserver:4.12.1")
+    testImplementation("com.squareup.okhttp3:mockwebserver:5.5.1")
     testImplementation("com.squareup.okhttp3:okhttp-tls:4.12.1")
     testImplementation("io.github.takahirom.roborazzi:roborazzi:1.76.0")
     testImplementation("io.github.takahirom.roborazzi:roborazzi-compose:1.79.0")
