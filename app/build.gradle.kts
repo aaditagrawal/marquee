@@ -188,7 +188,7 @@ dependencies {
     val composeBom = platform("androidx.compose:compose-bom:2026.06.01")
     implementation(composeBom)
     testImplementation(composeBom)
-    implementation("org.jetbrains.kotlinx:kotlinx-collections-immutable:0.4.0")
+    implementation("org.jetbrains.kotlinx:kotlinx-collections-immutable:0.5.2")
     implementation("androidx.compose.ui:ui")
     implementation("androidx.compose.foundation:foundation")
     implementation("androidx.compose.material3:material3")
@@ -198,8 +198,8 @@ dependencies {
     implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.10.0")
     implementation("androidx.profileinstaller:profileinstaller:1.4.1")
 
-    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2")
-    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.8.1")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.11.0")
+    implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.13.0")
     implementation("com.squareup.okhttp3:okhttp:4.12.1")
 
     implementation("io.coil-kt.coil3:coil:3.0.4")
